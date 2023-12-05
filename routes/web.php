@@ -49,3 +49,6 @@ Route::get('/about', [OmsetkuV2_Controller::class, 'indexV2_2']);
 Route::get('/quotation', function () {
     return view('quotation_d');
 });
+Route::get('/saleorder', function () {
+    return view('saleorder_d');
+});
