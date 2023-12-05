@@ -1,7 +1,7 @@
 @extends('layouts.app-backend-omsetku')
 
 @section('title')
-    Quotation
+    Sales Order
 @stop
 
 @section('title_header')
@@ -254,12 +254,12 @@
             <div class="row mt-4">
                 <div class="col-md-12 d-flex justify-content-center">
                     <h3 class="title-page-header">
-                        Permudah pekerjaan sales menggunakan quotation
+                        Permudah pekerjaan sales menggunakan sales order
                     </h3>
                 </div>
                 <div class="col-md-12">
                     <p class="subtitle-page-header">
-                        Pastikan tim gudang selalu siap dengan barang dengan quotation
+                        Pastikan tim gudang selalu siap dengan barang dengan SALES ORDER
                     </p>
                 </div>
                 <div class="col-md-12 d-flex justify-content-center">
@@ -294,20 +294,20 @@
                     <div class="container">
                         {{-- ADD --}}
                         <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/quo/omsetku-asset-row-add.png" alt="">
+                            <img class="row-add pb-4" src="omsetku-asset/so/omsetku-asset-row-add.png" alt="">
                         </div>
                         <div class="pad-con">
                             <div class="row pb-4 pt-4">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/quo/omsetku-asset-membuat-quo.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/so/omsetku-asset-membuat-so.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Membuat quotation</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Membuat sales order</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Pilih  tombol "buat quotation" pada dashboard <br> untuk mulai membuat quotation untuk <br> penjualan barang mu
+                                                Pilih  tombol "buat sales order" pada dashboard <br> untuk mulai membuat sales order untuk <br> penjualan barang mu
                                             </p>
                                         </div><br>
                                     </div>
@@ -317,33 +317,32 @@
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Membuat quotation baru</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Membuat sales order baru</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Klik tombol tambah untuk membuat data quotation baru
+                                                Klik tombol tambah untuk membuat data sales order baru
                                             </p>
                                         </div><br>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/quo/omsetku-asset-membuat-quo2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/so/omsetku-asset-membuat-so2.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             </div>
                             <div class="row pb-4 pt-2">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/quo/omsetku-asset-membuat-quo3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/so/omsetku-asset-membuat-so3.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Data quotation</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Data sales order</strong></h5>
                                             <p class="header-text-item-kiri" >
                                                 Lengkapi data penjualan barang mu sesuai dengan data yang ada 
-                                                <br> 1.Pilih sales yang melakukan penjualan
-                                                <br> 2.Pilih customer yang melakukan transaksi
-                                                <br> 3.Tanggal Pembelian
-                                                <br> 4.Data produk seperti harga, kuantitas dan catatan (apabila diperlukan)
-                                                <br> 5.Biaya pengiriman (jika ada)
+                                                <br> 1.Pilih customer yang melakukan transaksi
+                                                <br> 2.Tanggal Pembelian
+                                                <br> 3.Data produk seperti harga, kuantitas dan catatan (apabila diperlukan)
+                                                <br> 4.Biaya pengiriman (jika ada)
                                                 <br> Lalu klik simpan untuk menyimpan data  quotation 
                                             </p>
                                         </div><br>
@@ -354,28 +353,28 @@
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Tampilan quotation</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Tampilan sales order</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Setelah quotation dibuat maka akan muncul tampilan data quotation mu, pastikan data yang disajikan sudah benar sesuai yang kamu inginkan
+                                                Setelah sales order dibuat maka akan muncul tampilan data sales order mu, pastikan data yang disajikan sudah benar sesuai yang kamu inginkan
                                             </p>
                                         </div><br>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/quo/omsetku-asset-membuat-quo4.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/so/omsetku-asset-membuat-so4.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             </div>
                             <div class="row pb-4 pt-2">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/quo/omsetku-asset-membuat-quo5.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/so/omsetku-asset-membuat-so5.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Data quotation tersimpan</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Data sales order tersimpan</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Data quotation yang kamu buat akan tampil <br> dalam data list quotation setelah kamu simpan
+                                                Data sales order yang kamu buat akan tampil <br> dalam data list sales order setelah kamu simpan
                                             </p>
                                         </div><br>
                                     </div>
@@ -384,20 +383,20 @@
                         </div>
                         {{-- EDIT --}}
                         <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/quo/omsetku-asset-row-edit.png" alt="">
+                            <img class="row-add pb-4" src="omsetku-asset/so/omsetku-asset-row-edit.png" alt="">
                         </div>
                         <div class="pad-con">
                             <div class="row pb-4 pt-4">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/quo/omsetku-asset-edit-quo.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/so/omsetku-asset-edit-so.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Edit quotation</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Edit sales order</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Untuk mengedit quotation, silahkan pilih quotation yang ingin kamu edit lalu , ketika muncul jendela quotation seperti di samping, klik tombol edit untuk mulai mengubah data
+                                                Untuk mengedit sales order, silahkan pilih sales order yang ingin kamu edit lalu , ketika muncul jendela sales order seperti di samping, klik tombol edit untuk mulai mengubah data
                                             </p>
                                         </div><br>
                                     </div>
@@ -407,34 +406,33 @@
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Mengedit data quotation</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Mengedit data sales order</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Mulai edit quotation mu dengan mengubah isi data yang sesuai dengan keinginan mu, 
-                                                <br> 1. Sales yang melakukan penjualan
-                                                <br> 2. Customer yang melakukan penjualan
-                                                <br> 3. Tanggal pembelian
-                                                <br> 4. Data produk seperti Nama barang, harga,  kuantitas, dan catatan (apabila perlu)
-                                                <br> 5. Biaya pengiriman (jika ada)
+                                                Mulai edit sales order mu dengan mengubah isi data yang sesuai dengan keinginan mu, 
+                                                <br> 1. Customer yang melakukan penjualan
+                                                <br> 2. Tanggal pembelian
+                                                <br> 3. Data produk seperti Nama barang, harga,  kuantitas, dan catatan (apabila perlu)
+                                                <br> 4. Biaya pengiriman (jika ada)
                                                 <br> Lalu klik simpan untuk menyimpan data yang baru kamu ubah.
                                             </p>
                                         </div><br>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/quo/omsetku-asset-edit-quo2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/so/omsetku-asset-edit-so2.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             </div>
                             <div class="row pb-4 pt-2">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/quo/omsetku-asset-edit-quo3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/so/omsetku-asset-edit-so3.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Berhasil edit quotation</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Berhasil edit sales order</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Setelah kamu simpan data yang baru maka dengan otomatis data quotation tersebut sudah ter-ubah di list quotation
+                                                Setelah kamu simpan data yang baru maka dengan otomatis data sales order tersebut sudah ter-ubah di list sales order
                                             </p>
                                         </div><br>
                                     </div>
@@ -443,20 +441,20 @@
                         </div>
                         {{-- DELETE --}}
                         <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/quo/omsetku-asset-row-delete.png" alt="">
+                            <img class="row-add pb-4" src="omsetku-asset/so/omsetku-asset-row-delete.png" alt="">
                         </div>
                             <div class="pad-con">
                             <div class="row pb-4 pt-4">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/quo/omsetku-asset-delete-quo.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/so/omsetku-asset-delete-so.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Menghapus quotation</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Menghapus sales order</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Untuk menghapus quotation, silahkan pilih quotation yang ingin kamu hapus lalu , ketika muncul  tampilan quotation seperti di samping, klik tombol hapus untuk mulai menghapus data
+                                                Untuk menghapus sales order, silahkan pilih sales order yang ingin kamu hapus lalu , ketika muncul  tampilan sales order seperti di samping, klik tombol hapus untuk mulai menghapus data
                                             </p>
                                         </div><br>
                                     </div>
@@ -466,28 +464,28 @@
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Konfirmasi hapus quotation</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Konfirmasi hapus sales order</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Ketika sudah klik tombol hapus maka akan muncul tampilan konfirmasi untuk menghapus data dari quotation, klik hapus untuk menghapus dan klik batal untuk membatalkan penghapusan data quotation
+                                                Ketika sudah klik tombol hapus maka akan muncul tampilan konfirmasi untuk menghapus data dari sales order, klik hapus untuk menghapus dan klik batal untuk membatalkan penghapusan data sales order
                                             </p>
                                         </div><br>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/quo/omsetku-asset-delete-quo2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/so/omsetku-asset-delete-so2.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             </div>
                             <div class="row pb-4 pt-2">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/quo/omsetku-asset-delete-quo3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/so/omsetku-asset-delete-so3.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Berhasil menghapus data quotation</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Berhasil menghapus data sales order</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Setelah kamu hapus data quotation, Maka dengan otomatis data quotation tersebut sudah ter-hapus dari di list quotation
+                                                Setelah kamu hapus data sales order, Maka dengan otomatis data sales order tersebut sudah ter-hapus dari di list sales order
                                             </p>
                                         </div><br>
                                     </div>
@@ -496,20 +494,20 @@
                         </div>
                         {{-- DUPLICATE --}}
                         <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/quo/omsetku-asset-row-duplicate.png" alt="">
+                            <img class="row-add pb-4" src="omsetku-asset/so/omsetku-asset-row-duplicate.png" alt="">
                         </div>
                         <div class="pad-con"></div>
                         <div class="row pb-4 pt-4">
                             <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                <img src="omsetku-asset/quo/omsetku-asset-duplicate-quo.png" class="img-content" alt="" style="margin-left: 0px">
+                                <img src="omsetku-asset/so/omsetku-asset-duplicate-so.png" class="img-content" alt="" style="margin-left: 0px">
                             </div>
                         
                             <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                 <div class="row mb-4">
                                     <div class="col-md-11 col-lg-11">
-                                        <h5 ><strong class="header-content-item d-flex">Menduplikasi data quotation</strong></h5>
+                                        <h5 ><strong class="header-content-item d-flex">Menduplikasi data sales order</strong></h5>
                                         <p class="header-text-item-kiri" >
-                                            Untuk menduplikasi data quotation, silahkan pilih quotation yang ingin kamu duplikasi lalu , ketika muncul jendela quotation seperti di samping, klik tombol “duplicate” untuk mulai menduplikasi data quotation
+                                            Untuk menduplikasi data sales order, silahkan pilih sales order yang ingin kamu duplikasi lalu , ketika muncul jendela sales order seperti di samping, klik tombol “duplicate” untuk mulai menduplikasi data sales order
                                         </p>
                                     </div><br>
                                 </div>
@@ -519,29 +517,29 @@
                             <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                 <div class="row mb-4">
                                     <div class="col-md-11 col-lg-11">
-                                        <h5 ><strong class="header-content-item d-flex">Data quotation</strong></h5>
+                                        <h5 ><strong class="header-content-item d-flex">Data sales order</strong></h5>
                                         <p class="header-text-item-kiri" >
-                                            Isi data penjualan barang mu sesuai dengan data yang ada , Lalu klik simpan untuk menyimpan data quotation yang kamu ingin duplikasi
+                                            Isi data penjualan barang mu sesuai dengan data yang ada , Lalu klik simpan untuk menyimpan data sales order yang kamu ingin duplikasi
                                         </p>
                                     </div><br>
                                 </div>
                             </div>
                             <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                <img src="omsetku-asset/quo/omsetku-asset-duplicate-quo2.png" class="img-content" alt="" style="margin-left: 0px">
+                                <img src="omsetku-asset/so/omsetku-asset-duplicate-so2.png" class="img-content" alt="" style="margin-left: 0px">
                             </div>
                         </div>
                         <div class="row pb-4 pt-2">
                             <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                <img src="omsetku-asset/quo/omsetku-asset-duplicate-quo3.png" class="img-content" alt="" style="margin-left: 0px">
+                                <img src="omsetku-asset/so/omsetku-asset-duplicate-so3.png" class="img-content" alt="" style="margin-left: 0px">
                             </div>
                         
                             <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                 <div class="row mb-4">
                                     <div class="col-md-11 col-lg-11">
-                                        <h5 ><strong class="header-content-item d-flex">Konfirmasi data quotation</strong></h5>
+                                        <h5 ><strong class="header-content-item d-flex">Konfirmasi data sales order</strong></h5>
                                         <p class="header-text-item-kiri" >
-                                            Ketika sudah klik tombol simpan maka akan muncul tampilan konfirmasi untuk menduplikasi data dari quotation, 
-                                            klik selesai untuk menyelesaikan duplikasi dari data quotation mu 
+                                            Ketika sudah klik tombol simpan maka akan muncul tampilan konfirmasi untuk menduplikasi data dari sales order, 
+                                            klik selesai untuk menyelesaikan duplikasi dari data sales order mu 
                                         </p>
                                     </div><br>
                                 </div>
@@ -551,20 +549,20 @@
                             <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                 <div class="row mb-4">
                                     <div class="col-md-11 col-lg-11">
-                                        <h5 ><strong class="header-content-item d-flex">Berhasil menduplikasi data quotation</strong></h5>
+                                        <h5 ><strong class="header-content-item d-flex">Berhasil menduplikasi data sales order</strong></h5>
                                         <p class="header-text-item-kiri" >
-                                            Setelah kamu hapus data quotation, Maka dengan otomatis data quotation tersebut sudah ter-hapus dari di list quotation
+                                            Setelah kamu hapus data sales order, Maka dengan otomatis data sales order tersebut sudah ter-hapus dari di list sales order
                                         </p>
                                     </div><br>
                                 </div>
                             </div>
                             <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                <img src="omsetku-asset/quo/omsetku-asset-duplicate-quo4.png" class="img-content" alt="" style="margin-left: 0px">
+                                <img src="omsetku-asset/so/omsetku-asset-duplicate-so4.png" class="img-content" alt="" style="margin-left: 0px">
                             </div>
                         </div>
                     </div>
             </section>
-          {{-- Content quotation SALES Desktop End--}}
+          {{-- Content sales order SALES Desktop End--}}
 
         </div>
         <!-- Sales Tab -->
@@ -573,25 +571,25 @@
         <!-- Owner Tab -->
         <div class="tab-pane fade" id="owner">
 
-          {{-- Content quotation OWNER Desktop Start--}}
+          {{-- Content sales order OWNER Desktop Start--}}
             <section id="content1" class="menu-1 desktop-show text-center">
                     <div class="container">
                         {{-- ADD --}}
                         <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/quo/omsetku-asset-row-add.png" alt="">
+                            <img class="row-add pb-4" src="omsetku-asset/so/omsetku-asset-row-add.png" alt="">
                         </div>
                         <div class="pad-con">
                             <div class="row pb-4 pt-4">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/quo/omsetku-asset-membuat-quo.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/so/omsetku-asset-membuat-so.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Membuat quotation</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Membuat sales order</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Pilih  tombol "buat quotation" pada dashboard <br> untuk mulai membuat quotation untuk <br> penjualan barang mu
+                                                Pilih  tombol "buat sales order" pada dashboard <br> untuk mulai membuat sales order untuk <br> penjualan barang mu
                                             </p>
                                         </div><br>
                                     </div>
@@ -601,26 +599,26 @@
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Membuat quotation baru</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Membuat sales order baru</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Klik tombol tambah untuk membuat data quotation baru
+                                                Klik tombol tambah untuk membuat data sales order baru
                                             </p>
                                         </div><br>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/quo/omsetku-asset-membuat-quo2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/so/omsetku-asset-membuat-so2.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             </div>
                             <div class="row pb-4 pt-2">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/quo/omsetku-asset-membuat-quo3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/so/omsetku-asset-membuat-so3.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Data quotation</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Data sales order</strong></h5>
                                             <p class="header-text-item-kiri" >
                                                 Lengkapi data penjualan barang mu sesuai dengan data yang ada 
                                                 <br> 1.Pilih sales yang melakukan penjualan
@@ -628,7 +626,7 @@
                                                 <br> 3.Tanggal Pembelian
                                                 <br> 4.Data produk seperti harga, kuantitas dan catatan (apabila diperlukan)
                                                 <br> 5.Biaya pengiriman (jika ada)
-                                                <br> Lalu klik simpan untuk menyimpan data  quotation 
+                                                <br> Lalu klik simpan untuk menyimpan data  sales order 
                                             </p>
                                         </div><br>
                                     </div>
@@ -638,28 +636,28 @@
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Tampilan quotation</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Tampilan sales order</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Setelah quotation dibuat maka akan muncul tampilan data quotation mu, pastikan data yang disajikan sudah benar sesuai yang kamu inginkan
+                                                Setelah sales order dibuat maka akan muncul tampilan data sales order mu, pastikan data yang disajikan sudah benar sesuai yang kamu inginkan
                                             </p>
                                         </div><br>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/quo/omsetku-asset-membuat-quo4.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/so/omsetku-asset-membuat-so4.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             </div>
                             <div class="row pb-4 pt-2">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/quo/omsetku-asset-membuat-quo5.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/so/omsetku-asset-membuat-so5.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Data quotation tersimpan</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Data sales order tersimpan</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Data quotation yang kamu buat akan tampil <br> dalam data list quotation setelah kamu simpan
+                                                Data sales order yang kamu buat akan tampil <br> dalam data list sales order setelah kamu simpan
                                             </p>
                                         </div><br>
                                     </div>
@@ -668,20 +666,20 @@
                         </div>
                         {{-- EDIT --}}
                         <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/quo/omsetku-asset-row-edit.png" alt="">
+                            <img class="row-add pb-4" src="omsetku-asset/so/omsetku-asset-row-edit.png" alt="">
                         </div>
                         <div class="pad-con">
                             <div class="row pb-4 pt-4">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/quo/omsetku-asset-edit-quo.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/so/omsetku-asset-edit-so.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Edit quotation</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Edit sales order</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Untuk mengedit quotation, silahkan pilih quotation yang ingin kamu edit lalu , ketika muncul jendela quotation seperti di samping, klik tombol edit untuk mulai mengubah data
+                                                Untuk mengedit sales order, silahkan pilih sales order yang ingin kamu edit lalu , ketika muncul jendela sales order seperti di samping, klik tombol edit untuk mulai mengubah data
                                             </p>
                                         </div><br>
                                     </div>
@@ -691,9 +689,9 @@
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Mengedit data quotation</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Mengedit data sales order</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Mulai edit quotation mu dengan mengubah isi data yang sesuai dengan keinginan mu, 
+                                                Mulai edit sales order mu dengan mengubah isi data yang sesuai dengan keinginan mu, 
                                                 <br> 1. Sales yang melakukan penjualan
                                                 <br> 2. Customer yang melakukan penjualan
                                                 <br> 3. Tanggal pembelian
@@ -705,20 +703,20 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/quo/omsetku-asset-edit-quo2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/so/omsetku-asset-edit-so2.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             </div>
                             <div class="row pb-4 pt-2">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/quo/omsetku-asset-edit-quo3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/so/omsetku-asset-edit-so3.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Berhasil edit quotation</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Berhasil edit sales order</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Setelah kamu simpan data yang baru maka dengan otomatis data quotation tersebut sudah ter-ubah di list quotation
+                                                Setelah kamu simpan data yang baru maka dengan otomatis data sales order tersebut sudah ter-ubah di list sales order
                                             </p>
                                         </div><br>
                                     </div>
@@ -727,20 +725,20 @@
                         </div>
                         {{-- DELETE --}}
                         <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/quo/omsetku-asset-row-delete.png" alt="">
+                            <img class="row-add pb-4" src="omsetku-asset/so/omsetku-asset-row-delete.png" alt="">
                         </div>
                             <div class="pad-con">
                             <div class="row pb-4 pt-4">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/quo/omsetku-asset-delete-quo.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/so/omsetku-asset-delete-so.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Menghapus quotation</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Menghapus sales order</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Untuk menghapus quotation, silahkan pilih quotation yang ingin kamu hapus lalu , ketika muncul  tampilan quotation seperti di samping, klik tombol hapus untuk mulai menghapus data
+                                                Untuk menghapus sales order, silahkan pilih sales order yang ingin kamu hapus lalu , ketika muncul  tampilan sales order seperti di samping, klik tombol hapus untuk mulai menghapus data
                                             </p>
                                         </div><br>
                                     </div>
@@ -750,28 +748,28 @@
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Konfirmasi hapus quotation</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Konfirmasi hapus sales order</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Ketika sudah klik tombol hapus maka akan muncul tampilan konfirmasi untuk menghapus data dari quotation, klik hapus untuk menghapus dan klik batal untuk membatalkan penghapusan data quotation
+                                                Ketika sudah klik tombol hapus maka akan muncul tampilan konfirmasi untuk menghapus data dari sales order, klik hapus untuk menghapus dan klik batal untuk membatalkan penghapusan data sales order
                                             </p>
                                         </div><br>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/quo/omsetku-asset-delete-quo2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/so/omsetku-asset-delete-so2.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             </div>
                             <div class="row pb-4 pt-2">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/quo/omsetku-asset-delete-quo3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/so/omsetku-asset-delete-so3.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Berhasil menghapus data quotation</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Berhasil menghapus data sales order</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Setelah kamu hapus data quotation, Maka dengan otomatis data quotation tersebut sudah ter-hapus dari di list quotation
+                                                Setelah kamu hapus data sales order, Maka dengan otomatis data sales order tersebut sudah ter-hapus dari di list sales order
                                             </p>
                                         </div><br>
                                     </div>
@@ -780,20 +778,20 @@
                         </div>
                         {{-- DUPLICATE --}}
                         <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/quo/omsetku-asset-row-duplicate.png" alt="">
+                            <img class="row-add pb-4" src="omsetku-asset/so/omsetku-asset-row-duplicate.png" alt="">
                         </div>
                         <div class="pad-con"></div>
                         <div class="row pb-4 pt-4">
                             <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                <img src="omsetku-asset/quo/omsetku-asset-duplicate-quo.png" class="img-content" alt="" style="margin-left: 0px">
+                                <img src="omsetku-asset/so/omsetku-asset-duplicate-so.png" class="img-content" alt="" style="margin-left: 0px">
                             </div>
                         
                             <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                 <div class="row mb-4">
                                     <div class="col-md-11 col-lg-11">
-                                        <h5 ><strong class="header-content-item d-flex">Menduplikasi data quotation</strong></h5>
+                                        <h5 ><strong class="header-content-item d-flex">Menduplikasi data sales order</strong></h5>
                                         <p class="header-text-item-kiri" >
-                                            Untuk menduplikasi data quotation, silahkan pilih quotation yang ingin kamu duplikasi lalu , ketika muncul jendela quotation seperti di samping, klik tombol “duplicate” untuk mulai menduplikasi data quotation
+                                            Untuk menduplikasi data sales order, silahkan pilih sales order yang ingin kamu duplikasi lalu , ketika muncul jendela sales order seperti di samping, klik tombol “duplicate” untuk mulai menduplikasi data sales order
                                         </p>
                                     </div><br>
                                 </div>
@@ -803,29 +801,29 @@
                             <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                 <div class="row mb-4">
                                     <div class="col-md-11 col-lg-11">
-                                        <h5 ><strong class="header-content-item d-flex">Data quotation</strong></h5>
+                                        <h5 ><strong class="header-content-item d-flex">Data sales order</strong></h5>
                                         <p class="header-text-item-kiri" >
-                                            Isi data penjualan barang mu sesuai dengan data yang ada , Lalu klik simpan untuk menyimpan data quotation yang kamu ingin duplikasi
+                                            Isi data penjualan barang mu sesuai dengan data yang ada , Lalu klik simpan untuk menyimpan data sales order yang kamu ingin duplikasi
                                         </p>
                                     </div><br>
                                 </div>
                             </div>
                             <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                <img src="omsetku-asset/quo/omsetku-asset-duplicate-quo2.png" class="img-content" alt="" style="margin-left: 0px">
+                                <img src="omsetku-asset/so/omsetku-asset-duplicate-so2.png" class="img-content" alt="" style="margin-left: 0px">
                             </div>
                         </div>
                         <div class="row pb-4 pt-2">
                             <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                <img src="omsetku-asset/quo/omsetku-asset-duplicate-quo3.png" class="img-content" alt="" style="margin-left: 0px">
+                                <img src="omsetku-asset/so/omsetku-asset-duplicate-so3.png" class="img-content" alt="" style="margin-left: 0px">
                             </div>
                         
                             <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                 <div class="row mb-4">
                                     <div class="col-md-11 col-lg-11">
-                                        <h5 ><strong class="header-content-item d-flex">Konfirmasi data quotation</strong></h5>
+                                        <h5 ><strong class="header-content-item d-flex">Konfirmasi data sales order</strong></h5>
                                         <p class="header-text-item-kiri" >
-                                            Ketika sudah klik tombol simpan maka akan muncul tampilan konfirmasi untuk menduplikasi data dari quotation, 
-                                            klik selesai untuk menyelesaikan duplikasi dari data quotation mu 
+                                            Ketika sudah klik tombol simpan maka akan muncul tampilan konfirmasi untuk menduplikasi data dari sales order, 
+                                            klik selesai untuk menyelesaikan duplikasi dari data sales order mu 
                                         </p>
                                     </div><br>
                                 </div>
@@ -835,20 +833,20 @@
                             <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                 <div class="row mb-4">
                                     <div class="col-md-11 col-lg-11">
-                                        <h5 ><strong class="header-content-item d-flex">Berhasil menduplikasi data quotation</strong></h5>
+                                        <h5 ><strong class="header-content-item d-flex">Berhasil menduplikasi data sales order</strong></h5>
                                         <p class="header-text-item-kiri" >
-                                            Setelah kamu hapus data quotation, Maka dengan otomatis data quotation tersebut sudah ter-hapus dari di list quotation
+                                            Setelah kamu hapus data sales order, Maka dengan otomatis data sales order tersebut sudah ter-hapus dari di list sales order
                                         </p>
                                     </div><br>
                                 </div>
                             </div>
                             <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                <img src="omsetku-asset/quo/omsetku-asset-duplicate-quo4.png" class="img-content" alt="" style="margin-left: 0px">
+                                <img src="omsetku-asset/so/omsetku-asset-duplicate-so4.png" class="img-content" alt="" style="margin-left: 0px">
                             </div>
                         </div>
                     </div>
             </section>
-          {{-- Content quotation OWNER Desktop End--}}
+          {{-- Content sales order OWNER Desktop End--}}
 
         </div>
         <!-- Owner Tab -->
@@ -858,7 +856,7 @@
     <!-- Tabs Content -->
 
 
-    {{-- Content quotation anda End--}}
+    {{-- Content sales order anda End--}}
 
 
 @stop
@@ -874,511 +872,10 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
     <script>
-        ///////// script to show n hide load using ajax /////////
-        $(document)
-            // .ajaxStart(function() {
-            //     //ajax request went so show the loading image
-            //     $('#loadingModal').modal({
-            //         show: true,
-            //         keyboard: true
-            //     });
-            // })
-        // .ajaxStop(function() {
-        //     //got response so hide the loading image
-        //     // $loading.hide();
-        //     $('#loadingModal').modal('hide');
-        // });
-        ///////// end script to show n hide load using ajax /////////
 
-        var startDate;
-        var endDate;
-
-
-        $(document).ready(function() {
-
-
-            var $submit = $("#submit_prog").hide(),
-                $submit1 = $("#submit_prog1").hide(),
-                $cbs = $('input[id="box"]').click(function() {
-                    $submit.toggle($cbs.is(":checked"));
-                    $submit1.toggle($cbs.is(":checked"));
-                });
-            $cbd = $('input[id="check-all"]').click(function() {
-                $submit.toggle($cbd.is(":checked"));
-                $submit1.toggle($cbd.is(":checked"));
-            });
-
-            // getData();
-            getHistory('less');
-
-            // $('#bulan').on('change', function() {
-            //     $('#example1').DataTable().clear();
-            //     $('#example1').DataTable().destroy();
-            //     getData();
-            // })
-            // $('#tahun').on('change', function() {
-            //     $('#example1').DataTable().clear();
-            //     $('#example1').DataTable().destroy();
-            //     getData();
-            // })
-            // $('#filter-status').on('change', function() {
-            //     $('#example1').DataTable().clear();
-            //     $('#example1').DataTable().destroy();
-            //     getData();
-            // })
-            // $('#filter-divisi').on('change', function() {
-            //     $('#example1').DataTable().clear();
-            //     $('#example1').DataTable().destroy();
-            //     getData();
-            // })
-            // $('#dateRangePicker').on('change', function() {
-            //     $('#example1').DataTable().clear();
-            //     $('#example1').DataTable().destroy();
-            //     getData();
-            // })
-        });
-
-        @php
-            $url = config('app.url');
-        @endphp
-        let ApibaseURL = "{{ $url }}";
-        // $('#submit-filter').on('click', function(e) {
-        //     e.preventDefault();
-        //     getHistory('less');
-        //     $('#example1').DataTable().clear();
-        //     $('#example1').DataTable().destroy();
-        //     // getData();
-        //     // $('#loadingModal').modal({
-        //     //     show: true,
-        //     //     keyboard: true
-        //     // });
-
-        // });
-        //  $('#viewMoreHistory').on('click', function(e) {
-        //     $('#loadingModal').modal({
-        //         show: true,
-        //         keyboard: true
-        //     });
-        //  });
-
-
-        // function getHistory(typeView) {
-        //     let start_date = $('#selectedDatePickerField').val();
-        //     let end_date = $('#selectedDatePickerField2').val();
-
-        //     $.ajaxSetup({
-        //         headers: {
-        //             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-        //         }
-        //     });
-        //     $.ajax({
-        //         type: 'POST',
-        //         url: ApibaseURL + "/quotation-history-get",
-        //         data: {
-        //             typeView: typeView,
-        //             start_date: start_date,
-        //             end_date: end_date,
-        //         },
-        //         dataType: 'json',
-        //         success: function(data) {
-        //             //$('.badge-status').addClass(data.statusClass);
-        //             $('#wrapHistoryDiv').html(data.listHistory);
-
-
-        //         },
-        //         error: function(data) {
-
-        //             console.log(data);
-
-        //         }
-        //     });
-
-        // }
-
-        function getHistory(typeView) {
-            var start_date = $('#selectedDatePickerField').val();
-            var end_date = $('#selectedDatePickerField2').val();
-            console.log(end_date);
-            $.ajaxSetup({
-                headers: {
-                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                }
-            });
-            // $('#loadingModal').modal({
-            //     show: true,
-            //     keyboard: true
-            // });
-            $.ajax({
-                type: 'GET',
-                url: ApibaseURL + "/quotation-history-get",
-                data: {
-                    typeView: typeView,
-                    start: start_date,
-                    end: end_date
-                },
-                dataType: 'json',
-                success: function(data) {
-                    console.log(data,start_date,end_date);
-                    //$('.badge-status').addClass(data.statusClass);
-                    $('#wrapHistoryDiv').html(data.listHistory);
-                    console.log(data.typeView);
-                    // $('#loadingModal').modal('hide');
-                },
-                error: function(data) {
-
-                    console.log(data);
-
-                }
-            });
-
-        }
-
-
-
-
-
-
-        $('.js-dataTable-full').on('click', '.btn-actions', function() {
-
-
-            var id = $(this).attr('data-id');
-            $.ajaxSetup({
-
-                headers: {
-
-                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-
-                }
-
-            });
-
-            $.ajax({
-
-                type: 'GET',
-
-                url: ApibaseURL + "/sales-data-get/" + id,
-
-                data: {
-
-
-
-                },
-
-                dataType: 'json',
-
-                success: function(data) {
-
-                    //$('.badge-status').addClass(data.statusClass);
-                    $('.badge-status').html(
-                        `<span class="badge ` + data.statusClass + `">
-                ` + data.statusText + `
-              </span>`
-                    );
-
-                    $('.status-select').val(data.data.status).trigger('change');
-                    $('#exampleModal').modal('toggle');
-                    $('#form-master').attr('action', "{{ url('edit-status') }}" + "/" + id);
-                    $('#modal-title-text').html(data.data.no_po);
-
-                },
-                error: function(data) {
-
-                    console.log(data);
-
-                }
-            });
-
-        })
-
-        // //date range
-        // $(function() {
-        //     $('input[name="daterange"]').daterangepicker({
-        //         startDate: moment(),
-        //             endDate: moment(),
-        //             //   minDate: '01/01/2012',
-        //             //   maxDate: '12/31/2014',
-        //             dateLimit: {
-        //                 days: 360
-        //             },
-        //             showDropdowns: true,
-        //             showWeekNumbers: false,
-        //             timePicker: false,
-        //             timePickerIncrement: 1,
-        //             timePicker12Hour: true,
-        //             //   ranges: {
-        //             //      'Today': [moment(), moment()],
-        //             //      'Yesterday': [moment().subtract('days', 1), moment().subtract('days', 1)],
-        //             //      'Last 7 Days': [moment().subtract('days', 6), moment()],
-        //             //      'Last 30 Days': [moment().subtract('days', 29), moment()],
-        //             //      'This Month': [moment().startOf('month'), moment().endOf('month')],
-        //             //      'Last Month': [moment().subtract('month', 1).startOf('month'), moment().subtract('month', 1).endOf('month')]
-        //             //   },
-        //             opens: 'left',
-        //             buttonClasses: ['btn btn-default'],
-        //             applyClass: 'btn-small btn-primary',
-        //             cancelClass: 'btn-small',
-        //             format: 'DD/MM/YYYY',
-        //             separator: ' to ',
-        //             locale: {
-        //                 applyLabel: 'Show Data',
-        //                 fromLabel: 'From',
-        //                 toLabel: 'To',
-        //                 customRangeLabel: 'Custom Range',
-        //                 daysOfWeek: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
-        //                 monthNames: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August',
-        //                     'September', 'October', 'November', 'December'
-        //                 ],
-        //                 firstDay: 1
-        //             }
-        //     });
-        // });
-        // $(document).ready(function() {
-        //     $('#dateRangePicker').on('change', function() {
-        //         $('#selectedDatePickerField').val(this.value);
-        //         $('#selectedDatePickerField2').val(this.value);
-        //     }).change();
-        //     $('#dateRangePicker').on('daterangepicker', function(e, ui) {
-        //         $('#selectedDatePickerField').val(ui.item.value);
-        //         $('#selectedDatePickerField2').val(ui.item.value);
-        //     });
-        // });
-
-        // $('input[name="daterange"]').on('apply.daterangepicker', function(ev, picker) {
-        //     $('#selectedDatePickerField').val(picker.startDate.format('YYYY-MM-DD'));
-        //     $('#selectedDatePickerField2').val(picker.endDate.format('YYYY-MM-DD'));
-        // });
-
-
-        //date range
-        $(function() {
-            $('#daterangeNew').daterangepicker({
-                // startDate: moment(),
-                // endDate: moment(),
-                timePickerSeconds: true,
-                autoApply: true,
-
-                //   minDate: '01/01/2012',
-                //   maxDate: '12/31/2014',
-                dateLimit: {
-                    days: 360
-                },
-                showDropdowns: true,
-                showWeekNumbers: false,
-                timePicker: false,
-                timePickerIncrement: 1,
-                timePicker12Hour: true,
-                //   ranges: {
-                //      'Today': [moment(), moment()],
-                //      'Yesterday': [moment().subtract('days', 1), moment().subtract('days', 1)],
-                //      'Last 7 Days': [moment().subtract('days', 6), moment()],
-                //      'Last 30 Days': [moment().subtract('days', 29), moment()],
-                //      'This Month': [moment().startOf('month'), moment().endOf('month')],
-                //      'Last Month': [moment().subtract('month', 1).startOf('month'), moment().subtract('month', 1).endOf('month')]
-                //   },
-                opens: 'left',
-                buttonClasses: ['btn btn-default'],
-                applyClass: 'btn-small btn-primary',
-                cancelClass: 'btn-small',
-
-                // format: 'dd/mm/yyyy',
-                separator: ' to ',
-                locale: {
-                    format: 'DD/MM/YYYY',
-                    applyLabel: 'Show Data',
-                    fromLabel: 'From',
-                    toLabel: 'To',
-                    customRangeLabel: 'Custom Range',
-                    daysOfWeek: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
-                    monthNames: ['January', 'February', 'March', 'April', 'May', 'June', 'July',
-                        'August',
-                        'September', 'October', 'November', 'December'
-                    ],
-                    firstDay: 1
-                }
-            });
-        });
-        $(document).ready(function() {
-            
-
-            $('#dateRangePicker').trigger('change', function() {
-                // $('#selectedDatePickerField').val(this.value);
-                // $('#selectedDatePickerField2').val(this.value);
-            });
-            $('#dateRangePicker').on('daterangepicker', function(e, ui) {
-                $('#selectedDatePickerField').val(ui.item.value);
-                $('#selectedDatePickerField2').val(ui.item.value);
-            });
-
-            $('#daterangeNew').on('apply.daterangepicker', function(ev, picker) {
-                $('#selectedDatePickerField').val(picker.startDate.format('YYYY-MM-DD'));
-                $('#selectedDatePickerField2').val(picker.endDate.format('YYYY-MM-DD'));
-            });
-        });
-
-        // $(function() {
-        //     Codebase.helpers('table-tools');
-        // });
-
-        // function getData() {
-        //     @php
-            //         $url = config('app.url');
-            //
-        @endphp
-        //     let ApibaseURL = "{{ $url }}";
-
-        //     var dataSrc = [];
-        //     oTable = $('#example1').DataTable({
-        //         "pageLength": 20,
-        //         //"pagingType": "listbox",
-        //         language: {
-        //             //processing: '<div class="load-ajax text-center bg-transparent p-10"><i class="fa fa-spinner fa-spin fa-2x"></i><span class="font-w600 ml-10 pb-50">Processing....</span></div>',
-        //             "sInfo": "Showing _START_ to _END_ of _TOTAL_ records",
-        //         },
-        //         processing: true,
-        //         serverSide: true,
-        //         ajax: {
-        //             url: ApibaseURL + '/quotation',
-        //             data: function(d) {
-        //                 d.seacrh = $('input[name=search]').val();
-        //                 d.filter_status = $('#filter-status').val();
-        //                 d.filter_divisi = $('#filter-divisi').val();
-        //                 d.bulan = $('#bulan').val();
-        //                 d.tahun = $('#tahun').val();
-        //                 d.start_date = $('#selectedDatePickerField').val();
-        //                 d.end_date = $('#selectedDatePickerField2').val();
-        //                 d.search = $('#searchInput').val();
-
-        //                 console.log(d);
-        //             }
-
-        //         },
-        //         "rowCallback": function(row, data) {
-
-        //             console.log(data);
-
-        //             $(row).find('td:eq(0)').attr('data-url', '#');
-        //             $(row).find('td:eq(1)').attr('onclick',
-        //                 'redirectRow("{{ url('') }}/detail-quotation/' + data.id + '")');
-        //             $(row).find('td:eq(2)').attr('onclick',
-        //                 'redirectRow("{{ url('') }}/detail-quotation/' + data.id + '")');
-        //             $(row).find('td:eq(3)').attr('onclick',
-        //                 'redirectRow("{{ url('') }}/detail-quotation/' + data.id + '")');
-        //             $(row).find('td:eq(4)').attr('onclick',
-        //                 'redirectRow("{{ url('') }}/detail-quotation/' + data.id + '")');
-        //             $(row).find('td:eq(5)').attr('onclick',
-        //                 'redirectRow("{{ url('') }}/detail-quotation/' + data.id + '")');
-        //             $(row).find('td:eq(6)').attr('onclick',
-        //                 'redirectRow("{{ url('') }}/detail-quotation/' + data.id + '")');
-        //             $(row).find('td:eq(8)').attr('data-url', '#');
-        //             $(row).find('.viewIDCurrency').each(function() {
-        //                 dataTotal = $(this).text();
-        //                 $(this).html(viewIDCurrency(dataTotal))
-        //             })
-        //         },
-        //         columns: [
-        //             //        { "data": "rownum",sortable: false,searchable: false,
-        //             //    render: function (data, type, row, meta) {
-        //             //              return meta.row + meta.settings._iDisplayStart + 1;
-        //             //             }
-        //             // },
-        //             // { data: 'DT_RowIndex', name:'DT_RowIndex', searchable: false},
-        //             {
-        //                 data: 'checkNo',
-        //                 name: 'checkNo',
-        //                 searchable: false
-        //             },
-        //             {
-        //                 data: 'date',
-        //                 name: 'date'
-        //             },
-        //             {
-        //                 data: 'no_po',
-        //                 name: 'no_po'
-        //             },
-        //             {
-        //                 data: 'nama_customer',
-        //                 name: 'nama_customer'
-        //             },
-        //             {
-        //                 data: 'nama_perusahaan',
-        //                 name: 'nama_perusahaan'
-        //             },
-        //             {
-        //                 data: 'total_subtotal',
-        //                 name: 'total_subtotal'
-        //             },
-        //             {
-        //                 data: 'status',
-        //                 name: 'status'
-        //             },
-        //         ],
-
-        //         'initComplete': function() {
-        //             var api = this.api();
-
-        //             // Populate a dataset for autocomplete functionality
-        //             // using data from first, second and third columns
-        //             api.cells('tr', [0, 1, 2, 3, 4]).every(function() {
-        //                 // Get cell data as plain text
-        //                 var data = $('<div>').html(this.data()).text();
-        //                 if (dataSrc.indexOf(data) === -1) {
-        //                     dataSrc.push(data);
-        //                 }
-        //             });
-
-        //             // Sort dataset alphabetically
-        //             dataSrc.sort();
-
-
-        //             // // Initialize Typeahead plug-in
-        //             // $('#searchInput').typeahead({
-        //             //     source: dataSrc,
-        //             //     afterSelect: function(value) {
-        //             //         api.search(value).draw();
-        //             //     }
-
-        //             // });
-        //         }
-        //     });
-        //     $('#searchInput').keyup(function() {
-        //         oTable.search($(this).val()).draw();
-        //     })
-
-        //     $('#example1 tbody tr td').click(function() {
-        //         alert('tes');
-        //         window.location.href = $(this).data('url');
-        //     });
-
-        //     $('#length_change').val(oTable.page.len());
-        //     $('#length_change').change(function() {
-        //         oTable.page.len($(this).val()).draw();
-        //     });
-        // }
-        $(function() {
-            var oTable = $('#example1').dataTable({
-                pageLength: 10,
-                bAutoWidth: false,
-                language: {
-                    processing: '<div class="load-ajax text-center bg-white p-50"><i class="fa fa-spinner fa-spin fa-2x"></i><span class="font-w600 ml-10 pb-50">Processing....</span></div>',
-                    infoEmpty: 'Tidak Ada Data',
-                    zeroRecords: 'Tidak Ada Data',
-                    paginate: {
-                        first: "Awal",
-                        last: "Akhir",
-                        next: "Next",
-                        previous: "Previous"
-                    }
-                },
-            });
-
-            $("#myInputTextField").on('keyup', function() {
-                oTable.fnFilter(this.value);
-            });
-
-
-
-        });
+        
     </script>
+
 @stop
 
 @section('js_before')
@@ -1387,5 +884,5 @@
         import { Tab, initMDB } from "mdb-ui-kit";
 
         initMDB({ Tab });
-    </script>
+    </>
 @stop
