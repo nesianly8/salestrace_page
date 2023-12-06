@@ -1,7 +1,7 @@
 @extends('layouts.app-backend-omsetku')
 
 @section('title')
-    Sales Order
+    Invoice
 @stop
 
 @section('title_header')
@@ -294,12 +294,12 @@
             <div class="row mt-4">
                 <div class="col-md-12 d-flex justify-content-center">
                     <h3 class="title-page-header">
-                        Permudah pekerjaan sales menggunakan sales order
+                        Permudah pekerjaan sales menggunakan invoice
                     </h3>
                 </div>
                 <div class="col-md-12">
                     <p class="subtitle-page-header">
-                        Pastikan tim gudang selalu siap dengan barang dengan SALES ORDER
+                        Pastikan tim gudang selalu siap dengan barang dengan invoice
                     </p>
                 </div>
                 <div class="col-md-12 d-flex justify-content-center">
@@ -334,20 +334,20 @@
                     <div class="container">
                         {{-- ADD --}}
                         <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/so/omsetku-asset-row-add.png" alt="">
+                            <img class="row-add pb-4" src="omsetku-asset/inv/omsetku-asset-row-add.png" alt="">
                         </div>
                         <div class="pad-con">
                             <div class="row pb-4 pt-4">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/so/omsetku-asset-membuat-so.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/inv/omsetku-asset-membuat-inv.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Membuat sales order</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Membuat invoice</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Pilih  tombol "buat sales order" pada dashboard <br> untuk mulai membuat sales order untuk <br> penjualan barang mu
+                                                Pilih  tombol "buat invoice" pada dashboard <br> untuk mulai membuat invoice untuk <br> penjualan barang mu
                                             </p>
                                         </div><br>
                                     </div>
@@ -357,26 +357,26 @@
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Membuat sales order baru</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Membuat invoice baru</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Klik tombol tambah untuk membuat data sales order baru
+                                                Klik tombol tambah untuk membuat data invoice baru
                                             </p>
                                         </div><br>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/so/omsetku-asset-membuat-so2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/inv/omsetku-asset-membuat-inv2.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             </div>
                             <div class="row pb-4 pt-2">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/so/omsetku-asset-membuat-so3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/inv/omsetku-asset-membuat-inv3.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Data sales order</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Data invoice</strong></h5>
                                             <p class="header-text-item-kiri" >
                                                 Lengkapi data penjualan barang mu sesuai dengan data yang ada 
                                                 <br> 1. Pilih customer yang melakukan transaksi
@@ -393,28 +393,28 @@
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Tampilan sales order</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Tampilan invoice</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Setelah sales order dibuat maka akan muncul tampilan data sales order mu, pastikan data yang disajikan sudah benar sesuai yang kamu inginkan
+                                                Setelah invoice dibuat maka akan muncul tampilan data invoice mu, pastikan data yang disajikan sudah benar sesuai yang kamu inginkan
                                             </p>
                                         </div><br>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/so/omsetku-asset-membuat-so4.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/inv/omsetku-asset-membuat-inv4.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             </div>
                             <div class="row pb-4 pt-2">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/so/omsetku-asset-membuat-so5.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/inv/omsetku-asset-membuat-inv5.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Data sales order tersimpan</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Data invoice tersimpan</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Data sales order yang kamu buat akan tampil <br> dalam data list sales order setelah kamu simpan
+                                                Data invoice yang kamu buat akan tampil <br> dalam data list invoice setelah kamu simpan
                                             </p>
                                         </div><br>
                                     </div>
@@ -423,20 +423,20 @@
                         </div>
                         {{-- EDIT --}}
                         <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/so/omsetku-asset-row-edit.png" alt="">
+                            <img class="row-add pb-4" src="omsetku-asset/inv/omsetku-asset-row-edit.png" alt="">
                         </div>
                         <div class="pad-con">
                             <div class="row pb-4 pt-4">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/so/omsetku-asset-edit-so.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/inv/omsetku-asset-edit-inv.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Edit sales order</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Edit invoice</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Untuk mengedit sales order, silahkan pilih sales order yang ingin kamu edit lalu , ketika muncul jendela sales order seperti di samping, klik tombol edit untuk mulai mengubah data
+                                                Untuk mengedit invoice, silahkan pilih invoice yang ingin kamu edit lalu , ketika muncul jendela invoice seperti di samping, klik tombol edit untuk mulai mengubah data
                                             </p>
                                         </div><br>
                                     </div>
@@ -446,9 +446,9 @@
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Mengedit data sales order</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Mengedit data invoice</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Mulai edit sales order mu dengan mengubah isi data yang sesuai dengan keinginan mu, 
+                                                Mulai edit invoice mu dengan mengubah isi data yang sesuai dengan keinginan mu, 
                                                 <br> 1. Customer yang melakukan penjualan
                                                 <br> 2. Tanggal pembelian
                                                 <br> 3. Data produk seperti Nama barang, harga,  kuantitas, dan catatan (apabila perlu)
@@ -459,20 +459,20 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/so/omsetku-asset-edit-so2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/inv/omsetku-asset-edit-inv2.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             </div>
                             <div class="row pb-4 pt-2">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/so/omsetku-asset-edit-so3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/inv/omsetku-asset-edit-inv3.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Berhasil edit sales order</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Berhasil edit invoice</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Setelah kamu simpan data yang baru maka dengan otomatis data sales order tersebut sudah ter-ubah di list sales order
+                                                Setelah kamu simpan data yang baru maka dengan otomatis data invoice tersebut sudah ter-ubah di list invoice
                                             </p>
                                         </div><br>
                                     </div>
@@ -481,20 +481,20 @@
                         </div>
                         {{-- DELETE --}}
                         <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/so/omsetku-asset-row-delete.png" alt="">
+                            <img class="row-add pb-4" src="omsetku-asset/inv/omsetku-asset-row-delete.png" alt="">
                         </div>
-                            <div class="pad-con">
+                        <div class="pad-con">
                             <div class="row pb-4 pt-4">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/so/omsetku-asset-delete-so.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/inv/omsetku-asset-delete-inv.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Menghapus sales order</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Menghapus invoice</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Untuk menghapus sales order, silahkan pilih sales order yang ingin kamu hapus lalu , ketika muncul  tampilan sales order seperti di samping, klik tombol hapus untuk mulai menghapus data
+                                                Untuk menghapus invoice, silahkan pilih invoice yang ingin kamu hapus lalu , ketika muncul  tampilan invoice seperti di samping, klik tombol hapus untuk mulai menghapus data
                                             </p>
                                         </div><br>
                                     </div>
@@ -504,28 +504,28 @@
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Konfirmasi hapus sales order</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Konfirmasi hapus invoice</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Ketika sudah klik tombol hapus maka akan muncul tampilan konfirmasi untuk menghapus data dari sales order, klik hapus untuk menghapus dan klik batal untuk membatalkan penghapusan data sales order
+                                                Ketika sudah klik tombol hapus maka akan muncul tampilan konfirmasi untuk menghapus data dari invoice, klik hapus untuk menghapus dan klik batal untuk membatalkan penghapusan data invoice
                                             </p>
                                         </div><br>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/so/omsetku-asset-delete-so2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/inv/omsetku-asset-delete-inv2.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             </div>
                             <div class="row pb-4 pt-2">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/so/omsetku-asset-delete-so3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/inv/omsetku-asset-delete-inv3.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Berhasil menghapus data sales order</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Berhasil menghapus data invoice</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Setelah kamu hapus data sales order, Maka dengan otomatis data sales order tersebut sudah ter-hapus dari di list sales order
+                                                Setelah kamu hapus data invoice, Maka dengan otomatis data invoice tersebut sudah ter-hapus dari di list invoice
                                             </p>
                                         </div><br>
                                     </div>
@@ -534,75 +534,76 @@
                         </div>
                         {{-- DUPLICATE --}}
                         <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/so/omsetku-asset-row-duplicate.png" alt="">
+                            <img class="row-add pb-4" src="omsetku-asset/inv/omsetku-asset-row-duplicate.png" alt="">
                         </div>
-                        <div class="pad-con"></div>
-                        <div class="row pb-4 pt-4">
-                            <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                <img src="omsetku-asset/so/omsetku-asset-duplicate-so.png" class="img-content" alt="" style="margin-left: 0px">
-                            </div>
-                        
-                            <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                <div class="row mb-4">
-                                    <div class="col-md-11 col-lg-11">
-                                        <h5 ><strong class="header-content-item d-flex">Menduplikasi data sales order</strong></h5>
-                                        <p class="header-text-item-kiri" >
-                                            Untuk menduplikasi data sales order, silahkan pilih sales order yang ingin kamu duplikasi lalu , ketika muncul jendela sales order seperti di samping, klik tombol “duplicate” untuk mulai menduplikasi data sales order
-                                        </p>
-                                    </div><br>
+                        <div class="pad-con">
+                            <div class="row pb-4 pt-4">
+                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                    <img src="omsetku-asset/inv/omsetku-asset-duplicate-inv.png" class="img-content" alt="" style="margin-left: 0px">
+                                </div>
+                            
+                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                    <div class="row mb-4">
+                                        <div class="col-md-11 col-lg-11">
+                                            <h5 ><strong class="header-content-item d-flex">Menduplikasi data invoice</strong></h5>
+                                            <p class="header-text-item-kiri" >
+                                                Untuk menduplikasi data invoice, silahkan pilih invoice yang ingin kamu duplikasi lalu , ketika muncul jendela invoice seperti di samping, klik tombol “duplicate” untuk mulai menduplikasi data invoice
+                                            </p>
+                                        </div><br>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row pb-4 pt-2">
-                            <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                <div class="row mb-4">
-                                    <div class="col-md-11 col-lg-11">
-                                        <h5 ><strong class="header-content-item d-flex">Data sales order</strong></h5>
-                                        <p class="header-text-item-kiri" >
-                                            Isi data penjualan barang mu sesuai dengan data yang ada , Lalu klik simpan untuk menyimpan data sales order yang kamu ingin duplikasi
-                                        </p>
-                                    </div><br>
+                            <div class="row pb-4 pt-2">
+                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                    <div class="row mb-4">
+                                        <div class="col-md-11 col-lg-11">
+                                            <h5 ><strong class="header-content-item d-flex">Data invoice</strong></h5>
+                                            <p class="header-text-item-kiri" >
+                                                Isi data penjualan barang mu sesuai dengan data yang ada , Lalu klik simpan untuk menyimpan data invoice yang kamu ingin duplikasi
+                                            </p>
+                                        </div><br>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                    <img src="omsetku-asset/inv/omsetku-asset-duplicate-inv2.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             </div>
-                            <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                <img src="omsetku-asset/so/omsetku-asset-duplicate-so2.png" class="img-content" alt="" style="margin-left: 0px">
-                            </div>
-                        </div>
-                        <div class="row pb-4 pt-2">
-                            <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                <img src="omsetku-asset/so/omsetku-asset-duplicate-so3.png" class="img-content" alt="" style="margin-left: 0px">
-                            </div>
-                        
-                            <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                <div class="row mb-4">
-                                    <div class="col-md-11 col-lg-11">
-                                        <h5 ><strong class="header-content-item d-flex">Konfirmasi data sales order</strong></h5>
-                                        <p class="header-text-item-kiri" >
-                                            Ketika sudah klik tombol simpan maka akan muncul tampilan konfirmasi untuk menduplikasi data dari sales order, 
-                                            klik selesai untuk menyelesaikan duplikasi dari data sales order mu 
-                                        </p>
-                                    </div><br>
+                            <div class="row pb-4 pt-2">
+                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                    <img src="omsetku-asset/inv/omsetku-asset-duplicate-inv3.png" class="img-content" alt="" style="margin-left: 0px">
+                                </div>
+                            
+                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                    <div class="row mb-4">
+                                        <div class="col-md-11 col-lg-11">
+                                            <h5 ><strong class="header-content-item d-flex">Konfirmasi data invoice</strong></h5>
+                                            <p class="header-text-item-kiri" >
+                                                Ketika sudah klik tombol simpan maka akan muncul tampilan konfirmasi untuk menduplikasi data dari invoice, 
+                                                klik selesai untuk menyelesaikan duplikasi dari data invoice mu 
+                                            </p>
+                                        </div><br>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row pb-4 pt-2">
-                            <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                <div class="row mb-4">
-                                    <div class="col-md-11 col-lg-11">
-                                        <h5 ><strong class="header-content-item d-flex">Berhasil menduplikasi data sales order</strong></h5>
-                                        <p class="header-text-item-kiri" >
-                                            Setelah kamu hapus data sales order, Maka dengan otomatis data sales order tersebut sudah ter-hapus dari di list sales order
-                                        </p>
-                                    </div><br>
+                            <div class="row pb-4 pt-2">
+                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                    <div class="row mb-4">
+                                        <div class="col-md-11 col-lg-11">
+                                            <h5 ><strong class="header-content-item d-flex">Berhasil menduplikasi data invoice</strong></h5>
+                                            <p class="header-text-item-kiri" >
+                                                Setelah kamu hapus data invoice, Maka dengan otomatis data invoice tersebut sudah ter-hapus dari di list invoice
+                                            </p>
+                                        </div><br>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                <img src="omsetku-asset/so/omsetku-asset-duplicate-so4.png" class="img-content" alt="" style="margin-left: 0px">
+                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                    <img src="omsetku-asset/inv/omsetku-asset-duplicate-inv4.png" class="img-content" alt="" style="margin-left: 0px">
+                                </div>
                             </div>
                         </div>
                     </div>
             </section>
-          {{-- Content sales order SALES Desktop End--}}
+          {{-- Content invoice SALES Desktop End--}}
 
         </div>
         <!-- Sales Tab -->
@@ -611,25 +612,25 @@
         <!-- Owner Tab -->
         <div class="tab-pane fade" id="owner">
 
-          {{-- Content sales order OWNER Desktop Start--}}
+          {{-- Content invoice OWNER Desktop Start--}}
             <section id="content1" class="menu-1 desktop-show text-center">
                     <div class="container">
                         {{-- ADD --}}
                         <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/so/omsetku-asset-row-add.png" alt="">
+                            <img class="row-add pb-4" src="omsetku-asset/inv/omsetku-asset-row-add.png" alt="">
                         </div>
                         <div class="pad-con">
                             <div class="row pb-4 pt-4">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/so/omsetku-asset-membuat-so.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/inv/omsetku-asset-membuat-inv.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Membuat sales order</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Membuat invoice</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Pilih  tombol "buat sales order" pada dashboard <br> untuk mulai membuat sales order untuk <br> penjualan barang mu
+                                                Pilih  tombol "buat invoice" pada dashboard <br> untuk mulai membuat invoice untuk <br> penjualan barang mu
                                             </p>
                                         </div><br>
                                     </div>
@@ -639,26 +640,26 @@
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Membuat sales order baru</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Membuat invoice baru</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Klik tombol tambah untuk membuat data sales order baru
+                                                Klik tombol tambah untuk membuat data invoice baru
                                             </p>
                                         </div><br>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/so/omsetku-asset-membuat-so2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/inv/omsetku-asset-membuat-inv2.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             </div>
                             <div class="row pb-4 pt-2">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/so/omsetku-asset-membuat-so3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/inv/omsetku-asset-membuat-inv3.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Data sales order</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Data invoice</strong></h5>
                                             <p class="header-text-item-kiri" >
                                                 Lengkapi data penjualan barang mu sesuai dengan data yang ada 
                                                 <br> 1. Pilih sales yang melakukan penjualan
@@ -666,7 +667,7 @@
                                                 <br> 3. Tanggal Pembelian
                                                 <br> 4. Data produk seperti harga, kuantitas dan catatan (apabila diperlukan)
                                                 <br> 5. Biaya pengiriman (jika ada)
-                                                <br> Lalu klik simpan untuk menyimpan data  sales order 
+                                                <br> Lalu klik simpan untuk menyimpan data  invoice 
                                             </p>
                                         </div><br>
                                     </div>
@@ -676,28 +677,28 @@
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Tampilan sales order</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Tampilan invoice</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Setelah sales order dibuat maka akan muncul tampilan data sales order mu, pastikan data yang disajikan sudah benar sesuai yang kamu inginkan
+                                                Setelah invoice dibuat maka akan muncul tampilan data invoice mu, pastikan data yang disajikan sudah benar sesuai yang kamu inginkan
                                             </p>
                                         </div><br>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/so/omsetku-asset-membuat-so4.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/inv/omsetku-asset-membuat-inv4.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             </div>
                             <div class="row pb-4 pt-2">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/so/omsetku-asset-membuat-so5.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/inv/omsetku-asset-membuat-inv5.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Data sales order tersimpan</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Data invoice tersimpan</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Data sales order yang kamu buat akan tampil <br> dalam data list sales order setelah kamu simpan
+                                                Data invoice yang kamu buat akan tampil <br> dalam data list invoice setelah kamu simpan
                                             </p>
                                         </div><br>
                                     </div>
@@ -706,20 +707,20 @@
                         </div>
                         {{-- EDIT --}}
                         <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/so/omsetku-asset-row-edit.png" alt="">
+                            <img class="row-add pb-4" src="omsetku-asset/inv/omsetku-asset-row-edit.png" alt="">
                         </div>
                         <div class="pad-con">
                             <div class="row pb-4 pt-4">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/so/omsetku-asset-edit-so.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/inv/omsetku-asset-edit-inv.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Edit sales order</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Edit invoice</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Untuk mengedit sales order, silahkan pilih sales order yang ingin kamu edit lalu , ketika muncul jendela sales order seperti di samping, klik tombol edit untuk mulai mengubah data
+                                                Untuk mengedit invoice, silahkan pilih invoice yang ingin kamu edit lalu , ketika muncul jendela invoice seperti di samping, klik tombol edit untuk mulai mengubah data
                                             </p>
                                         </div><br>
                                     </div>
@@ -729,9 +730,9 @@
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Mengedit data sales order</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Mengedit data invoice</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Mulai edit sales order mu dengan mengubah isi data yang sesuai dengan keinginan mu, 
+                                                Mulai edit invoice mu dengan mengubah isi data yang sesuai dengan keinginan mu, 
                                                 <br> 1. Sales yang melakukan penjualan
                                                 <br> 2. Customer yang melakukan penjualan
                                                 <br> 3. Tanggal pembelian
@@ -743,20 +744,20 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/so/omsetku-asset-edit-so2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/inv/omsetku-asset-edit-inv2.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             </div>
                             <div class="row pb-4 pt-2">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/so/omsetku-asset-edit-so3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/inv/omsetku-asset-edit-inv3.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Berhasil edit sales order</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Berhasil edit invoice</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Setelah kamu simpan data yang baru maka dengan otomatis data sales order tersebut sudah ter-ubah di list sales order
+                                                Setelah kamu simpan data yang baru maka dengan otomatis data invoice tersebut sudah ter-ubah di list invoice
                                             </p>
                                         </div><br>
                                     </div>
@@ -765,20 +766,20 @@
                         </div>
                         {{-- DELETE --}}
                         <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/so/omsetku-asset-row-delete.png" alt="">
+                            <img class="row-add pb-4" src="omsetku-asset/inv/omsetku-asset-row-delete.png" alt="">
                         </div>
                             <div class="pad-con">
                             <div class="row pb-4 pt-4">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/so/omsetku-asset-delete-so.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/inv/omsetku-asset-delete-inv.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Menghapus sales order</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Menghapus invoice</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Untuk menghapus sales order, silahkan pilih sales order yang ingin kamu hapus lalu , ketika muncul  tampilan sales order seperti di samping, klik tombol hapus untuk mulai menghapus data
+                                                Untuk menghapus invoice, silahkan pilih invoice yang ingin kamu hapus lalu , ketika muncul  tampilan invoice seperti di samping, klik tombol hapus untuk mulai menghapus data
                                             </p>
                                         </div><br>
                                     </div>
@@ -788,28 +789,28 @@
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Konfirmasi hapus sales order</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Konfirmasi hapus invoice</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Ketika sudah klik tombol hapus maka akan muncul tampilan konfirmasi untuk menghapus data dari sales order, klik hapus untuk menghapus dan klik batal untuk membatalkan penghapusan data sales order
+                                                Ketika sudah klik tombol hapus maka akan muncul tampilan konfirmasi untuk menghapus data dari invoice, klik hapus untuk menghapus dan klik batal untuk membatalkan penghapusan data invoice
                                             </p>
                                         </div><br>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/so/omsetku-asset-delete-so2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/inv/omsetku-asset-delete-inv2.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             </div>
                             <div class="row pb-4 pt-2">
                                 <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/so/omsetku-asset-delete-so3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    <img src="omsetku-asset/inv/omsetku-asset-delete-inv3.png" class="img-content" alt="" style="margin-left: 0px">
                                 </div>
                             
                                 <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                     <div class="row mb-4">
                                         <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Berhasil menghapus data sales order</strong></h5>
+                                            <h5 ><strong class="header-content-item d-flex">Berhasil menghapus data invoice</strong></h5>
                                             <p class="header-text-item-kiri" >
-                                                Setelah kamu hapus data sales order, Maka dengan otomatis data sales order tersebut sudah ter-hapus dari di list sales order
+                                                Setelah kamu hapus data invoice, Maka dengan otomatis data invoice tersebut sudah ter-hapus dari di list invoice
                                             </p>
                                         </div><br>
                                     </div>
@@ -818,20 +819,20 @@
                         </div>
                         {{-- DUPLICATE --}}
                         <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/so/omsetku-asset-row-duplicate.png" alt="">
+                            <img class="row-add pb-4" src="omsetku-asset/inv/omsetku-asset-row-duplicate.png" alt="">
                         </div>
                         <div class="pad-con"></div>
                         <div class="row pb-4 pt-4">
                             <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                <img src="omsetku-asset/so/omsetku-asset-duplicate-so.png" class="img-content" alt="" style="margin-left: 0px">
+                                <img src="omsetku-asset/inv/omsetku-asset-duplicate-inv.png" class="img-content" alt="" style="margin-left: 0px">
                             </div>
                         
                             <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                 <div class="row mb-4">
                                     <div class="col-md-11 col-lg-11">
-                                        <h5 ><strong class="header-content-item d-flex">Menduplikasi data sales order</strong></h5>
+                                        <h5 ><strong class="header-content-item d-flex">Menduplikasi data invoice</strong></h5>
                                         <p class="header-text-item-kiri" >
-                                            Untuk menduplikasi data sales order, silahkan pilih sales order yang ingin kamu duplikasi lalu , ketika muncul jendela sales order seperti di samping, klik tombol “duplicate” untuk mulai menduplikasi data sales order
+                                            Untuk menduplikasi data invoice, silahkan pilih invoice yang ingin kamu duplikasi lalu , ketika muncul jendela invoice seperti di samping, klik tombol “duplicate” untuk mulai menduplikasi data invoice
                                         </p>
                                     </div><br>
                                 </div>
@@ -841,29 +842,29 @@
                             <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                 <div class="row mb-4">
                                     <div class="col-md-11 col-lg-11">
-                                        <h5 ><strong class="header-content-item d-flex">Data sales order</strong></h5>
+                                        <h5 ><strong class="header-content-item d-flex">Data invoice</strong></h5>
                                         <p class="header-text-item-kiri" >
-                                            Isi data penjualan barang mu sesuai dengan data yang ada , Lalu klik simpan untuk menyimpan data sales order yang kamu ingin duplikasi
+                                            Isi data penjualan barang mu sesuai dengan data yang ada , Lalu klik simpan untuk menyimpan data invoice yang kamu ingin duplikasi
                                         </p>
                                     </div><br>
                                 </div>
                             </div>
                             <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                <img src="omsetku-asset/so/omsetku-asset-duplicate-so2.png" class="img-content" alt="" style="margin-left: 0px">
+                                <img src="omsetku-asset/inv/omsetku-asset-duplicate-inv2.png" class="img-content" alt="" style="margin-left: 0px">
                             </div>
                         </div>
                         <div class="row pb-4 pt-2">
                             <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                <img src="omsetku-asset/so/omsetku-asset-duplicate-so3.png" class="img-content" alt="" style="margin-left: 0px">
+                                <img src="omsetku-asset/inv/omsetku-asset-duplicate-inv3.png" class="img-content" alt="" style="margin-left: 0px">
                             </div>
                         
                             <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                 <div class="row mb-4">
                                     <div class="col-md-11 col-lg-11">
-                                        <h5 ><strong class="header-content-item d-flex">Konfirmasi data sales order</strong></h5>
+                                        <h5 ><strong class="header-content-item d-flex">Konfirmasi data invoice</strong></h5>
                                         <p class="header-text-item-kiri" >
-                                            Ketika sudah klik tombol simpan maka akan muncul tampilan konfirmasi untuk menduplikasi data dari sales order, 
-                                            klik selesai untuk menyelesaikan duplikasi dari data sales order mu 
+                                            Ketika sudah klik tombol simpan maka akan muncul tampilan konfirmasi untuk menduplikasi data dari invoice, 
+                                            klik selesai untuk menyelesaikan duplikasi dari data invoice mu 
                                         </p>
                                     </div><br>
                                 </div>
@@ -873,20 +874,20 @@
                             <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
                                 <div class="row mb-4">
                                     <div class="col-md-11 col-lg-11">
-                                        <h5 ><strong class="header-content-item d-flex">Berhasil menduplikasi data sales order</strong></h5>
+                                        <h5 ><strong class="header-content-item d-flex">Berhasil menduplikasi data invoice</strong></h5>
                                         <p class="header-text-item-kiri" >
-                                            Setelah kamu hapus data sales order, Maka dengan otomatis data sales order tersebut sudah ter-hapus dari di list sales order
+                                            Setelah kamu hapus data invoice, Maka dengan otomatis data invoice tersebut sudah ter-hapus dari di list invoice
                                         </p>
                                     </div><br>
                                 </div>
                             </div>
                             <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                <img src="omsetku-asset/so/omsetku-asset-duplicate-so4.png" class="img-content" alt="" style="margin-left: 0px">
+                                <img src="omsetku-asset/inv/omsetku-asset-duplicate-inv4.png" class="img-content" alt="" style="margin-left: 0px">
                             </div>
                         </div>
                     </div>
             </section>
-          {{-- Content sales order OWNER Desktop End--}}
+          {{-- Content invoice OWNER Desktop End--}}
 
         </div>
         <!-- Owner Tab -->
@@ -896,7 +897,7 @@
     <!-- Tabs Content -->
 
 
-    {{-- Content sales order anda End--}}
+    {{-- Content invoice anda End--}}
 
 
 @stop

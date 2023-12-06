@@ -177,6 +177,46 @@
             .pad-con {
                 padding: 0px 30px;
             }
+            .header-text-item-kiri {
+                text-align: left;
+                color: #000;
+                font-family: Roboto;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 20px;
+            }
+            .header-text-item-kanan {
+                text-align: right;
+                color: #000;
+                font-family: Roboto;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 20px;
+            }
+            .header-content-item {
+                text-align: left;
+                color: #000;
+                font-family: Roboto;
+                font-size: 27px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 26.5px;
+            }
+
+            .title-page-header {
+                color: #000;
+                text-align: center;
+                font-family: Roboto;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 60px;
+                margin-bottom: 0px;
+                margin-top: 10px;
+            }
+
         }
 
 
@@ -339,10 +379,10 @@
                                             <h5 ><strong class="header-content-item d-flex">Data quotation</strong></h5>
                                             <p class="header-text-item-kiri" >
                                                 Lengkapi data penjualan barang mu sesuai dengan data yang ada 
-                                                <br> 1.Pilih customer yang melakukan transaksi
-                                                <br> 2.Tanggal Pembelian
-                                                <br> 3.Data produk seperti harga, kuantitas dan catatan (apabila diperlukan)
-                                                <br> 4.Biaya pengiriman (jika ada)
+                                                <br> 1. Pilih customer yang melakukan transaksi
+                                                <br> 2. Tanggal Pembelian
+                                                <br> 3. Data produk seperti harga, kuantitas dan catatan (apabila diperlukan)
+                                                <br> 4. Biaya pengiriman (jika ada)
                                                 <br> Lalu klik simpan untuk menyimpan data  quotation 
                                             </p>
                                         </div><br>
@@ -621,11 +661,11 @@
                                             <h5 ><strong class="header-content-item d-flex">Data quotation</strong></h5>
                                             <p class="header-text-item-kiri" >
                                                 Lengkapi data penjualan barang mu sesuai dengan data yang ada 
-                                                <br> 1.Pilih sales yang melakukan penjualan
-                                                <br> 2.Pilih customer yang melakukan transaksi
-                                                <br> 3.Tanggal Pembelian
-                                                <br> 4.Data produk seperti harga, kuantitas dan catatan (apabila diperlukan)
-                                                <br> 5.Biaya pengiriman (jika ada)
+                                                <br> 1. Pilih sales yang melakukan penjualan
+                                                <br> 2. Pilih customer yang melakukan transaksi
+                                                <br> 3. Tanggal Pembelian
+                                                <br> 4. Data produk seperti harga, kuantitas dan catatan (apabila diperlukan)
+                                                <br> 5. Biaya pengiriman (jika ada)
                                                 <br> Lalu klik simpan untuk menyimpan data  quotation 
                                             </p>
                                         </div><br>
