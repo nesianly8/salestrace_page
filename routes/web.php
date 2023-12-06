@@ -52,3 +52,15 @@ Route::get('/quotation', function () {
 Route::get('/saleorder', function () {
     return view('saleorder_d');
 });
+Route::get('/invoice', function () {
+    return view('invoice_d');
+});
+Route::get('/customer', function () {
+    return view('customer_d');
+});
+Route::get('/product', function () {
+    return view('product_d');
+});
+Route::get('/brand', function () {
+    return view('brand_d');
+});
