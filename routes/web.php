@@ -64,3 +64,15 @@ Route::get('/product', function () {
 Route::get('/brand', function () {
     return view('brand_d');
 });
+Route::get('/reimburse', function () {
+    return view('reimburse_d');
+});
+Route::get('/komisi', function () {
+    return view('komisi_d');
+});
+Route::get('/masterdata', function () {
+    return view('masterdata_d');
+});
+Route::get('/crm', function () {
+    return view('crm_d');
+});
