@@ -76,3 +76,16 @@ Route::get('/masterdata', function () {
 Route::get('/crm', function () {
     return view('crm_d');
 });
+Route::get('/groupsales', function () {
+    return view('groupsales_d');
+});
+Route::get('/salestarget', function () {
+    return view('salestarget_d');
+});
+Route::get('/budgeting', function () {
+    return view('budgeting_d');
+});
+
+Route::get('/home24', function () {
+    return view('home-v2_4');
+});

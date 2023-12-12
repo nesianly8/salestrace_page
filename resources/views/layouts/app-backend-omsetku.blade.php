@@ -1560,15 +1560,15 @@ $baseurl = 'https://omsetku.id/';
               {{--   @if ($statusAccount == 'Trial') --}}
                     {{-- @if ($lang == 'en') --}}
                    {{--  @else --}}
-                        <div class="alert alert-danger alert-server" role="alert">
+                        {{-- <div class="alert alert-danger alert-server" role="alert">
                             <button type="button" class="close" data-dismiss="alert">×</button>
                             <strong>Beralih ke akun Enterprise dan nikmati berbagai fitur menarik menggunakan omsetku
                                 dan
                                 juga
                                 akses tanpa batas. <a style="color: #438AFE; cursor:pointer;"
-                                    href="{{-- {{ url('billing-system') }} --}}" target="_blank">upgrade
+                                    href="{{ url('billing-system') }}" target="_blank">upgrade
                                     sekarang!</a> </strong>
-                        </div>
+                        </div> --}}
                   {{--   @endif
                 @endif --}}
 
@@ -1636,10 +1636,10 @@ $baseurl = 'https://omsetku.id/';
                                             {{ $statusAccount }}
                                         @endif --}}
                                         kadaluarsa dalam
-                                        <span class="text-danger">8797897<span> hari <b
+                                        {{-- <span class="text-danger">9<span> hari <b
                                                     onclick="$('#modalTrial').modal('show');"
-                                                    class="{{-- {{ $hilangUpgrade }} --}}" style="color: red; cursor:pointer;">Tingkatkan</b>
-                                            </span>
+                                                    class="{{ $hilangUpgrade }}" style="color: red; cursor:pointer;">Tingkatkan</b>
+                                            </span> --}}
                               {{--   @endif --}}
 
                             </div>
