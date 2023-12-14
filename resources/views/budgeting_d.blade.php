@@ -32,24 +32,19 @@
     <!-- Page JS Plugins CSS -->
     <link rel="stylesheet" href="{{ URL::asset('public/backend-asset/js/plugins/datatables/dataTables.bootstrap4.css') }}">
     <style>
-
-        .desktop-show {
-
+        section.desktop-show {
             display: block !important;
-
         }
 
-        .mobile-show {
-
+        section.mobile-show {
             display: none !important;
-
         }
 
         #disabled_box {
             cursor: not-allowed;
         }
 
-        
+
         .title-page-header {
             color: #000;
             text-align: center;
@@ -59,13 +54,15 @@
             font-weight: 700;
             line-height: 60px;
         }
+
         .title-page-content {
             color: #000;
             font-family: Inter;
             font-size: 28px;
             font-style: normal;
             font-weight: 600;
-            line-height: 50px; /* 178.571% */
+            line-height: 50px;
+            /* 178.571% */
         }
 
         .subtitle-page-header {
@@ -75,8 +72,10 @@
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
-            line-height: 20.5px; /* 128.125% */
+            line-height: 20.5px;
+            /* 128.125% */
         }
+
         .subtitle-page-content {
             color: #4C526C;
             text-align: center;
@@ -86,7 +85,7 @@
             font-weight: 500;
             line-height: normal;
         }
-         
+
         .row {
             display: flex;
             flex-wrap: wrap;
@@ -105,8 +104,10 @@
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
-            line-height: 27.9px; /* 174.375% */
+            line-height: 27.9px;
+            /* 174.375% */
         }
+
         .header-text-item-kanan {
             text-align: right;
             color: #000;
@@ -114,8 +115,10 @@
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
-            line-height: 27.9px; /* 174.375% */
+            line-height: 27.9px;
+            /* 174.375% */
         }
+
         .header-content-item {
             text-align: left;
             color: #000;
@@ -125,29 +128,53 @@
             font-weight: 800;
             line-height: 37.5px;
         }
-        .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+
+        .nav-tabs .nav-link.active,
+        .nav-tabs .nav-item.show .nav-link {
             color: #fff !important;
             background-color: #1E3168 !important;
             border-color: #e4e7ed !important;
         }
+
         .nav-tabs .nav-item {
             margin-bottom: -1px;
             background: #fff;
         }
+
         .nav-link {
             display: block;
             padding: 0.75rem 2rem !important;
         }
+
         .row-add {
             width: 110% !important;
         }
 
-    /*--------- responsive laptop/pc ---------*/
-        /*
-        desktop zoom custom1
+        .w-icon-desk1 {
+            width: 2vw;
+            margin-right: 5px;
+        }
 
-        main width: 1367px;
-        */
+        .icon-text-hr {
+            margin-top: 35px;
+            margin-bottom: 10px;
+        }
+
+        hr {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            border: 0;
+            border-top: 3px solid #e4e7ed !important;
+        }
+        
+        /* -------------------------------------------------------------------------------------------------------------------------------- */   
+
+      /*--------- responsive laptop/pc ---------*/
+        /*
+            desktop zoom custom1
+
+            main width: 1367px;
+            */
         @media screen and (min-width: 1321px) and (max-width: 1380px) {
 
             .row-add {
@@ -169,7 +196,6 @@
 
         /* Zoom 150% */
         @media screen and (min-width: 1000px) and (max-width: 1098px) {
-
             .row-add {
                 width: 100% !important;
             }
@@ -177,6 +203,7 @@
             .pad-con {
                 padding: 0px 30px;
             }
+
             .header-text-item-kiri {
                 text-align: left;
                 color: #000;
@@ -186,6 +213,7 @@
                 font-weight: 400;
                 line-height: 20px;
             }
+
             .header-text-item-kanan {
                 text-align: right;
                 color: #000;
@@ -195,6 +223,7 @@
                 font-weight: 400;
                 line-height: 20px;
             }
+
             .header-content-item {
                 text-align: left;
                 color: #000;
@@ -229,27 +258,6 @@
             .pad-con {
                 padding: 0px 30px;
             }
-
-            .header-content-item {
-                text-align: left;
-                color: #000;
-                font-family: Roboto;
-                font-size: 31px;
-                font-style: normal;
-                font-weight: 800;
-                line-height: 32.5px;
-            }
-
-            .header-text-item-kiri {
-                text-align: left;
-                color: #000;
-                font-family: Roboto;
-                font-size: 15px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 25.9px;
-            }
-            
         }
 
 
@@ -301,8 +309,267 @@
 
         }
 
-    /*--------- end responsive laptop/pc ---------*/
-        
+        @media screen and (min-width: 1920px) and (max-width: 2560px) {
+
+            .row-add {
+                width: 120% !important;
+            }
+
+            .title-page-header {
+                color: #000;
+                text-align: center;
+                font-family: Roboto;
+                font-size: 42px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 75px;
+            }
+
+            .subtitle-page-header {
+                color: #000;
+                text-align: center;
+                font-family: Roboto;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 20.5px;
+            }
+
+            .header-text-item-kiri {
+                text-align: left;
+                color: #000;
+                font-family: Roboto;
+                font-size: 26px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 41.9px;
+                /* 174.375% */
+            }
+
+            .header-text-item-kanan {
+                text-align: right;
+                color: #000;
+                font-family: Roboto;
+                font-size: 26px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28.9px;
+                /* 174.375% */
+            }
+
+            .header-content-item {
+                text-align: left;
+                color: #000;
+                font-family: Roboto;
+                font-size: 44px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 44.5px;
+            }
+
+            .nav-link {
+                display: block;
+                padding: 1.25rem 4.5rem !important;
+                font-size: large;
+            }
+
+        }
+
+      /*--------- end responsive laptop/pc ---------*/
+
+        /* -------------------------------------------------------------------------------------------------------------------------------- */
+
+      /*--------- responsive handphone ---------*/
+
+
+       /* phone mode */
+        @media screen and (max-width: 459px) {
+            section.desktop-show {
+                display: none !important;
+            }
+
+            section.mobile-show {
+                display: block !important;
+            }
+
+        }
+
+       /* END */
+
+       /* phone mode 1 */
+        @media screen and (max-width: 458px) {
+
+            .title-page-header {
+                color: #000;
+                text-align: center;
+                font-family: Roboto;
+                font-size: 31.41px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 37.692px;
+               /* 120% */
+            }
+
+            .subtitle-page-header {
+                color: #000;
+                text-align: center;
+                font-family: Roboto;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            .h5-m {
+                margin-bottom: 10px;
+            }
+
+            .header-text-item-kiri {
+                text-align: left;
+                color: #000;
+                font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            .w-icon-desk1 {
+                width: 8vw;
+                margin-right: 5px;
+            }
+
+            .icon-text-hr {
+                margin-top: 0px;
+                margin-bottom: 10px;
+            }
+
+            .container {
+                width: 100%;
+                padding-right: 0px !important;
+                padding-left: 0px !important;
+                margin-right: auto;
+                margin-left: auto;
+            }
+
+
+        }
+
+       /* END 1 */
+
+       /* phone mode 2 */
+        @media screen and (max-width: 428px) {}
+
+       /* END */
+
+       /* phone mode 3 */
+        @media screen and (max-width: 426px) {}
+
+       /* END */
+
+       /* phone mode 4 */
+        @media screen and (max-width: 414px) {}
+
+       /* END */
+
+       /* phone mode 5 */
+        @media screen and (max-width: 409px) {}
+
+       /* END */
+
+
+       /* phone mode 6 */
+        @media screen and (max-width: 395px) {}
+
+       /* END */
+
+
+       /* phone mode 7 */
+        @media screen and (max-width: 376px) {}
+
+       /* END */
+
+       /* phone mode 8 */
+        @media screen and (max-width: 361px) {
+
+            .title-page-header {
+                color: #000;
+                text-align: center;
+                font-family: Roboto;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 35px;
+            }
+
+            .subtitle-page-header {
+                color: #000;
+                text-align: center;
+                font-family: Roboto;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            .h5-m {
+                margin-bottom: 10px;
+            }
+
+            .header-text-item-kiri {
+                text-align: left;
+                color: #000;
+                font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            .header-text-item-kiri {
+                text-align: left;
+                color: #000;
+                font-family: Roboto;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 21px;
+               /* 174.375% */
+            }
+
+            .header-text-item-kanan {
+                text-align: right;
+                color: #000;
+                font-family: Roboto;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 21px;
+               /* 174.375% */
+            }
+
+            .header-content-item {
+                text-align: left;
+                color: #000;
+                font-family: Roboto;
+                font-size: 26px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 30px;
+            }
+
+        }
+
+       /* END */
+
+       /* phone mode 8 */
+        @media screen and (max-width: 321px) {
+
+        }
+
+       /* END */
+
+      /*--------- end responsive handphone ---------*/
 
     </style>
 @stop
@@ -311,7 +578,7 @@
     {{-- Header Start--}}
 
       {{-- Header Desktop Start--}}
-        <section class="py-4 d-flex justify-content-center">
+        <section class="desktop-show py-4 d-flex justify-content-center">
             <div class="row mt-4">
                 <div class="col-md-12 d-flex justify-content-center">
                     <h3 class="title-page-header">
@@ -338,6 +605,34 @@
         </section>
       {{-- Header Desktop End--}}
 
+      {{-- Header Mobile Start--}}
+        <section class="mobile-show py-4 d-flex justify-content-center">
+            <div class="row mt-4">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <h3 class="title-page-header">
+                        Hubungan sangat baik untuk bisnis
+                    </h3>
+                </div>
+                <div class="col-md-12">
+                    <p class="subtitle-page-header">
+                        Buat dan kelola BUDGETING Anda, semua di satu tempat.
+                    </p>
+                </div>
+                <div class="col-md-12 d-flex justify-content-center">
+                    <!-- Tabs Navigation -->
+                    <ul class="nav nav-tabs" id="myTabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="sales-tab" data-toggle="tab" href="#sales">Sales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="owner-tab" data-toggle="tab" href="#owner">Owner</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+      {{-- Header Mobile End--}}
+
     {{-- Header End--}}
 
 
@@ -352,397 +647,944 @@
 
           {{-- Content budgeting SALES Desktop Start--}}
             <section id="content1" class="menu-1 desktop-show text-center">
-                    <div class="container">
-                        {{-- ADD --}}
-                        <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/budgeting/omsetku-asset-row-add.png" alt="">
+                {{-- ADD --}}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
+                    onclick="toggleContent('0')">
+                    <div class="item-feature">
+                        <div class="title-feature">
+                            <h5 class="icon-text-hr d-flex align-items-center">
+                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                    alt="" srcset="" class="w-icon-desk1"> Tambah Budget Sales
+                            </h5>
+                            <hr class="">
                         </div>
-                        <div class="pad-con">
-                            <div class="row pb-4 pt-4">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Membuat budgeting tahunan</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Pilih  tombol "buat budgeting" pada dashboard <br> untuk mulai membuat budgeting tahunan <br> untuk sales
-                                            </p>
-                                        </div><br>
+                        <div class="content-feature-0 d-none h-0" style="transition: height .35s ease-in-out;">
+                            {{-- ADD CONTENT --}}
+                            <div class="pad-con">
+                                <div class="row pb-4 pt-4">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Membuat budgeting tahunan</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Pilih  tombol "buat budgeting" pada dashboard <br> untuk mulai membuat budgeting tahunan <br> untuk sales
+                                                </p>
+                                            </div><br>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Membuat data budgeting tahunan</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Pilih  tombol "tambah" pada dashboard untuk mulai membuat data baru untuk budgeting
-                                            </p>
-                                        </div><br>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Membuat data budgeting tahunan</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Pilih  tombol "tambah" pada dashboard untuk mulai membuat data baru untuk budgeting
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg3.png" class="img-content" alt="" style="margin-left: 0px">
                                     </div>
                                 </div>
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg3.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg4.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            
-                                <div class="col-lg-6  pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Masukan budgeting tahunan</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Tentukan budget tahunan untuk sales, periode tahunan dan jumlah budget, Klik simpan utnuk menyimpan data budgeting tahunan
-                                            </p>
-                                        </div><br>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg4.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                
+                                    <div class="col-lg-6  pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Masukan budgeting tahunan</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Tentukan budget tahunan untuk sales, periode tahunan dan jumlah budget, Klik simpan utnuk menyimpan data budgeting tahunan
+                                                </p>
+                                            </div><br>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Data budget tahunan tersimpan</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Data budgeting yang kamu simpan bisa terlihat di list budgeting yang tersedia
-                                            </p>
-                                        </div><br>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Data budget tahunan tersimpan</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Data budgeting yang kamu simpan bisa terlihat di list budgeting yang tersedia
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg5.png" class="img-content" alt="" style="margin-left: 0px">
                                     </div>
                                 </div>
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg5.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg6.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            
-                                <div class="col-lg-6  pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Memasukan budget bulanan</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Klik budget yang ingin kamu masukan untuk budget bulanan
-                                            </p>
-                                        </div><br>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg6.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                
+                                    <div class="col-lg-6  pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Memasukan budget bulanan</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Klik budget yang ingin kamu masukan untuk budget bulanan
+                                                </p>
+                                            </div><br>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Memasukan budget bulanan</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Masukan budget bulanan sesuai jumlah budget tahunan yang sudah ditentukan sebelumnya, lalu klik tambah
-                                            </p>
-                                        </div><br>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Memasukan budget bulanan</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Masukan budget bulanan sesuai jumlah budget tahunan yang sudah ditentukan sebelumnya, lalu klik tambah
+                                                </p>
+                                            </div><br>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg7.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            </div>
-                        </div>
-                        {{-- EDIT --}}
-                        <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/budgeting/omsetku-asset-row-edit.png" alt="">
-                        </div>
-                        <div class="pad-con">
-                            <div class="row pb-4 pt-4">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-edit-budg.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Pilih Budget</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Pilih budget yang ingin di edit dari list budget tahunan
-                                            </p>
-                                        </div><br>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Edit Budget</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Ketika muncul tampilan list seperti di samping, klik tombol titik 3 lalu pilih edit untuk mulai mengubah data
-                                            </p>
-                                        </div><br>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-edit-budg2.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-edit-budg3.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                                <div class="col-lg-6  pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Masukan data budget</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Tentukan budget tahunan untuk sales, periode tahunan dan jumlah budget, Klik simpan utnuk menyimpan data budgeting tahunan
-                                            </p>
-                                        </div><br>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Budget tahunan berhasil di edit</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Data budget yang kamu simpan bisa terlihat di list budgeting yang tersedia
-                                            </p>
-                                        </div><br>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-edit-budg4.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            </div>
-                        </div>
-                        {{-- DELETE --}}
-                        <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/budgeting/omsetku-asset-row-delete.png" alt="">
-                        </div>
-                        <div class="pad-con">
-                            <div class="row pb-4 pt-4">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-delete-budg.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Menghapus data budgeting</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Untuk menghapus data budgeting, silahkan pilih budgeting yang ingin kamu hapus
-                                            </p>
-                                        </div><br>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Hapus data budget</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Ketika muncul tampilan list seperti di samping, klik tombol titik 3 lalu pilih edit untuk mulai menghapus data
-                                            </p>
-                                        </div><br>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-delete-budg2.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-delete-budg3.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Konfirmasi  hapus data budgeting</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Ketika sudah klik tombol simpan maka akan muncul tampilan konfirmasi untuk menyimpan data baru, klikya untuk menyimpan dan klik batal untuk membatalkan penyimpanan data baru
-                                            </p>
-                                        </div><br>
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg7.png" class="img-content" alt="" style="margin-left: 0px">
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        {{-- ADD EXPENSE --}}
-                        <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/budgeting/omsetku-asset-row-ex-add.png" alt="">
+                    </div>
+                </div>
+                {{-- ADD --}}
+
+                {{-- EDIT --}}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
+                    onclick="toggleContent('1')">
+                    <div class="item-feature">
+                        <div class="title-feature">
+                            <h5 class="icon-text-hr d-flex align-items-center">
+                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                    alt="" srcset="" class="w-icon-desk1"> Edit Budget
+                            </h5>
+                            <hr class="hr-item">
                         </div>
-                        <div class="pad-con">
-                            <div class="row pb-4 pt-4">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budgex.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Pilih bulan untuk menambahkan expense</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Pilih tombol "tambah" pada dashboard untuk mulai membuat data baru untuk budgeting bulan
-                                            </p>
-                                        </div><br>
+                        <div class="content-feature-1 d-none h-0" style="transition: height .35s ease-in-out;">
+                            {{-- EDIT CONTENT --}}
+                            <div class="pad-con">
+                                <div class="row pb-4 pt-4">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budg.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Pilih Budget</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Pilih budget yang ingin di edit dari list budget tahunan
+                                                </p>
+                                            </div><br>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Tambahkan expense</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Tentukan expense dengan klik tambah pada list pengeluaran sales
-                                            </p>
-                                        </div><br>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Edit Budget</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Ketika muncul tampilan list seperti di samping, klik tombol titik 3 lalu pilih edit untuk mulai mengubah data
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budg2.png" class="img-content" alt="" style="margin-left: 0px">
                                     </div>
                                 </div>
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budgex2.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budgex3.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            
-                                <div class="col-lg-6  pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Tambahkan data pengeluaran</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Tambahkan data yang diperlukan:
-                                                <br> 1. Tanggal pembuatan 
-                                                <br> 2. Nama pengeluaran   
-                                                <br> 3. Kategori 
-                                                <br> 4. Total penjualan 
-                                                <br> 5. Catatan (jika perlu) 
-                                                <br> Klik simpan untuk menyimpan data pengeluaran 
-                                            </p>
-                                        </div><br>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budg3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6  pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Masukan data budget</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Tentukan budget tahunan untuk sales, periode tahunan dan jumlah budget, Klik simpan utnuk menyimpan data budgeting tahunan
+                                                </p>
+                                            </div><br>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        {{-- EDIT EXPENSE --}}
-                        <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/budgeting/omsetku-asset-row-ex-edit.png" alt="">
-                        </div>
-                        <div class="pad-con">
-                            <div class="row pb-4 pt-4">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-edit-budgex.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Pilih Expense</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Pilih  tombol "edit" pada dashboard budget bulanan untuk mengedit pengeluaran
-                                            </p>
-                                        </div><br>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Budget tahunan berhasil di edit</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Data budget yang kamu simpan bisa terlihat di list budgeting yang tersedia
+                                                </p>
+                                            </div><br>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Ubah data pengeluaran</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Tambahkan data yang diperlukan:
-                                                <br> 1. Tanggal pembuatan 
-                                                <br> 2. Nama pengeluaran   
-                                                <br> 3. Kategori 
-                                                <br> 4. Total penjualan 
-                                                <br> 5. Catatan (jika perlu) 
-                                                <br> Klik simpan untuk menyimpan data pengeluaran 
-                                            </p>
-                                        </div><br>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-edit-budgex2.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-edit-budgex3.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                                <div class="col-lg-6  pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Simpan data pengeluaran</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Data pengeluaran yang kamu simpan bisa terlihat di list pengeluaran yang tersedia
-                                            </p>
-                                        </div><br>
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budg4.png" class="img-content" alt="" style="margin-left: 0px">
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        {{-- DELETE EXPENSE --}}
-                        <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/budgeting/omsetku-asset-row-ex-delete.png" alt="">
+                    </div>
+                </div>
+                {{-- EDIT --}}
+
+                {{-- DELETE --}}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
+                    onclick="toggleContent('2')">
+                    <div class="item-feature">
+                        <div class="title-feature">
+                            <h5 class="icon-text-hr d-flex align-items-center">
+                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                    alt="" srcset="" class="w-icon-desk1"> Hapus Budget
+                            </h5>
+                            <hr class="hr-item">
                         </div>
-                        <div class="pad-con">
-                            <div class="row pb-4 pt-4">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-delete-budgex.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Menghapus data pengeluaran</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Untuk menghapus data expense, silahkan pilih expense yang ingin kamu hapus
-                                            </p>
-                                        </div><br>
+                        <div class="content-feature-2 d-none h-0" style="transition: height .35s ease-in-out;">
+                            {{-- DELETE CONTENT --}}
+                            <div class="pad-con">
+                                <div class="row pb-4 pt-4">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-delete-budg.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Menghapus data budgeting</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Untuk menghapus data budgeting, silahkan pilih budgeting yang ingin kamu hapus
+                                                </p>
+                                            </div><br>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Data sales target berhasil terhapus</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Ketika muncul tampilan list seperti di samping, klik tombol titik 3 lalu pilih edit untuk mulai menghapus data
-                                            </p>
-                                        </div><br>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Hapus data budget</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Ketika muncul tampilan list seperti di samping, klik tombol titik 3 lalu pilih edit untuk mulai menghapus data
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-delete-budg2.png" class="img-content" alt="" style="margin-left: 0px">
                                     </div>
                                 </div>
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-delete-budgex2.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-delete-budgex3.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Konfirmasi  hapus data budgeting</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Setelah kamu hapus data pengeluaran, Maka dengan otomatis data pengeluaran tersebut sudah ter-hapus dari di list pengeluaran
-                                            </p>
-                                        </div><br>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-delete-budg3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Konfirmasi  hapus data budgeting</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Ketika sudah klik tombol simpan maka akan muncul tampilan konfirmasi untuk menyimpan data baru, klikya untuk menyimpan dan klik batal untuk membatalkan penyimpanan data baru
+                                                </p>
+                                            </div><br>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>          
+                    </div>
+                </div>
+                {{-- DELETE --}}
+                {{-- ADD EXPENSE --}}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
+                    onclick="toggleContent('3')">
+                    <div class="item-feature">
+                        <div class="title-feature">
+                            <h5 class="icon-text-hr d-flex align-items-center">
+                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                    alt="" srcset="" class="w-icon-desk1"> Tambah Expense
+                            </h5>
+                            <hr class="">
+                        </div>
+                        <div class="content-feature-3 d-none h-0" style="transition: height .35s ease-in-out;">
+                            {{-- ADD EXPENSE CONTENT --}}
+                            <div class="pad-con">
+                                <div class="row pb-4 pt-4">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budgex.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Pilih bulan untuk menambahkan expense</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Pilih tombol "tambah" pada dashboard untuk mulai membuat data baru untuk budgeting bulan
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Tambahkan expense</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Tentukan expense dengan klik tambah pada list pengeluaran sales
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budgex2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budgex3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                
+                                    <div class="col-lg-6  pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Tambahkan data pengeluaran</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Tambahkan data yang diperlukan:
+                                                    <br> 1. Tanggal pembuatan 
+                                                    <br> 2. Nama pengeluaran   
+                                                    <br> 3. Kategori 
+                                                    <br> 4. Total penjualan 
+                                                    <br> 5. Catatan (jika perlu) 
+                                                    <br> Klik simpan untuk menyimpan data pengeluaran 
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- ADD EXPENSE --}}
+
+                {{-- EDIT EXPENSE --}}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
+                    onclick="toggleContent('4')">
+                    <div class="item-feature">
+                        <div class="title-feature">
+                            <h5 class="icon-text-hr d-flex align-items-center">
+                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                    alt="" srcset="" class="w-icon-desk1"> Edit Expense
+                            </h5>
+                            <hr class="hr-item">
+                        </div>
+                        <div class="content-feature-4 d-none h-0" style="transition: height .35s ease-in-out;">
+                            {{-- EDIT EXPENSE CONTENT --}}
+                            <div class="pad-con">
+                                <div class="row pb-4 pt-4">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budgex.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Pilih Expense</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Pilih  tombol "edit" pada dashboard budget bulanan untuk mengedit pengeluaran
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Ubah data pengeluaran</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Tambahkan data yang diperlukan:
+                                                    <br> 1. Tanggal pembuatan 
+                                                    <br> 2. Nama pengeluaran   
+                                                    <br> 3. Kategori 
+                                                    <br> 4. Total penjualan 
+                                                    <br> 5. Catatan (jika perlu) 
+                                                    <br> Klik simpan untuk menyimpan data pengeluaran 
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budgex2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budgex3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6  pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Simpan data pengeluaran</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Data pengeluaran yang kamu simpan bisa terlihat di list pengeluaran yang tersedia
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- EDIT EXPENSE --}}
+
+                {{-- DELETE EXPENSE --}}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
+                    onclick="toggleContent('5')">
+                    <div class="item-feature">
+                        <div class="title-feature">
+                            <h5 class="icon-text-hr d-flex align-items-center">
+                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                    alt="" srcset="" class="w-icon-desk1"> Hapus Expense
+                            </h5>
+                            <hr class="hr-item">
+                        </div>
+                        <div class="content-feature-5 d-none h-0" style="transition: height .35s ease-in-out;">
+                            {{-- DELETE EXPENSE CONTENT --}}
+                            <div class="pad-con">
+                                <div class="row pb-4 pt-4">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-delete-budgex.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Menghapus data pengeluaran</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Untuk menghapus data expense, silahkan pilih expense yang ingin kamu hapus
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Data sales target berhasil terhapus</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Ketika muncul tampilan list seperti di samping, klik tombol titik 3 lalu pilih edit untuk mulai menghapus data
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-delete-budgex2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-delete-budgex3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Konfirmasi  hapus data budgeting</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Setelah kamu hapus data pengeluaran, Maka dengan otomatis data pengeluaran tersebut sudah ter-hapus dari di list pengeluaran
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- DELETE EXPENSE --}}
             </section>
           {{-- Content budgeting SALES Desktop End--}}
+
+          {{-- Content budgeting SALES Mobile Start--}}
+            <section id="content1" class="menu-1 mobile-show text-center">
+             <div class="container py-4">
+                {{-- ADD --}}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
+                    onclick="toggleContent('0')">
+                    <div class="item-feature">
+                        <div class="title-feature">
+                            <h5 class="icon-text-hr d-flex align-items-center">
+                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                    alt="" srcset="" class="w-icon-desk1"> Tambah Budget Sales
+                            </h5>
+                            <hr class="">
+                        </div>
+                        <div class="content-feature-0 d-none h-0" style="transition: height .35s ease-in-out;">
+                            {{-- ADD CONTENT --}}
+                            <div class="pad-con">
+                                <div class="row pb-4 pt-4">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Membuat budgeting tahunan</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Pilih  tombol "buat budgeting" pada dashboard <br> untuk mulai membuat budgeting tahunan <br> untuk sales
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Membuat data budgeting tahunan</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Pilih  tombol "tambah" pada dashboard untuk mulai membuat data baru untuk budgeting
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg4.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Masukan budgeting tahunan</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Tentukan budget tahunan untuk sales, periode tahunan dan jumlah budget, Klik simpan utnuk menyimpan data budgeting tahunan
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg5.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Data budget tahunan tersimpan</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Data budgeting yang kamu simpan bisa terlihat di list budgeting yang tersedia
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg6.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Memasukan budget bulanan</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Klik budget yang ingin kamu masukan untuk budget bulanan
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg7.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Memasukan budget bulanan</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Masukan budget bulanan sesuai jumlah budget tahunan yang sudah ditentukan sebelumnya, lalu klik tambah
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- ADD --}}
+
+                {{-- EDIT --}}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
+                    onclick="toggleContent('1')">
+                    <div class="item-feature">
+                        <div class="title-feature">
+                            <h5 class="icon-text-hr d-flex align-items-center">
+                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                    alt="" srcset="" class="w-icon-desk1"> Edit Budget
+                            </h5>
+                            <hr class="hr-item">
+                        </div>
+                        <div class="content-feature-1 d-none h-0" style="transition: height .35s ease-in-out;">
+                            {{-- EDIT CONTENT --}}
+                            <div class="pad-con">
+                                <div class="row pb-4 pt-4">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budg.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Pilih Budget</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Pilih budget yang ingin di edit dari list budget tahunan
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budg2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Edit Budget</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Ketika muncul tampilan list seperti di samping, klik tombol titik 3 lalu pilih edit untuk mulai mengubah data
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budg3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Masukan data budget</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Tentukan budget tahunan untuk sales, periode tahunan dan jumlah budget, Klik simpan utnuk menyimpan data budgeting tahunan
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budg4.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Budget tahunan berhasil di edit</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Data budget yang kamu simpan bisa terlihat di list budgeting yang tersedia
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- EDIT --}}
+
+                {{-- DELETE --}}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
+                    onclick="toggleContent('2')">
+                    <div class="item-feature">
+                        <div class="title-feature">
+                            <h5 class="icon-text-hr d-flex align-items-center">
+                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                    alt="" srcset="" class="w-icon-desk1"> Hapus Budget
+                            </h5>
+                            <hr class="hr-item">
+                        </div>
+                        <div class="content-feature-2 d-none h-0" style="transition: height .35s ease-in-out;">
+                            {{-- DELETE CONTENT --}}
+                            <div class="pad-con">
+                                <div class="row pb-4 pt-4">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-delete-budg.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Menghapus data budgeting</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Untuk menghapus data budgeting, silahkan pilih budgeting yang ingin kamu hapus
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-delete-budg2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Hapus data budget</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Ketika muncul tampilan list seperti di samping, klik tombol titik 3 lalu pilih edit untuk mulai menghapus data
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-delete-budg3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Konfirmasi  hapus data budgeting</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Ketika sudah klik tombol simpan maka akan muncul tampilan konfirmasi untuk menyimpan data baru, klikya untuk menyimpan dan klik batal untuk membatalkan penyimpanan data baru
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- DELETE --}}
+                {{-- ADD EXPENSE --}}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
+                    onclick="toggleContent('3')">
+                    <div class="item-feature">
+                        <div class="title-feature">
+                            <h5 class="icon-text-hr d-flex align-items-center">
+                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                    alt="" srcset="" class="w-icon-desk1"> Tambah Expense
+                            </h5>
+                            <hr class="">
+                        </div>
+                        <div class="content-feature-3 d-none h-0" style="transition: height .35s ease-in-out;">
+                            {{-- ADD EXPENSE CONTENT --}}
+                            <div class="pad-con">
+                                <div class="row pb-4 pt-4">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budgex.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Pilih bulan untuk menambahkan expense</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Pilih tombol "tambah" pada dashboard untuk mulai membuat data baru untuk budgeting bulan
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budgex2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Tambahkan expense</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Tentukan expense dengan klik tambah pada list pengeluaran sales
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budgex3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Tambahkan data pengeluaran</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Tambahkan data yang diperlukan:
+                                                    <br> 1. Tanggal pembuatan 
+                                                    <br> 2. Nama pengeluaran   
+                                                    <br> 3. Kategori 
+                                                    <br> 4. Total penjualan 
+                                                    <br> 5. Catatan (jika perlu) 
+                                                    <br> Klik simpan untuk menyimpan data pengeluaran 
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- ADD EXPENSE --}}
+
+                {{-- EDIT EXPENSE --}}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
+                    onclick="toggleContent('4')">
+                    <div class="item-feature">
+                        <div class="title-feature">
+                            <h5 class="icon-text-hr d-flex align-items-center">
+                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                    alt="" srcset="" class="w-icon-desk1"> Edit Expense
+                            </h5>
+                            <hr class="hr-item">
+                        </div>
+                        <div class="content-feature-4 d-none h-0" style="transition: height .35s ease-in-out;">
+                            {{-- EDIT EXPENSE CONTENT --}}
+                            <div class="pad-con">
+                                <div class="row pb-4 pt-4">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budgex.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Pilih Expense</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Pilih  tombol "edit" pada dashboard budget bulanan untuk mengedit pengeluaran
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budgex2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Ubah data pengeluaran</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Tambahkan data yang diperlukan:
+                                                    <br> 1. Tanggal pembuatan 
+                                                    <br> 2. Nama pengeluaran   
+                                                    <br> 3. Kategori 
+                                                    <br> 4. Total penjualan 
+                                                    <br> 5. Catatan (jika perlu) 
+                                                    <br> Klik simpan untuk menyimpan data pengeluaran 
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budgex3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Simpan data pengeluaran</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Data pengeluaran yang kamu simpan bisa terlihat di list pengeluaran yang tersedia
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- EDIT EXPENSE --}}
+
+                {{-- DELETE EXPENSE --}}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
+                    onclick="toggleContent('5')">
+                    <div class="item-feature">
+                        <div class="title-feature">
+                            <h5 class="icon-text-hr d-flex align-items-center">
+                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                    alt="" srcset="" class="w-icon-desk1"> Hapus Expense
+                            </h5>
+                            <hr class="hr-item">
+                        </div>
+                        <div class="content-feature-5 d-none h-0" style="transition: height .35s ease-in-out;">
+                            {{-- DELETE EXPENSE CONTENT --}}
+                            <div class="pad-con">
+                                <div class="row pb-4 pt-4">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-delete-budgex.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Menghapus data pengeluaran</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Untuk menghapus data expense, silahkan pilih expense yang ingin kamu hapus
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-delete-budgex2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Data sales target berhasil terhapus</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Ketika muncul tampilan list seperti di samping, klik tombol titik 3 lalu pilih edit untuk mulai menghapus data
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-delete-budgex3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Konfirmasi  hapus data budgeting</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Setelah kamu hapus data pengeluaran, Maka dengan otomatis data pengeluaran tersebut sudah ter-hapus dari di list pengeluaran
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- DELETE EXPENSE --}}
+             </div>
+            </section>
+          {{-- Content budgeting SALES Mobile End--}}
 
         </div>
         <!-- Sales Tab -->
@@ -753,414 +1595,976 @@
 
           {{-- Content budgeting OWNER Desktop Start--}}
             <section id="content1" class="menu-1 desktop-show text-center">
-                    <div class="container">
-                        {{-- ADD --}}
-                        <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/budgeting/omsetku-asset-row-add.png" alt="">
+                {{-- ADD --}}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
+                    onclick="toggleContent('0')">
+                    <div class="item-feature">
+                        <div class="title-feature">
+                            <h5 class="icon-text-hr d-flex align-items-center">
+                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                    alt="" srcset="" class="w-icon-desk1"> Tambah Budget Sales
+                            </h5>
+                            <hr class="">
                         </div>
-                        <div class="pad-con">
-                            <div class="row pb-4 pt-4">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Membuat budgeting tahunan</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Pilih  tombol "buat budgeting" pada dashboard <br> untuk mulai membuat budgeting tahunan <br> untuk sales
-                                            </p>
-                                        </div><br>
+                        <div class="content-feature-0 d-none h-0" style="transition: height .35s ease-in-out;">
+                            {{-- ADD CONTENT --}}
+                            <div class="pad-con">
+                                <div class="row pb-4 pt-4">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Membuat budgeting tahunan</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Pilih  tombol "buat budgeting" pada dashboard <br> untuk mulai membuat budgeting tahunan <br> untuk sales
+                                                </p>
+                                            </div><br>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Pilih Sales</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Tentukan sales untuk di input budget tahunan
-                                            </p>
-                                        </div><br>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Pilih Sales</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Tentukan sales untuk di input budget tahunan
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg2.png" class="img-content" alt="" style="margin-left: 0px">
                                     </div>
                                 </div>
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg2.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg3.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            
-                                <div class="col-lg-6  pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Membuat data budgeting tahunan</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Pilih  tombol "tambah" pada dashboard untuk mulai membuat data baru untuk budgeting
-                                            </p>
-                                        </div><br>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                
+                                    <div class="col-lg-6  pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Membuat data budgeting tahunan</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Pilih  tombol "tambah" pada dashboard untuk mulai membuat data baru untuk budgeting
+                                                </p>
+                                            </div><br>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Masukan budgeting tahunan</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Tentukan budget tahunan untuk sales, periode tahunan dan jumlah budget, Klik simpan utnuk menyimpan data budgeting tahunan
-                                            </p>
-                                        </div><br>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Masukan budgeting tahunan</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Tentukan budget tahunan untuk sales, periode tahunan dan jumlah budget, Klik simpan utnuk menyimpan data budgeting tahunan
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg4.png" class="img-content" alt="" style="margin-left: 0px">
                                     </div>
                                 </div>
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg4.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg5.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            
-                                <div class="col-lg-6  pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Data budget tahunan tersimpan</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Data budgeting yang kamu simpan bisa terlihat di list budgeting yang tersedia
-                                            </p>
-                                        </div><br>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg5.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                
+                                    <div class="col-lg-6  pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Data budget tahunan tersimpan</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Data budgeting yang kamu simpan bisa terlihat di list budgeting yang tersedia
+                                                </p>
+                                            </div><br>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Memasukan budget bulanan</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Klik budget yang ingin kamu masukan untuk budget bulanan
-                                            </p>
-                                        </div><br>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Memasukan budget bulanan</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Klik budget yang ingin kamu masukan untuk budget bulanan
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg6.png" class="img-content" alt="" style="margin-left: 0px">
                                     </div>
                                 </div>
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg6.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg7.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            
-                                <div class="col-lg-6  pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Memasukan budget bulanan</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Masukan budget bulanan sesuai jumlah budget tahunan yang sudah ditentukan sebelumnya, lalu klik tambah
-                                            </p>
-                                        </div><br>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg7.png" class="img-content" alt="" style="margin-left: 0px">
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        {{-- EDIT --}}
-                        <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/budgeting/omsetku-asset-row-edit.png" alt="">
-                        </div>
-                        <div class="pad-con">
-                            <div class="row pb-4 pt-4">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-edit-budg.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Pilih Budget</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Pilih budget yang ingin di edit dari list budget tahunan
-                                            </p>
-                                        </div><br>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Edit Budget</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Ketika muncul tampilan list seperti di samping, klik tombol titik 3 lalu pilih edit untuk mulai mengubah data
-                                            </p>
-                                        </div><br>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-edit-budg2.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-edit-budg3.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                                <div class="col-lg-6  pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Masukan data budget</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Tentukan budget tahunan untuk sales, periode tahunan dan jumlah budget, Klik simpan utnuk menyimpan data budgeting tahunan
-                                            </p>
-                                        </div><br>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Budget tahunan berhasil di edit</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Data budget yang kamu simpan bisa terlihat di list budgeting yang tersedia
-                                            </p>
-                                        </div><br>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-edit-budg4.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            </div>
-                        </div>
-                        {{-- DELETE --}}
-                        <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/budgeting/omsetku-asset-row-delete.png" alt="">
-                        </div>
-                        <div class="pad-con">
-                            <div class="row pb-4 pt-4">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-delete-budg.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Menghapus data budgeting</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Untuk menghapus data budgeting, silahkan pilih budgeting yang ingin kamu hapus
-                                            </p>
-                                        </div><br>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Hapus data budget</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Ketika muncul tampilan list seperti di samping, klik tombol titik 3 lalu pilih edit untuk mulai menghapus data
-                                            </p>
-                                        </div><br>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-delete-budg2.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-delete-budg3.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Konfirmasi  hapus data budgeting</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Ketika sudah klik tombol simpan maka akan muncul tampilan konfirmasi untuk menyimpan data baru, klikya untuk menyimpan dan klik batal untuk membatalkan penyimpanan data baru
-                                            </p>
-                                        </div><br>
+                                
+                                    <div class="col-lg-6  pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Memasukan budget bulanan</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Masukan budget bulanan sesuai jumlah budget tahunan yang sudah ditentukan sebelumnya, lalu klik tambah
+                                                </p>
+                                            </div><br>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        {{-- ADD EXPENSE --}}
-                        <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/budgeting/omsetku-asset-row-ex-add.png" alt="">
+                    </div>
+                </div>
+                {{-- ADD --}}
+
+                {{-- EDIT --}}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
+                    onclick="toggleContent('1')">
+                    <div class="item-feature">
+                        <div class="title-feature">
+                            <h5 class="icon-text-hr d-flex align-items-center">
+                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                    alt="" srcset="" class="w-icon-desk1"> Edit Budget
+                            </h5>
+                            <hr class="hr-item">
                         </div>
-                        <div class="pad-con">
-                            <div class="row pb-4 pt-4">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budgex.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Pilih bulan untuk menambahkan expense</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Pilih tombol "tambah" pada dashboard untuk mulai membuat data baru untuk budgeting bulan
-                                            </p>
-                                        </div><br>
+                        <div class="content-feature-1 d-none h-0" style="transition: height .35s ease-in-out;">
+                            {{-- EDIT CONTENT --}}
+                            <div class="pad-con">
+                                <div class="row pb-4 pt-4">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budg.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Pilih Budget</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Pilih budget yang ingin di edit dari list budget tahunan
+                                                </p>
+                                            </div><br>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Tambahkan expense</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Tentukan expense dengan klik tambah pada list pengeluaran sales
-                                            </p>
-                                        </div><br>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Edit Budget</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Ketika muncul tampilan list seperti di samping, klik tombol titik 3 lalu pilih edit untuk mulai mengubah data
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budg2.png" class="img-content" alt="" style="margin-left: 0px">
                                     </div>
                                 </div>
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budgex2.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budgex3.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            
-                                <div class="col-lg-6  pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Tambahkan data pengeluaran</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Tambahkan data yang diperlukan:
-                                                <br> 1. Tanggal pembuatan 
-                                                <br> 2. Nama pengeluaran   
-                                                <br> 3. Kategori 
-                                                <br> 4. Total penjualan 
-                                                <br> 5. Catatan (jika perlu) 
-                                                <br> Klik simpan untuk menyimpan data pengeluaran 
-                                            </p>
-                                        </div><br>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budg3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6  pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Masukan data budget</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Tentukan budget tahunan untuk sales, periode tahunan dan jumlah budget, Klik simpan utnuk menyimpan data budgeting tahunan
+                                                </p>
+                                            </div><br>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        {{-- EDIT EXPENSE --}}
-                        <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/budgeting/omsetku-asset-row-ex-edit.png" alt="">
-                        </div>
-                        <div class="pad-con">
-                            <div class="row pb-4 pt-4">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-edit-budgex.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Pilih Expense</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Pilih  tombol "edit" pada dashboard budget bulanan untuk mengedit pengeluaran
-                                            </p>
-                                        </div><br>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Budget tahunan berhasil di edit</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Data budget yang kamu simpan bisa terlihat di list budgeting yang tersedia
+                                                </p>
+                                            </div><br>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Ubah data pengeluaran</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Tambahkan data yang diperlukan:
-                                                <br> 1. Tanggal pembuatan 
-                                                <br> 2. Nama pengeluaran   
-                                                <br> 3. Kategori 
-                                                <br> 4. Total penjualan 
-                                                <br> 5. Catatan (jika perlu) 
-                                                <br> Klik simpan untuk menyimpan data pengeluaran 
-                                            </p>
-                                        </div><br>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-edit-budgex2.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-edit-budgex3.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                                <div class="col-lg-6  pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Simpan data pengeluaran</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Data pengeluaran yang kamu simpan bisa terlihat di list pengeluaran yang tersedia
-                                            </p>
-                                        </div><br>
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budg4.png" class="img-content" alt="" style="margin-left: 0px">
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        {{-- DELETE EXPENSE --}}
-                        <div class="col-md-12 d-flex justify-content-center">
-                            <img class="row-add pb-4" src="omsetku-asset/budgeting/omsetku-asset-row-ex-delete.png" alt="">
+                    </div>
+                </div>
+                {{-- EDIT --}}
+
+                {{-- DELETE --}}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
+                    onclick="toggleContent('2')">
+                    <div class="item-feature">
+                        <div class="title-feature">
+                            <h5 class="icon-text-hr d-flex align-items-center">
+                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                    alt="" srcset="" class="w-icon-desk1"> Hapus Budget
+                            </h5>
+                            <hr class="hr-item">
                         </div>
-                        <div class="pad-con">
-                            <div class="row pb-4 pt-4">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-delete-budgex.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Menghapus data pengeluaran</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Untuk menghapus data expense, silahkan pilih expense yang ingin kamu hapus
-                                            </p>
-                                        </div><br>
+                        <div class="content-feature-2 d-none h-0" style="transition: height .35s ease-in-out;">
+                            {{-- DELETE CONTENT --}}
+                            <div class="pad-con">
+                                <div class="row pb-4 pt-4">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-delete-budg.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Menghapus data budgeting</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Untuk menghapus data budgeting, silahkan pilih budgeting yang ingin kamu hapus
+                                                </p>
+                                            </div><br>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Data sales target berhasil terhapus</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Ketika muncul tampilan list seperti di samping, klik tombol titik 3 lalu pilih edit untuk mulai menghapus data
-                                            </p>
-                                        </div><br>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Hapus data budget</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Ketika muncul tampilan list seperti di samping, klik tombol titik 3 lalu pilih edit untuk mulai menghapus data
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-delete-budg2.png" class="img-content" alt="" style="margin-left: 0px">
                                     </div>
                                 </div>
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-delete-budgex2.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            </div>
-                            <div class="row pb-4 pt-2">
-                                <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                    <img src="omsetku-asset/budgeting/omsetku-asset-delete-budgex3.png" class="img-content" alt="" style="margin-left: 0px">
-                                </div>
-                            
-                                <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="row mb-4">
-                                        <div class="col-md-11 col-lg-11">
-                                            <h5 ><strong class="header-content-item d-flex">Konfirmasi  hapus data budgeting</strong></h5>
-                                            <p class="header-text-item-kiri" >
-                                                Setelah kamu hapus data pengeluaran, Maka dengan otomatis data pengeluaran tersebut sudah ter-hapus dari di list pengeluaran
-                                            </p>
-                                        </div><br>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-delete-budg3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Konfirmasi  hapus data budgeting</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Ketika sudah klik tombol simpan maka akan muncul tampilan konfirmasi untuk menyimpan data baru, klikya untuk menyimpan dan klik batal untuk membatalkan penyimpanan data baru
+                                                </p>
+                                            </div><br>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>       
+                    </div>
+                </div>
+                {{-- DELETE --}}
+
+                {{-- ADD EXPENSE --}}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
+                    onclick="toggleContent('3')">
+                    <div class="item-feature">
+                        <div class="title-feature">
+                            <h5 class="icon-text-hr d-flex align-items-center">
+                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                    alt="" srcset="" class="w-icon-desk1"> Tambah Expense
+                            </h5>
+                            <hr class="">
+                        </div>
+                        <div class="content-feature-3 d-none h-0" style="transition: height .35s ease-in-out;">
+                            {{-- ADD EXPENSE CONTENT --}}
+                            <div class="pad-con">
+                                <div class="row pb-4 pt-4">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budgex.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Pilih bulan untuk menambahkan expense</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Pilih tombol "tambah" pada dashboard untuk mulai membuat data baru untuk budgeting bulan
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Tambahkan expense</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Tentukan expense dengan klik tambah pada list pengeluaran sales
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budgex2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budgex3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                
+                                    <div class="col-lg-6  pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Tambahkan data pengeluaran</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Tambahkan data yang diperlukan:
+                                                    <br> 1. Tanggal pembuatan 
+                                                    <br> 2. Nama pengeluaran   
+                                                    <br> 3. Kategori 
+                                                    <br> 4. Total penjualan 
+                                                    <br> 5. Catatan (jika perlu) 
+                                                    <br> Klik simpan untuk menyimpan data pengeluaran 
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- ADD EXPENSE --}}
+
+                {{-- EDIT EXPENSE --}}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
+                    onclick="toggleContent('4')">
+                    <div class="item-feature">
+                        <div class="title-feature">
+                            <h5 class="icon-text-hr d-flex align-items-center">
+                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                    alt="" srcset="" class="w-icon-desk1"> Edit Expense
+                            </h5>
+                            <hr class="hr-item">
+                        </div>
+                        <div class="content-feature-4 d-none h-0" style="transition: height .35s ease-in-out;">
+                            {{-- EDIT EXPENSE CONTENT --}}
+                            <div class="pad-con">
+                                <div class="row pb-4 pt-4">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budgex.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Pilih Expense</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Pilih  tombol "edit" pada dashboard budget bulanan untuk mengedit pengeluaran
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Ubah data pengeluaran</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Tambahkan data yang diperlukan:
+                                                    <br> 1. Tanggal pembuatan 
+                                                    <br> 2. Nama pengeluaran   
+                                                    <br> 3. Kategori 
+                                                    <br> 4. Total penjualan 
+                                                    <br> 5. Catatan (jika perlu) 
+                                                    <br> Klik simpan untuk menyimpan data pengeluaran 
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budgex2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budgex3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6  pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Simpan data pengeluaran</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Data pengeluaran yang kamu simpan bisa terlihat di list pengeluaran yang tersedia
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- EDIT EXPENSE --}}
+
+                {{-- DELETE EXPENSE --}}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
+                    onclick="toggleContent('5')">
+                    <div class="item-feature">
+                        <div class="title-feature">
+                            <h5 class="icon-text-hr d-flex align-items-center">
+                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                    alt="" srcset="" class="w-icon-desk1"> Hapus Expense
+                            </h5>
+                            <hr class="hr-item">
+                        </div>
+                        <div class="content-feature-5 d-none h-0" style="transition: height .35s ease-in-out;">
+                            {{-- DELETE EXPENSE CONTENT --}}
+                            <div class="pad-con">
+                                <div class="row pb-4 pt-4">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-delete-budgex.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Menghapus data pengeluaran</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Untuk menghapus data expense, silahkan pilih expense yang ingin kamu hapus
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Data sales target berhasil terhapus</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Ketika muncul tampilan list seperti di samping, klik tombol titik 3 lalu pilih edit untuk mulai menghapus data
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-delete-budgex2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-delete-budgex3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Konfirmasi  hapus data budgeting</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Setelah kamu hapus data pengeluaran, Maka dengan otomatis data pengeluaran tersebut sudah ter-hapus dari di list pengeluaran
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- DELETE EXPENSE --}}
             </section>
           {{-- Content budgeting OWNER Desktop End--}}
 
+          {{-- Content budgeting OWNER Mobile Start--}}
+            <section id="content1" class="menu-1 mobile-show text-center">
+              <div class="container py-4">
+                {{-- ADD --}}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
+                    onclick="toggleContent('0')">
+                    <div class="item-feature">
+                        <div class="title-feature">
+                            <h5 class="icon-text-hr d-flex align-items-center">
+                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                    alt="" srcset="" class="w-icon-desk1"> Tambah Budget Sales
+                            </h5>
+                            <hr class="">
+                        </div>
+                        <div class="content-feature-0 d-none h-0" style="transition: height .35s ease-in-out;">
+                            {{-- ADD CONTENT --}}
+                            <div class="pad-con">
+                                <div class="row pb-4 pt-4">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Membuat budgeting tahunan</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Pilih  tombol "buat budgeting" pada dashboard <br> untuk mulai membuat budgeting tahunan <br> untuk sales
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Pilih Sales</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Tentukan sales untuk di input budget tahunan
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Membuat data budgeting tahunan</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Pilih  tombol "tambah" pada dashboard untuk mulai membuat data baru untuk budgeting
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg4.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Masukan budgeting tahunan</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Tentukan budget tahunan untuk sales, periode tahunan dan jumlah budget, Klik simpan utnuk menyimpan data budgeting tahunan
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg5.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Data budget tahunan tersimpan</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Data budgeting yang kamu simpan bisa terlihat di list budgeting yang tersedia
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg6.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Memasukan budget bulanan</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Klik budget yang ingin kamu masukan untuk budget bulanan
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budg7.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Memasukan budget bulanan</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Masukan budget bulanan sesuai jumlah budget tahunan yang sudah ditentukan sebelumnya, lalu klik tambah
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- ADD --}}
+
+                {{-- EDIT --}}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
+                    onclick="toggleContent('1')">
+                    <div class="item-feature">
+                        <div class="title-feature">
+                            <h5 class="icon-text-hr d-flex align-items-center">
+                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                    alt="" srcset="" class="w-icon-desk1"> Edit Budget
+                            </h5>
+                            <hr class="hr-item">
+                        </div>
+                        <div class="content-feature-1 d-none h-0" style="transition: height .35s ease-in-out;">
+                            {{-- EDIT CONTENT --}}
+                            <div class="pad-con">
+                                <div class="row pb-4 pt-4">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budg.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Pilih Budget</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Pilih budget yang ingin di edit dari list budget tahunan
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budg2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Edit Budget</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Ketika muncul tampilan list seperti di samping, klik tombol titik 3 lalu pilih edit untuk mulai mengubah data
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budg3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Masukan data budget</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Tentukan budget tahunan untuk sales, periode tahunan dan jumlah budget, Klik simpan utnuk menyimpan data budgeting tahunan
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budg4.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Budget tahunan berhasil di edit</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Data budget yang kamu simpan bisa terlihat di list budgeting yang tersedia
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- EDIT --}}
+
+                {{-- DELETE --}}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
+                    onclick="toggleContent('2')">
+                    <div class="item-feature">
+                        <div class="title-feature">
+                            <h5 class="icon-text-hr d-flex align-items-center">
+                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                    alt="" srcset="" class="w-icon-desk1"> Hapus Budget
+                            </h5>
+                            <hr class="hr-item">
+                        </div>
+                        <div class="content-feature-2 d-none h-0" style="transition: height .35s ease-in-out;">
+                            {{-- DELETE CONTENT --}}
+                            <div class="pad-con">
+                                <div class="row pb-4 pt-4">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-delete-budg.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Menghapus data budgeting</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Untuk menghapus data budgeting, silahkan pilih budgeting yang ingin kamu hapus
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-delete-budg2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Hapus data budget</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Ketika muncul tampilan list seperti di samping, klik tombol titik 3 lalu pilih edit untuk mulai menghapus data
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-delete-budg3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Konfirmasi  hapus data budgeting</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Ketika sudah klik tombol simpan maka akan muncul tampilan konfirmasi untuk menyimpan data baru, klikya untuk menyimpan dan klik batal untuk membatalkan penyimpanan data baru
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- DELETE --}}
+                {{-- ADD EXPENSE --}}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
+                    onclick="toggleContent('3')">
+                    <div class="item-feature">
+                        <div class="title-feature">
+                            <h5 class="icon-text-hr d-flex align-items-center">
+                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                    alt="" srcset="" class="w-icon-desk1"> Tambah Expense
+                            </h5>
+                            <hr class="">
+                        </div>
+                        <div class="content-feature-3 d-none h-0" style="transition: height .35s ease-in-out;">
+                            {{-- ADD EXPENSE CONTENT --}}
+                            <div class="pad-con">
+                                <div class="row pb-4 pt-4">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budgex.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Pilih bulan untuk menambahkan expense</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Pilih tombol "tambah" pada dashboard untuk mulai membuat data baru untuk budgeting bulan
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budgex2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Tambahkan expense</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Tentukan expense dengan klik tambah pada list pengeluaran sales
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-membuat-budgex3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                
+                                    <div class="col-lg-6  pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 ><strong class="header-content-item d-flex">Tambahkan data pengeluaran</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Tambahkan data yang diperlukan:
+                                                    <br> 1. Tanggal pembuatan 
+                                                    <br> 2. Nama pengeluaran   
+                                                    <br> 3. Kategori 
+                                                    <br> 4. Total penjualan 
+                                                    <br> 5. Catatan (jika perlu) 
+                                                    <br> Klik simpan untuk menyimpan data pengeluaran 
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- ADD EXPENSE --}}
+
+                {{-- EDIT EXPENSE --}}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
+                    onclick="toggleContent('4')">
+                    <div class="item-feature">
+                        <div class="title-feature">
+                            <h5 class="icon-text-hr d-flex align-items-center">
+                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                    alt="" srcset="" class="w-icon-desk1"> Edit Expense
+                            </h5>
+                            <hr class="hr-item">
+                        </div>
+                        <div class="content-feature-4 d-none h-0" style="transition: height .35s ease-in-out;">
+                            {{-- EDIT EXPENSE CONTENT --}}
+                            <div class="pad-con">
+                                <div class="row pb-4 pt-4">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budgex.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Pilih Expense</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Pilih  tombol "edit" pada dashboard budget bulanan untuk mengedit pengeluaran
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budgex2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Ubah data pengeluaran</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Tambahkan data yang diperlukan:
+                                                    <br> 1. Tanggal pembuatan 
+                                                    <br> 2. Nama pengeluaran   
+                                                    <br> 3. Kategori 
+                                                    <br> 4. Total penjualan 
+                                                    <br> 5. Catatan (jika perlu) 
+                                                    <br> Klik simpan untuk menyimpan data pengeluaran 
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-edit-budgex3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Simpan data pengeluaran</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Data pengeluaran yang kamu simpan bisa terlihat di list pengeluaran yang tersedia
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- EDIT EXPENSE --}}
+
+                {{-- DELETE EXPENSE --}}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
+                    onclick="toggleContent('5')">
+                    <div class="item-feature">
+                        <div class="title-feature">
+                            <h5 class="icon-text-hr d-flex align-items-center">
+                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                    alt="" srcset="" class="w-icon-desk1"> Hapus Expense
+                            </h5>
+                            <hr class="hr-item">
+                        </div>
+                        <div class="content-feature-5 d-none h-0" style="transition: height .35s ease-in-out;">
+                            {{-- DELETE EXPENSE CONTENT --}}
+                            <div class="pad-con">
+                                <div class="row pb-4 pt-4">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-delete-budgex.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Menghapus data pengeluaran</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Untuk menghapus data expense, silahkan pilih expense yang ingin kamu hapus
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-delete-budgex2.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Data sales target berhasil terhapus</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Ketika muncul tampilan list seperti di samping, klik tombol titik 3 lalu pilih edit untuk mulai menghapus data
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-2">
+                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                        <img src="omsetku-asset/budgeting/omsetku-asset-delete-budgex3.png" class="img-content" alt="" style="margin-left: 0px">
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="row mb-4">
+                                            <div class="col-md-11 col-lg-11">
+                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Konfirmasi  hapus data budgeting</strong></h5>
+                                                <p class="header-text-item-kiri" >
+                                                    Setelah kamu hapus data pengeluaran, Maka dengan otomatis data pengeluaran tersebut sudah ter-hapus dari di list pengeluaran
+                                                </p>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- DELETE EXPENSE --}}
+              </div>
+            </section>
+          {{-- Content budgeting OWNER Mobile End--}}
         </div>
         <!-- Owner Tab -->
 
@@ -1194,8 +2598,37 @@
 @section('js_before')
     <script type="text/javascript">
         // Initialization for ES Users
-        import { Tab, initMDB } from "mdb-ui-kit";
+        import {
+            Tab,
+            initMDB
+        } from "mdb-ui-kit";
 
-        initMDB({ Tab });
-    </>
+        initMDB({
+            Tab
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.slick-arrow').css('opacity', '0');
+        })
+
+        function toggleContent(idx, img) {
+            var contentFeature = $('.content-feature-' + idx);
+
+            if (contentFeature.hasClass('d-none')) {
+                // Show content-feature
+                contentFeature.removeClass('d-none');
+                contentFeature.removeClass('h-0');
+                contentFeature.addClass('d-block');
+                contentFeature.addClass('h-100');
+            } else {
+                // Hide content-feature
+                contentFeature.removeClass('d-block');
+                contentFeature.removeClass('h-100');
+                contentFeature.addClass('d-none');
+                contentFeature.addClass('h-0');
+            }
+
+        }
+    </script>
 @stop

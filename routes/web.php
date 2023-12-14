@@ -89,3 +89,7 @@ Route::get('/budgeting', function () {
 Route::get('/home24', function () {
     return view('home-v2_4');
 });
+
+Route::get('/tabel', function () {
+    return view('tabel_form');
+});

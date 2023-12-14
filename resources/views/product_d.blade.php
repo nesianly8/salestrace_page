@@ -166,15 +166,15 @@
             border: 0;
             border-top: 3px solid #e4e7ed !important;
         }
-        
-        /* -------------------------------------------------------------------------------------------------------------------------------- */   
 
-      /*--------- responsive laptop/pc ---------*/
+        /* -------------------------------------------------------------------------------------------------------------------------------- */
+
+        /*--------- responsive laptop/pc ---------*/
         /*
-            desktop zoom custom1
+                desktop zoom custom1
 
-            main width: 1367px;
-            */
+                main width: 1367px;
+                */
         @media screen and (min-width: 1321px) and (max-width: 1380px) {
 
             .row-add {
@@ -375,14 +375,14 @@
 
         }
 
-      /*--------- end responsive laptop/pc ---------*/
+        /*--------- end responsive laptop/pc ---------*/
 
         /* -------------------------------------------------------------------------------------------------------------------------------- */
 
-      /*--------- responsive handphone ---------*/
+        /*--------- responsive handphone ---------*/
 
 
-       /* phone mode */
+        /* phone mode */
         @media screen and (max-width: 459px) {
             section.desktop-show {
                 display: none !important;
@@ -394,9 +394,9 @@
 
         }
 
-       /* END */
+        /* END */
 
-       /* phone mode 1 */
+        /* phone mode 1 */
         @media screen and (max-width: 458px) {
 
             .title-page-header {
@@ -407,7 +407,7 @@
                 font-style: normal;
                 font-weight: 700;
                 line-height: 37.692px;
-               /* 120% */
+                /* 120% */
             }
 
             .subtitle-page-header {
@@ -455,41 +455,41 @@
 
         }
 
-       /* END 1 */
+        /* END 1 */
 
-       /* phone mode 2 */
+        /* phone mode 2 */
         @media screen and (max-width: 428px) {}
 
-       /* END */
+        /* END */
 
-       /* phone mode 3 */
+        /* phone mode 3 */
         @media screen and (max-width: 426px) {}
 
-       /* END */
+        /* END */
 
-       /* phone mode 4 */
+        /* phone mode 4 */
         @media screen and (max-width: 414px) {}
 
-       /* END */
+        /* END */
 
-       /* phone mode 5 */
+        /* phone mode 5 */
         @media screen and (max-width: 409px) {}
 
-       /* END */
+        /* END */
 
 
-       /* phone mode 6 */
+        /* phone mode 6 */
         @media screen and (max-width: 395px) {}
 
-       /* END */
+        /* END */
 
 
-       /* phone mode 7 */
+        /* phone mode 7 */
         @media screen and (max-width: 376px) {}
 
-       /* END */
+        /* END */
 
-       /* phone mode 8 */
+        /* phone mode 8 */
         @media screen and (max-width: 361px) {
 
             .title-page-header {
@@ -534,7 +534,7 @@
                 font-style: normal;
                 font-weight: 400;
                 line-height: 21px;
-               /* 174.375% */
+                /* 174.375% */
             }
 
             .header-text-item-kanan {
@@ -545,7 +545,7 @@
                 font-style: normal;
                 font-weight: 400;
                 line-height: 21px;
-               /* 174.375% */
+                /* 174.375% */
             }
 
             .header-content-item {
@@ -560,83 +560,80 @@
 
         }
 
-       /* END */
+        /* END */
 
-       /* phone mode 8 */
-        @media screen and (max-width: 321px) {
+        /* phone mode 8 */
+        @media screen and (max-width: 321px) {}
 
-        }
+        /* END */
 
-       /* END */
-
-      /*--------- end responsive handphone ---------*/
-
+        /*--------- end responsive handphone ---------*/
     </style>
 @stop
 
 @section('content')
-    {{-- Header Start--}}
+    {{-- Header Start --}}
 
-      {{-- Header Desktop Start--}}
-        <section class="desktop-show py-4 d-flex justify-content-center">
-            <div class="row mt-4">
-                <div class="col-md-12 d-flex justify-content-center">
-                    <h3 class="title-page-header">
-                        Hubungan sangat baik untuk bisnis
-                    </h3>
-                </div>
-                <div class="col-md-12">
-                    <p class="subtitle-page-header">
-                        Buat dan kelola PRODUK Anda, semua di satu tempat.
-                    </p>
-                </div>
-                <div class="col-md-12 d-flex justify-content-center">
-                    <!-- Tabs Navigation -->
-                    <ul class="nav nav-tabs" id="myTabs">
-                        <li class="nav-item">
-                            <a class="nav-link active" id="sales-tab" data-toggle="tab" href="#sales">Sales</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="owner-tab" data-toggle="tab" href="#owner">Owner</a>
-                        </li>
-                    </ul>
-                </div>
+    {{-- Header Desktop Start --}}
+    <section class="desktop-show py-4 d-flex justify-content-center">
+        <div class="row mt-4">
+            <div class="col-md-12 d-flex justify-content-center">
+                <h3 class="title-page-header">
+                    Hubungan sangat baik untuk bisnis
+                </h3>
             </div>
-        </section>
-      {{-- Header Desktop End--}}
-
-      {{-- Header Mobile Start--}}
-        <section class="mobile-show py-4 d-flex justify-content-center">
-            <div class="row mt-4">
-                <div class="col-md-12 d-flex justify-content-center">
-                    <h3 class="title-page-header">
-                        Hubungan sangat baik untuk bisnis
-                    </h3>
-                </div>
-                <div class="col-md-12">
-                    <p class="subtitle-page-header">
-                        Buat dan kelola PRODUK Anda, semua di satu tempat.
-                    </p>
-                </div>
-                <div class="col-md-12 d-flex justify-content-center">
-                    <!-- Tabs Navigation -->
-                    <ul class="nav nav-tabs" id="myTabs">
-                        <li class="nav-item">
-                            <a class="nav-link active" id="sales-tab" data-toggle="tab" href="#sales">Sales</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="owner-tab" data-toggle="tab" href="#owner">Owner</a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="col-md-12">
+                <p class="subtitle-page-header">
+                    Buat dan kelola PRODUK Anda, semua di satu tempat.
+                </p>
             </div>
-        </section>
-      {{-- Header Mobile End--}}
+            <div class="col-md-12 d-flex justify-content-center">
+                <!-- Tabs Navigation -->
+                <ul class="nav nav-tabs" id="myTabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="sales-tab" data-toggle="tab" href="#sales">Sales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="owner-tab" data-toggle="tab" href="#owner">Owner</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    {{-- Header Desktop End --}}
 
-    {{-- Header End--}}
+    {{-- Header Mobile Start --}}
+    <section class="mobile-show py-4 d-flex justify-content-center">
+        <div class="row mt-4">
+            <div class="col-md-12 d-flex justify-content-center">
+                <h3 class="title-page-header">
+                    Hubungan sangat baik untuk bisnis
+                </h3>
+            </div>
+            <div class="col-md-12">
+                <p class="subtitle-page-header">
+                    Buat dan kelola PRODUK Anda, semua di satu tempat.
+                </p>
+            </div>
+            <div class="col-md-12 d-flex justify-content-center">
+                <!-- Tabs Navigation -->
+                <ul class="nav nav-tabs" id="myTabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="sales-tab" data-toggle="tab" href="#sales">Sales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="owner-tab" data-toggle="tab" href="#owner">Owner</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    {{-- Header Mobile End --}}
+
+    {{-- Header End --}}
 
 
-    {{-- Content Customer anda Start--}}
+    {{-- Content Customer anda Start --}}
 
     <!-- Tabs Content -->
     <div class="tab-content">
@@ -645,11 +642,10 @@
         <!-- Sales Tab -->
         <div class="tab-pane fade show active" id="sales">
 
-          {{-- Content Customer SALES Desktop Start--}}
+            {{-- Content Customer SALES Desktop Start --}}
             <section id="content1" class="menu-1 desktop-show text-center">
                 {{-- ADD --}}
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
-                    onclick="toggleContent('0')">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12" onclick="toggleContent('0')">
                     <div class="item-feature">
                         <div class="title-feature">
                             <h5 class="icon-text-hr d-flex align-items-center">
@@ -663,69 +659,83 @@
                             <div class="pad-con">
                                 <div class="row pb-4 pt-4">
                                     <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-membuat-prod.png" class="img-content" alt="" style="margin-left: 0px">
+                                        <img src="omsetku-asset/product/omsetku-asset-membuat-prod.png" class="img-content"
+                                            alt="" style="margin-left: 0px">
                                     </div>
-                                
-                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100"
+                                        style="display: flex; flex-direction: column; justify-content: center;">
                                         <div class="row mb-4">
                                             <div class="col-md-11 col-lg-11">
-                                                <h5 ><strong class="header-content-item d-flex">Menambahkan produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Pilih  tombol "buat produk" pada dashboard <br> untuk mulai membuat produk baru untuk <br> penjualan barang mu
+                                                <h5><strong class="header-content-item d-flex">Menambahkan produk</strong>
+                                                </h5>
+                                                <p class="header-text-item-kiri">
+                                                    Pilih tombol "buat produk" pada dashboard <br> untuk mulai membuat
+                                                    produk baru untuk <br> penjualan barang mu
                                                 </p>
                                             </div><br>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row pb-4 pt-2">
-                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100"
+                                        style="display: flex; flex-direction: column; justify-content: center;">
                                         <div class="row mb-4">
                                             <div class="col-md-11 col-lg-11">
-                                                <h5 ><strong class="header-content-item d-flex">Membuat data produk baru</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Pilih  tombol "tambah" pada dashboard untuk mulai <br> menginput data untuk produk baru
+                                                <h5><strong class="header-content-item d-flex">Membuat data produk
+                                                        baru</strong></h5>
+                                                <p class="header-text-item-kiri">
+                                                    Pilih tombol "tambah" pada dashboard untuk mulai <br> menginput data
+                                                    untuk produk baru
                                                 </p>
                                             </div><br>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-membuat-prod2.png" class="img-content" alt="" style="margin-left: 0px">
+                                        <img src="omsetku-asset/product/omsetku-asset-membuat-prod2.png" class="img-content"
+                                            alt="" style="margin-left: 0px">
                                     </div>
                                 </div>
                                 <div class="row pb-4 pt-2">
                                     <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-membuat-prod3.png" class="img-content" alt="" style="margin-left: 0px">
+                                        <img src="omsetku-asset/product/omsetku-asset-membuat-prod3.png"
+                                            class="img-content" alt="" style="margin-left: 0px">
                                     </div>
-                                
-                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100"
+                                        style="display: flex; flex-direction: column; justify-content: center;">
                                         <div class="row mb-4">
                                             <div class="col-md-11 col-lg-11">
-                                                <h5 ><strong class="header-content-item d-flex">Data produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
+                                                <h5><strong class="header-content-item d-flex">Data produk</strong></h5>
+                                                <p class="header-text-item-kiri">
                                                     Isilah data sesuai dengan data produk yang kamu miliki:
                                                     <br> 1. Upload gambar produk
                                                     <br> 2. Nama Produk
                                                     <br> 3. Harga
                                                     <br> 4. Nama Brand
-                                                    <br> Lalu klik “simpan” untuk menyimpan data produk yang sudah kamu input
+                                                    <br> Lalu klik “simpan” untuk menyimpan data produk yang sudah kamu
+                                                    input
                                                 </p>
                                             </div><br>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row pb-4 pt-2">
-                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100"
+                                        style="display: flex; flex-direction: column; justify-content: center;">
                                         <div class="row mb-4">
                                             <div class="col-md-11 col-lg-11">
-                                                <h5 ><strong class="header-content-item d-flex">Data produk Tersimpan</strong></h5>
-                                                <p class="header-text-item-kiri" >
+                                                <h5><strong class="header-content-item d-flex">Data produk
+                                                        Tersimpan</strong></h5>
+                                                <p class="header-text-item-kiri">
                                                     Data produk yang kamu baru saja simpan akan muncul dalam list produk
                                                 </p>
                                             </div><br>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-membuat-prod4.png" class="img-content" alt="" style="margin-left: 0px">
+                                        <img src="omsetku-asset/product/omsetku-asset-membuat-prod4.png"
+                                            class="img-content" alt="" style="margin-left: 0px">
                                     </div>
                                 </div>
                             </div>
@@ -735,8 +745,7 @@
                 {{-- ADD --}}
 
                 {{-- EDIT --}}
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
-                    onclick="toggleContent('1')">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12" onclick="toggleContent('1')">
                     <div class="item-feature">
                         <div class="title-feature">
                             <h5 class="icon-text-hr d-flex align-items-center">
@@ -750,26 +759,32 @@
                             <div class="pad-con">
                                 <div class="row pb-4 pt-4">
                                     <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-edit-prod.png" class="img-content" alt="" style="margin-left: 0px">
+                                        <img src="omsetku-asset/product/omsetku-asset-edit-prod.png" class="img-content"
+                                            alt="" style="margin-left: 0px">
                                     </div>
-                                
-                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100"
+                                        style="display: flex; flex-direction: column; justify-content: center;">
                                         <div class="row mb-4">
                                             <div class="col-md-11 col-lg-11">
-                                                <h5 ><strong class="header-content-item d-flex">Edit produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Untuk mengedit data produk, silahkan pilih produk yang ingin kamu edit lalu , ketika muncul tampilan list seperti di samping, klik tombol titik 3 lalu pilih edit untuk mulai mengubah data
+                                                <h5><strong class="header-content-item d-flex">Edit produk</strong></h5>
+                                                <p class="header-text-item-kiri">
+                                                    Untuk mengedit data produk, silahkan pilih produk yang ingin kamu edit
+                                                    lalu , ketika muncul tampilan list seperti di samping, klik tombol titik
+                                                    3 lalu pilih edit untuk mulai mengubah data
                                                 </p>
                                             </div><br>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row pb-4 pt-2">
-                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100"
+                                        style="display: flex; flex-direction: column; justify-content: center;">
                                         <div class="row mb-4">
                                             <div class="col-md-11 col-lg-11">
-                                                <h5 ><strong class="header-content-item d-flex">Mengedit data produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
+                                                <h5><strong class="header-content-item d-flex">Mengedit data
+                                                        produk</strong></h5>
+                                                <p class="header-text-item-kiri">
                                                     Isilah data sesuai dengan data produk yang kamu miliki:
                                                     <br> 1. Upload gambar produk
                                                     <br> 2. Nama Produk
@@ -781,20 +796,25 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-edit-prod2.png" class="img-content" alt="" style="margin-left: 0px">
+                                        <img src="omsetku-asset/product/omsetku-asset-edit-prod2.png" class="img-content"
+                                            alt="" style="margin-left: 0px">
                                     </div>
                                 </div>
                                 <div class="row pb-4 pt-2">
                                     <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-edit-prod3.png" class="img-content" alt="" style="margin-left: 0px">
+                                        <img src="omsetku-asset/product/omsetku-asset-edit-prod3.png" class="img-content"
+                                            alt="" style="margin-left: 0px">
                                     </div>
-                                
-                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100"
+                                        style="display: flex; flex-direction: column; justify-content: center;">
                                         <div class="row mb-4">
                                             <div class="col-md-11 col-lg-11">
-                                                <h5 ><strong class="header-content-item d-flex">Data produk tersimpan</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Data produk yang kamu baru saja simpan akan muncul dalam list produk, Pilih produk baru mu untuk melihat datanya secara detail
+                                                <h5><strong class="header-content-item d-flex">Data produk
+                                                        tersimpan</strong></h5>
+                                                <p class="header-text-item-kiri">
+                                                    Data produk yang kamu baru saja simpan akan muncul dalam list produk,
+                                                    Pilih produk baru mu untuk melihat datanya secara detail
                                                 </p>
                                             </div><br>
                                         </div>
@@ -807,8 +827,7 @@
                 {{-- EDIT --}}
 
                 {{-- DELETE --}}
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
-                    onclick="toggleContent('2')">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12" onclick="toggleContent('2')">
                     <div class="item-feature">
                         <div class="title-feature">
                             <h5 class="icon-text-hr d-flex align-items-center">
@@ -822,45 +841,59 @@
                             <div class="pad-con">
                                 <div class="row pb-4 pt-4">
                                     <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-delete-prod.png" class="img-content" alt="" style="margin-left: 0px">
+                                        <img src="omsetku-asset/product/omsetku-asset-delete-prod.png" class="img-content"
+                                            alt="" style="margin-left: 0px">
                                     </div>
-                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100"
+                                        style="display: flex; flex-direction: column; justify-content: center;">
                                         <div class="row mb-4">
                                             <div class="col-md-11 col-lg-11">
-                                                <h5 ><strong class="header-content-item d-flex">Menghapus data produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Untuk menghapus data produk, silahkan pilih produk yang ingin kamu hapus lalu , ketika muncul tampilan list seperti di samping, klik tombol hapus untuk menghapus data produk
+                                                <h5><strong class="header-content-item d-flex">Menghapus data
+                                                        produk</strong></h5>
+                                                <p class="header-text-item-kiri">
+                                                    Untuk menghapus data produk, silahkan pilih produk yang ingin kamu hapus
+                                                    lalu , ketika muncul tampilan list seperti di samping, klik tombol hapus
+                                                    untuk menghapus data produk
                                                 </p>
                                             </div><br>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row pb-4 pt-2">
-                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100"
+                                        style="display: flex; flex-direction: column; justify-content: center;">
                                         <div class="row mb-4">
                                             <div class="col-md-11 col-lg-11">
-                                                <h5 ><strong class="header-content-item d-flex">Konfirmasi hapus data produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Ketika sudah klik tombol hapus maka akan muncul tampilan konfirmasi untuk menghapus data dari produk, klik hapus untuk menghapus dan klik batal untuk membatalkan penghapusan data produk
+                                                <h5><strong class="header-content-item d-flex">Konfirmasi hapus data
+                                                        produk</strong></h5>
+                                                <p class="header-text-item-kiri">
+                                                    Ketika sudah klik tombol hapus maka akan muncul tampilan konfirmasi
+                                                    untuk menghapus data dari produk, klik hapus untuk menghapus dan klik
+                                                    batal untuk membatalkan penghapusan data produk
                                                 </p>
                                             </div><br>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-delete-prod2.png" class="img-content" alt="" style="margin-left: 0px">
+                                        <img src="omsetku-asset/product/omsetku-asset-delete-prod2.png"
+                                            class="img-content" alt="" style="margin-left: 0px">
                                     </div>
                                 </div>
                                 <div class="row pb-4 pt-2">
                                     <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-delete-prod3.png" class="img-content" alt="" style="margin-left: 0px">
+                                        <img src="omsetku-asset/product/omsetku-asset-delete-prod3.png"
+                                            class="img-content" alt="" style="margin-left: 0px">
                                     </div>
-                                
-                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100"
+                                        style="display: flex; flex-direction: column; justify-content: center;">
                                         <div class="row mb-4">
                                             <div class="col-md-11 col-lg-11">
-                                                <h5 ><strong class="header-content-item d-flex">Berhasil menghapus data produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Setelah kamu hapus data produk, Maka dengan otomatis data produk tersebut sudah ter-hapus dari di list produk
+                                                <h5><strong class="header-content-item d-flex">Berhasil menghapus data
+                                                        produk</strong></h5>
+                                                <p class="header-text-item-kiri">
+                                                    Setelah kamu hapus data produk, Maka dengan otomatis data produk
+                                                    tersebut sudah ter-hapus dari di list produk
                                                 </p>
                                             </div><br>
                                         </div>
@@ -872,233 +905,274 @@
                 </div>
                 {{-- DELETE --}}
             </section>
-          {{-- Content Customer SALES Desktop End--}}
+            {{-- Content Customer SALES Desktop End --}}
 
-          {{-- Content Customer SALES Mobile Start--}}
+            {{-- Content Customer SALES Mobile Start --}}
             <section id="content1" class="menu-1 mobile-show text-center">
-              <div class="container py-4">
-                {{-- ADD --}}
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
-                    onclick="toggleContent('0')">
-                    <div class="item-feature">
-                        <div class="title-feature">
-                            <h5 class="icon-text-hr d-flex align-items-center">
-                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
-                                    alt="" srcset="" class="w-icon-desk1"> Tambah Produk
-                            </h5>
-                            <hr class="">
-                        </div>
-                        <div class="content-feature-0 d-none h-0" style="transition: height .35s ease-in-out;">
-                            {{-- ADD CONTENT --}}
-                            <div class="pad-con">
-                                <div class="row pb-4 pt-4">
-                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-membuat-prod.png" class="img-content" alt="" style="margin-left: 0px">
-                                    </div>
-                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                        <div class="row mb-4">
-                                            <div class="col-md-11 col-lg-11">
-                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Menambahkan produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Pilih  tombol "buat produk" pada dashboard <br> untuk mulai membuat produk baru untuk <br> penjualan barang mu
-                                                </p>
-                                            </div><br>
+                <div class="container py-4">
+                    {{-- ADD --}}
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12" onclick="toggleContent('0')">
+                        <div class="item-feature">
+                            <div class="title-feature">
+                                <h5 class="icon-text-hr d-flex align-items-center">
+                                    <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                        alt="" srcset="" class="w-icon-desk1"> Tambah Produk
+                                </h5>
+                                <hr class="">
+                            </div>
+                            <div class="content-feature-0 d-none h-0" style="transition: height .35s ease-in-out;">
+                                {{-- ADD CONTENT --}}
+                                <div class="pad-con">
+                                    <div class="row pb-4 pt-4">
+                                        <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                            <img src="omsetku-asset/product/omsetku-asset-membuat-prod.png"
+                                                class="img-content" alt="" style="margin-left: 0px">
+                                        </div>
+                                        <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100"
+                                            style="display: flex; flex-direction: column; justify-content: center;">
+                                            <div class="row mb-4">
+                                                <div class="col-md-11 col-lg-11">
+                                                    <h5 class="h5-m"><strong
+                                                            class="header-content-item d-flex">Menambahkan produk</strong>
+                                                    </h5>
+                                                    <p class="header-text-item-kiri">
+                                                        Pilih tombol "buat produk" pada dashboard <br> untuk mulai membuat
+                                                        produk baru untuk <br> penjualan barang mu
+                                                    </p>
+                                                </div><br>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row pb-4 pt-2">
-                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-membuat-prod2.png" class="img-content" alt="" style="margin-left: 0px">
-                                    </div>
-                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                        <div class="row mb-4">
-                                            <div class="col-md-11 col-lg-11">
-                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Membuat data produk baru</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Pilih  tombol "tambah" pada dashboard untuk mulai <br> menginput data untuk produk baru
-                                                </p>
-                                            </div><br>
+                                    <div class="row pb-4 pt-2">
+                                        <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                            <img src="omsetku-asset/product/omsetku-asset-membuat-prod2.png"
+                                                class="img-content" alt="" style="margin-left: 0px">
+                                        </div>
+                                        <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100"
+                                            style="display: flex; flex-direction: column; justify-content: center;">
+                                            <div class="row mb-4">
+                                                <div class="col-md-11 col-lg-11">
+                                                    <h5 class="h5-m"><strong class="header-content-item d-flex">Membuat
+                                                            data produk baru</strong></h5>
+                                                    <p class="header-text-item-kiri">
+                                                        Pilih tombol "tambah" pada dashboard untuk mulai <br> menginput data
+                                                        untuk produk baru
+                                                    </p>
+                                                </div><br>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row pb-4 pt-2">
-                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-membuat-prod3.png" class="img-content" alt="" style="margin-left: 0px">
-                                    </div>
-                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                        <div class="row mb-4">
-                                            <div class="col-md-11 col-lg-11">
-                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Data produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Isilah data sesuai dengan data produk yang kamu miliki:
-                                                    <br> 1. Upload gambar produk
-                                                    <br> 2. Nama Produk
-                                                    <br> 3. Harga
-                                                    <br> 4. Nama Brand
-                                                    <br> Lalu klik “simpan” untuk menyimpan data produk yang sudah kamu input
-                                                </p>
-                                            </div><br>
+                                    <div class="row pb-4 pt-2">
+                                        <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                            <img src="omsetku-asset/product/omsetku-asset-membuat-prod3.png"
+                                                class="img-content" alt="" style="margin-left: 0px">
+                                        </div>
+                                        <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100"
+                                            style="display: flex; flex-direction: column; justify-content: center;">
+                                            <div class="row mb-4">
+                                                <div class="col-md-11 col-lg-11">
+                                                    <h5 class="h5-m"><strong class="header-content-item d-flex">Data
+                                                            produk</strong></h5>
+                                                    <p class="header-text-item-kiri">
+                                                        Isilah data sesuai dengan data produk yang kamu miliki:
+                                                        <br> 1. Upload gambar produk
+                                                        <br> 2. Nama Produk
+                                                        <br> 3. Harga
+                                                        <br> 4. Nama Brand
+                                                        <br> Lalu klik “simpan” untuk menyimpan data produk yang sudah kamu
+                                                        input
+                                                    </p>
+                                                </div><br>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row pb-4 pt-2">
-                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-membuat-prod4.png" class="img-content" alt="" style="margin-left: 0px">
-                                    </div>
-                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                        <div class="row mb-4">
-                                            <div class="col-md-11 col-lg-11">
-                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Data produk Tersimpan</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Data produk yang kamu baru saja simpan akan muncul dalam list produk
-                                                </p>
-                                            </div><br>
+                                    <div class="row pb-4 pt-2">
+                                        <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                            <img src="omsetku-asset/product/omsetku-asset-membuat-prod4.png"
+                                                class="img-content" alt="" style="margin-left: 0px">
+                                        </div>
+                                        <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100"
+                                            style="display: flex; flex-direction: column; justify-content: center;">
+                                            <div class="row mb-4">
+                                                <div class="col-md-11 col-lg-11">
+                                                    <h5 class="h5-m"><strong class="header-content-item d-flex">Data
+                                                            produk Tersimpan</strong></h5>
+                                                    <p class="header-text-item-kiri">
+                                                        Data produk yang kamu baru saja simpan akan muncul dalam list produk
+                                                    </p>
+                                                </div><br>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                {{-- ADD --}}
+                    {{-- ADD --}}
 
-                {{-- EDIT --}}
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
-                    onclick="toggleContent('1')">
-                    <div class="item-feature">
-                        <div class="title-feature">
-                            <h5 class="icon-text-hr d-flex align-items-center">
-                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
-                                    alt="" srcset="" class="w-icon-desk1"> Edit Produk
-                            </h5>
-                            <hr class="hr-item">
-                        </div>
-                        <div class="content-feature-1 d-none h-0" style="transition: height .35s ease-in-out;">
-                            {{-- EDIT CONTENT --}}
-                            <div class="pad-con">
-                                <div class="row pb-4 pt-4">
-                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-edit-prod.png" class="img-content" alt="" style="margin-left: 0px">
-                                    </div>
-                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                        <div class="row mb-4">
-                                            <div class="col-md-11 col-lg-11">
-                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Edit produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Untuk mengedit data produk, silahkan pilih produk yang ingin kamu edit lalu , ketika muncul tampilan list seperti di samping, klik tombol titik 3 lalu pilih edit untuk mulai mengubah data
-                                                </p>
-                                            </div><br>
+                    {{-- EDIT --}}
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12" onclick="toggleContent('1')">
+                        <div class="item-feature">
+                            <div class="title-feature">
+                                <h5 class="icon-text-hr d-flex align-items-center">
+                                    <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                        alt="" srcset="" class="w-icon-desk1"> Edit Produk
+                                </h5>
+                                <hr class="hr-item">
+                            </div>
+                            <div class="content-feature-1 d-none h-0" style="transition: height .35s ease-in-out;">
+                                {{-- EDIT CONTENT --}}
+                                <div class="pad-con">
+                                    <div class="row pb-4 pt-4">
+                                        <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                            <img src="omsetku-asset/product/omsetku-asset-edit-prod.png"
+                                                class="img-content" alt="" style="margin-left: 0px">
+                                        </div>
+                                        <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100"
+                                            style="display: flex; flex-direction: column; justify-content: center;">
+                                            <div class="row mb-4">
+                                                <div class="col-md-11 col-lg-11">
+                                                    <h5 class="h5-m"><strong class="header-content-item d-flex">Edit
+                                                            produk</strong></h5>
+                                                    <p class="header-text-item-kiri">
+                                                        Untuk mengedit data produk, silahkan pilih produk yang ingin kamu
+                                                        edit lalu , ketika muncul tampilan list seperti di samping, klik
+                                                        tombol titik 3 lalu pilih edit untuk mulai mengubah data
+                                                    </p>
+                                                </div><br>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row pb-4 pt-2">
-                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-edit-prod2.png" class="img-content" alt="" style="margin-left: 0px">
-                                    </div>
-                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                        <div class="row mb-4">
-                                            <div class="col-md-11 col-lg-11">
-                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Mengedit data produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Isilah data sesuai dengan data produk yang kamu miliki:
-                                                    <br> 1. Upload gambar produk
-                                                    <br> 2. Nama Produk
-                                                    <br> 3. Harga
-                                                    <br> 4. Nama Brand
-                                                    <br> lalu pilih edit untuk mulai mengubah data
-                                                </p>
-                                            </div><br>
+                                    <div class="row pb-4 pt-2">
+                                        <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                            <img src="omsetku-asset/product/omsetku-asset-edit-prod2.png"
+                                                class="img-content" alt="" style="margin-left: 0px">
+                                        </div>
+                                        <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100"
+                                            style="display: flex; flex-direction: column; justify-content: center;">
+                                            <div class="row mb-4">
+                                                <div class="col-md-11 col-lg-11">
+                                                    <h5 class="h5-m"><strong class="header-content-item d-flex">Mengedit
+                                                            data produk</strong></h5>
+                                                    <p class="header-text-item-kiri">
+                                                        Isilah data sesuai dengan data produk yang kamu miliki:
+                                                        <br> 1. Upload gambar produk
+                                                        <br> 2. Nama Produk
+                                                        <br> 3. Harga
+                                                        <br> 4. Nama Brand
+                                                        <br> lalu pilih edit untuk mulai mengubah data
+                                                    </p>
+                                                </div><br>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row pb-4 pt-2">
-                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-edit-prod3.png" class="img-content" alt="" style="margin-left: 0px">
-                                    </div>
-                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                        <div class="row mb-4">
-                                            <div class="col-md-11 col-lg-11">
-                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Data produk tersimpan</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Data produk yang kamu baru saja simpan akan muncul dalam list produk, Pilih produk baru mu untuk melihat datanya secara detail
-                                                </p>
-                                            </div><br>
+                                    <div class="row pb-4 pt-2">
+                                        <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                            <img src="omsetku-asset/product/omsetku-asset-edit-prod3.png"
+                                                class="img-content" alt="" style="margin-left: 0px">
+                                        </div>
+                                        <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100"
+                                            style="display: flex; flex-direction: column; justify-content: center;">
+                                            <div class="row mb-4">
+                                                <div class="col-md-11 col-lg-11">
+                                                    <h5 class="h5-m"><strong class="header-content-item d-flex">Data
+                                                            produk tersimpan</strong></h5>
+                                                    <p class="header-text-item-kiri">
+                                                        Data produk yang kamu baru saja simpan akan muncul dalam list
+                                                        produk, Pilih produk baru mu untuk melihat datanya secara detail
+                                                    </p>
+                                                </div><br>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                {{-- EDIT --}}
+                    {{-- EDIT --}}
 
-                {{-- DELETE --}}
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
-                    onclick="toggleContent('2')">
-                    <div class="item-feature">
-                        <div class="title-feature">
-                            <h5 class="icon-text-hr d-flex align-items-center">
-                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
-                                    alt="" srcset="" class="w-icon-desk1"> Detele Produk
-                            </h5>
-                            <hr class="hr-item">
-                        </div>
-                        <div class="content-feature-2 d-none h-0" style="transition: height .35s ease-in-out;">
-                            {{-- DELETE CONTENT --}}
-                            <div class="pad-con">
-                                <div class="row pb-4 pt-4">
-                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-delete-prod.png" class="img-content" alt="" style="margin-left: 0px">
-                                    </div>
-                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                        <div class="row mb-4">
-                                            <div class="col-md-11 col-lg-11">
-                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Menghapus data produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Untuk menghapus data produk, silahkan pilih produk yang ingin kamu hapus lalu , ketika muncul tampilan list seperti di samping, klik tombol hapus untuk menghapus data produk
-                                                </p>
-                                            </div><br>
+                    {{-- DELETE --}}
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12" onclick="toggleContent('2')">
+                        <div class="item-feature">
+                            <div class="title-feature">
+                                <h5 class="icon-text-hr d-flex align-items-center">
+                                    <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                        alt="" srcset="" class="w-icon-desk1"> Detele Produk
+                                </h5>
+                                <hr class="hr-item">
+                            </div>
+                            <div class="content-feature-2 d-none h-0" style="transition: height .35s ease-in-out;">
+                                {{-- DELETE CONTENT --}}
+                                <div class="pad-con">
+                                    <div class="row pb-4 pt-4">
+                                        <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                            <img src="omsetku-asset/product/omsetku-asset-delete-prod.png"
+                                                class="img-content" alt="" style="margin-left: 0px">
+                                        </div>
+                                        <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100"
+                                            style="display: flex; flex-direction: column; justify-content: center;">
+                                            <div class="row mb-4">
+                                                <div class="col-md-11 col-lg-11">
+                                                    <h5 class="h5-m"><strong
+                                                            class="header-content-item d-flex">Menghapus data
+                                                            produk</strong></h5>
+                                                    <p class="header-text-item-kiri">
+                                                        Untuk menghapus data produk, silahkan pilih produk yang ingin kamu
+                                                        hapus lalu , ketika muncul tampilan list seperti di samping, klik
+                                                        tombol hapus untuk menghapus data produk
+                                                    </p>
+                                                </div><br>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row pb-4 pt-2">
-                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-delete-prod2.png" class="img-content" alt="" style="margin-left: 0px">
-                                    </div>
-                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                        <div class="row mb-4">
-                                            <div class="col-md-11 col-lg-11">
-                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Konfirmasi hapus data produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Ketika sudah klik tombol hapus maka akan muncul tampilan konfirmasi untuk menghapus data dari produk, klik hapus untuk menghapus dan klik batal untuk membatalkan penghapusan data produk
-                                                </p>
-                                            </div><br>
+                                    <div class="row pb-4 pt-2">
+                                        <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                            <img src="omsetku-asset/product/omsetku-asset-delete-prod2.png"
+                                                class="img-content" alt="" style="margin-left: 0px">
+                                        </div>
+                                        <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100"
+                                            style="display: flex; flex-direction: column; justify-content: center;">
+                                            <div class="row mb-4">
+                                                <div class="col-md-11 col-lg-11">
+                                                    <h5 class="h5-m"><strong
+                                                            class="header-content-item d-flex">Konfirmasi hapus data
+                                                            produk</strong></h5>
+                                                    <p class="header-text-item-kiri">
+                                                        Ketika sudah klik tombol hapus maka akan muncul tampilan konfirmasi
+                                                        untuk menghapus data dari produk, klik hapus untuk menghapus dan
+                                                        klik batal untuk membatalkan penghapusan data produk
+                                                    </p>
+                                                </div><br>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row pb-4 pt-2">
-                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-delete-prod3.png" class="img-content" alt="" style="margin-left: 0px">
-                                    </div>
-                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                        <div class="row mb-4">
-                                            <div class="col-md-11 col-lg-11">
-                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Berhasil menghapus data produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Setelah kamu hapus data produk, Maka dengan otomatis data produk tersebut sudah ter-hapus dari di list produk
-                                                </p>
-                                            </div><br>
+                                    <div class="row pb-4 pt-2">
+                                        <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                            <img src="omsetku-asset/product/omsetku-asset-delete-prod3.png"
+                                                class="img-content" alt="" style="margin-left: 0px">
+                                        </div>
+                                        <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100"
+                                            style="display: flex; flex-direction: column; justify-content: center;">
+                                            <div class="row mb-4">
+                                                <div class="col-md-11 col-lg-11">
+                                                    <h5 class="h5-m"><strong class="header-content-item d-flex">Berhasil
+                                                            menghapus data produk</strong></h5>
+                                                    <p class="header-text-item-kiri">
+                                                        Setelah kamu hapus data produk, Maka dengan otomatis data produk
+                                                        tersebut sudah ter-hapus dari di list produk
+                                                    </p>
+                                                </div><br>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    {{-- DELETE --}}
                 </div>
-                {{-- DELETE --}}
-              </div>
             </section>
-          {{-- Content Customer SALES Mobile End--}}
+            {{-- Content Customer SALES Mobile End --}}
         </div>
         <!-- Sales Tab -->
 
@@ -1106,11 +1180,10 @@
         <!-- Owner Tab -->
         <div class="tab-pane fade" id="owner">
 
-          {{-- Content Customer OWNER Desktop Start--}}
+            {{-- Content Customer OWNER Desktop Start --}}
             <section id="content1" class="menu-1 desktop-show text-center">
                 {{-- ADD --}}
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
-                    onclick="toggleContent('0')">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12" onclick="toggleContent('0')">
                     <div class="item-feature">
                         <div class="title-feature">
                             <h5 class="icon-text-hr d-flex align-items-center">
@@ -1124,69 +1197,83 @@
                             <div class="pad-con">
                                 <div class="row pb-4 pt-4">
                                     <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-membuat-prod.png" class="img-content" alt="" style="margin-left: 0px">
+                                        <img src="omsetku-asset/product/omsetku-asset-membuat-prod.png"
+                                            class="img-content" alt="" style="margin-left: 0px">
                                     </div>
-                                
-                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100"
+                                        style="display: flex; flex-direction: column; justify-content: center;">
                                         <div class="row mb-4">
                                             <div class="col-md-11 col-lg-11">
-                                                <h5 ><strong class="header-content-item d-flex">Menambahkan produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Pilih  tombol "buat produk" pada dashboard <br> untuk mulai membuat produk baru untuk <br> penjualan barang mu
+                                                <h5><strong class="header-content-item d-flex">Menambahkan produk</strong>
+                                                </h5>
+                                                <p class="header-text-item-kiri">
+                                                    Pilih tombol "buat produk" pada dashboard <br> untuk mulai membuat
+                                                    produk baru untuk <br> penjualan barang mu
                                                 </p>
                                             </div><br>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row pb-4 pt-2">
-                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100"
+                                        style="display: flex; flex-direction: column; justify-content: center;">
                                         <div class="row mb-4">
                                             <div class="col-md-11 col-lg-11">
-                                                <h5 ><strong class="header-content-item d-flex">Membuat data produk baru</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Pilih  tombol "tambah" pada dashboard untuk mulai <br> menginput data untuk produk baru
+                                                <h5><strong class="header-content-item d-flex">Membuat data produk
+                                                        baru</strong></h5>
+                                                <p class="header-text-item-kiri">
+                                                    Pilih tombol "tambah" pada dashboard untuk mulai <br> menginput data
+                                                    untuk produk baru
                                                 </p>
                                             </div><br>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-membuat-prod2.png" class="img-content" alt="" style="margin-left: 0px">
+                                        <img src="omsetku-asset/product/omsetku-asset-membuat-prod2.png"
+                                            class="img-content" alt="" style="margin-left: 0px">
                                     </div>
                                 </div>
                                 <div class="row pb-4 pt-2">
                                     <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-membuat-prod3.png" class="img-content" alt="" style="margin-left: 0px">
+                                        <img src="omsetku-asset/product/omsetku-asset-membuat-prod3.png"
+                                            class="img-content" alt="" style="margin-left: 0px">
                                     </div>
-                                
-                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100"
+                                        style="display: flex; flex-direction: column; justify-content: center;">
                                         <div class="row mb-4">
                                             <div class="col-md-11 col-lg-11">
-                                                <h5 ><strong class="header-content-item d-flex">Data produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
+                                                <h5><strong class="header-content-item d-flex">Data produk</strong></h5>
+                                                <p class="header-text-item-kiri">
                                                     Isilah data sesuai dengan data produk yang kamu miliki:
                                                     <br> 1. Upload gambar produk
                                                     <br> 2. Nama Produk
                                                     <br> 3. Harga
                                                     <br> 4. Nama Brand
-                                                    <br> Lalu klik “simpan” untuk menyimpan data produk yang sudah kamu input
+                                                    <br> Lalu klik “simpan” untuk menyimpan data produk yang sudah kamu
+                                                    input
                                                 </p>
                                             </div><br>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row pb-4 pt-2">
-                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100"
+                                        style="display: flex; flex-direction: column; justify-content: center;">
                                         <div class="row mb-4">
                                             <div class="col-md-11 col-lg-11">
-                                                <h5 ><strong class="header-content-item d-flex">Data produk Tersimpan</strong></h5>
-                                                <p class="header-text-item-kiri" >
+                                                <h5><strong class="header-content-item d-flex">Data produk
+                                                        Tersimpan</strong></h5>
+                                                <p class="header-text-item-kiri">
                                                     Data produk yang kamu baru saja simpan akan muncul dalam list produk
                                                 </p>
                                             </div><br>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-membuat-prod4.png" class="img-content" alt="" style="margin-left: 0px">
+                                        <img src="omsetku-asset/product/omsetku-asset-membuat-prod4.png"
+                                            class="img-content" alt="" style="margin-left: 0px">
                                     </div>
                                 </div>
                             </div>
@@ -1196,8 +1283,7 @@
                 {{-- ADD --}}
 
                 {{-- EDIT --}}
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
-                    onclick="toggleContent('1')">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12" onclick="toggleContent('1')">
                     <div class="item-feature">
                         <div class="title-feature">
                             <h5 class="icon-text-hr d-flex align-items-center">
@@ -1211,26 +1297,32 @@
                             <div class="pad-con">
                                 <div class="row pb-4 pt-4">
                                     <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-edit-prod.png" class="img-content" alt="" style="margin-left: 0px">
+                                        <img src="omsetku-asset/product/omsetku-asset-edit-prod.png" class="img-content"
+                                            alt="" style="margin-left: 0px">
                                     </div>
-                                
-                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100"
+                                        style="display: flex; flex-direction: column; justify-content: center;">
                                         <div class="row mb-4">
                                             <div class="col-md-11 col-lg-11">
-                                                <h5 ><strong class="header-content-item d-flex">Edit produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Untuk mengedit data produk, silahkan pilih produk yang ingin kamu edit lalu , ketika muncul tampilan list seperti di samping, klik tombol titik 3 lalu pilih edit untuk mulai mengubah data
+                                                <h5><strong class="header-content-item d-flex">Edit produk</strong></h5>
+                                                <p class="header-text-item-kiri">
+                                                    Untuk mengedit data produk, silahkan pilih produk yang ingin kamu edit
+                                                    lalu , ketika muncul tampilan list seperti di samping, klik tombol titik
+                                                    3 lalu pilih edit untuk mulai mengubah data
                                                 </p>
                                             </div><br>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row pb-4 pt-2">
-                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100"
+                                        style="display: flex; flex-direction: column; justify-content: center;">
                                         <div class="row mb-4">
                                             <div class="col-md-11 col-lg-11">
-                                                <h5 ><strong class="header-content-item d-flex">Mengedit data produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
+                                                <h5><strong class="header-content-item d-flex">Mengedit data
+                                                        produk</strong></h5>
+                                                <p class="header-text-item-kiri">
                                                     Isilah data sesuai dengan data produk yang kamu miliki:
                                                     <br> 1. Upload gambar produk
                                                     <br> 2. Nama Produk
@@ -1242,20 +1334,25 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-edit-prod2.png" class="img-content" alt="" style="margin-left: 0px">
+                                        <img src="omsetku-asset/product/omsetku-asset-edit-prod2.png" class="img-content"
+                                            alt="" style="margin-left: 0px">
                                     </div>
                                 </div>
                                 <div class="row pb-4 pt-2">
                                     <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-edit-prod3.png" class="img-content" alt="" style="margin-left: 0px">
+                                        <img src="omsetku-asset/product/omsetku-asset-edit-prod3.png" class="img-content"
+                                            alt="" style="margin-left: 0px">
                                     </div>
-                                
-                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100"
+                                        style="display: flex; flex-direction: column; justify-content: center;">
                                         <div class="row mb-4">
                                             <div class="col-md-11 col-lg-11">
-                                                <h5 ><strong class="header-content-item d-flex">Data produk tersimpan</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Data produk yang kamu baru saja simpan akan muncul dalam list produk, Pilih produk baru mu untuk melihat datanya secara detail
+                                                <h5><strong class="header-content-item d-flex">Data produk
+                                                        tersimpan</strong></h5>
+                                                <p class="header-text-item-kiri">
+                                                    Data produk yang kamu baru saja simpan akan muncul dalam list produk,
+                                                    Pilih produk baru mu untuk melihat datanya secara detail
                                                 </p>
                                             </div><br>
                                         </div>
@@ -1268,8 +1365,7 @@
                 {{-- EDIT --}}
 
                 {{-- DELETE --}}
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
-                    onclick="toggleContent('2')">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12" onclick="toggleContent('2')">
                     <div class="item-feature">
                         <div class="title-feature">
                             <h5 class="icon-text-hr d-flex align-items-center">
@@ -1283,45 +1379,59 @@
                             <div class="pad-con">
                                 <div class="row pb-4 pt-4">
                                     <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-delete-prod.png" class="img-content" alt="" style="margin-left: 0px">
+                                        <img src="omsetku-asset/product/omsetku-asset-delete-prod.png" class="img-content"
+                                            alt="" style="margin-left: 0px">
                                     </div>
-                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100"
+                                        style="display: flex; flex-direction: column; justify-content: center;">
                                         <div class="row mb-4">
                                             <div class="col-md-11 col-lg-11">
-                                                <h5 ><strong class="header-content-item d-flex">Menghapus data produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Untuk menghapus data produk, silahkan pilih produk yang ingin kamu hapus lalu , ketika muncul tampilan list seperti di samping, klik tombol hapus untuk menghapus data produk
+                                                <h5><strong class="header-content-item d-flex">Menghapus data
+                                                        produk</strong></h5>
+                                                <p class="header-text-item-kiri">
+                                                    Untuk menghapus data produk, silahkan pilih produk yang ingin kamu hapus
+                                                    lalu , ketika muncul tampilan list seperti di samping, klik tombol hapus
+                                                    untuk menghapus data produk
                                                 </p>
                                             </div><br>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row pb-4 pt-2">
-                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100"
+                                        style="display: flex; flex-direction: column; justify-content: center;">
                                         <div class="row mb-4">
                                             <div class="col-md-11 col-lg-11">
-                                                <h5 ><strong class="header-content-item d-flex">Konfirmasi hapus data produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Ketika sudah klik tombol hapus maka akan muncul tampilan konfirmasi untuk menghapus data dari produk, klik hapus untuk menghapus dan klik batal untuk membatalkan penghapusan data produk
+                                                <h5><strong class="header-content-item d-flex">Konfirmasi hapus data
+                                                        produk</strong></h5>
+                                                <p class="header-text-item-kiri">
+                                                    Ketika sudah klik tombol hapus maka akan muncul tampilan konfirmasi
+                                                    untuk menghapus data dari produk, klik hapus untuk menghapus dan klik
+                                                    batal untuk membatalkan penghapusan data produk
                                                 </p>
                                             </div><br>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-delete-prod2.png" class="img-content" alt="" style="margin-left: 0px">
+                                        <img src="omsetku-asset/product/omsetku-asset-delete-prod2.png"
+                                            class="img-content" alt="" style="margin-left: 0px">
                                     </div>
                                 </div>
                                 <div class="row pb-4 pt-2">
                                     <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-delete-prod3.png" class="img-content" alt="" style="margin-left: 0px">
+                                        <img src="omsetku-asset/product/omsetku-asset-delete-prod3.png"
+                                            class="img-content" alt="" style="margin-left: 0px">
                                     </div>
-                                
-                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
+
+                                    <div class="col-lg-6 pt-5 pt-lg-0 content" data-aos-delay="100"
+                                        style="display: flex; flex-direction: column; justify-content: center;">
                                         <div class="row mb-4">
                                             <div class="col-md-11 col-lg-11">
-                                                <h5 ><strong class="header-content-item d-flex">Berhasil menghapus data produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Setelah kamu hapus data produk, Maka dengan otomatis data produk tersebut sudah ter-hapus dari di list produk
+                                                <h5><strong class="header-content-item d-flex">Berhasil menghapus data
+                                                        produk</strong></h5>
+                                                <p class="header-text-item-kiri">
+                                                    Setelah kamu hapus data produk, Maka dengan otomatis data produk
+                                                    tersebut sudah ter-hapus dari di list produk
                                                 </p>
                                             </div><br>
                                         </div>
@@ -1333,233 +1443,274 @@
                 </div>
                 {{-- DELETE --}}
             </section>
-          {{-- Content Customer OWNER Desktop End--}}
-          
-          {{-- Content Customer OWNER Mobile Start--}}
+            {{-- Content Customer OWNER Desktop End --}}
+
+            {{-- Content Customer OWNER Mobile Start --}}
             <section id="content1" class="menu-1 mobile-show text-center">
-              <div class="container py-4">
-                {{-- ADD --}}
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
-                    onclick="toggleContent('0')">
-                    <div class="item-feature">
-                        <div class="title-feature">
-                            <h5 class="icon-text-hr d-flex align-items-center">
-                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
-                                    alt="" srcset="" class="w-icon-desk1"> Tambah Produk
-                            </h5>
-                            <hr class="">
-                        </div>
-                        <div class="content-feature-0 d-none h-0" style="transition: height .35s ease-in-out;">
-                            {{-- ADD CONTENT --}}
-                            <div class="pad-con">
-                                <div class="row pb-4 pt-4">
-                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-membuat-prod.png" class="img-content" alt="" style="margin-left: 0px">
-                                    </div>
-                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                        <div class="row mb-4">
-                                            <div class="col-md-11 col-lg-11">
-                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Menambahkan produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Pilih  tombol "buat produk" pada dashboard <br> untuk mulai membuat produk baru untuk <br> penjualan barang mu
-                                                </p>
-                                            </div><br>
+                <div class="container py-4">
+                    {{-- ADD --}}
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12" onclick="toggleContent('0')">
+                        <div class="item-feature">
+                            <div class="title-feature">
+                                <h5 class="icon-text-hr d-flex align-items-center">
+                                    <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                        alt="" srcset="" class="w-icon-desk1"> Tambah Produk
+                                </h5>
+                                <hr class="">
+                            </div>
+                            <div class="content-feature-0 d-none h-0" style="transition: height .35s ease-in-out;">
+                                {{-- ADD CONTENT --}}
+                                <div class="pad-con">
+                                    <div class="row pb-4 pt-4">
+                                        <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                            <img src="omsetku-asset/product/omsetku-asset-membuat-prod.png"
+                                                class="img-content" alt="" style="margin-left: 0px">
+                                        </div>
+                                        <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100"
+                                            style="display: flex; flex-direction: column; justify-content: center;">
+                                            <div class="row mb-4">
+                                                <div class="col-md-11 col-lg-11">
+                                                    <h5 class="h5-m"><strong
+                                                            class="header-content-item d-flex">Menambahkan produk</strong>
+                                                    </h5>
+                                                    <p class="header-text-item-kiri">
+                                                        Pilih tombol "buat produk" pada dashboard <br> untuk mulai membuat
+                                                        produk baru untuk <br> penjualan barang mu
+                                                    </p>
+                                                </div><br>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row pb-4 pt-2">
-                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-membuat-prod2.png" class="img-content" alt="" style="margin-left: 0px">
-                                    </div>
-                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                        <div class="row mb-4">
-                                            <div class="col-md-11 col-lg-11">
-                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Membuat data produk baru</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Pilih  tombol "tambah" pada dashboard untuk mulai <br> menginput data untuk produk baru
-                                                </p>
-                                            </div><br>
+                                    <div class="row pb-4 pt-2">
+                                        <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                            <img src="omsetku-asset/product/omsetku-asset-membuat-prod2.png"
+                                                class="img-content" alt="" style="margin-left: 0px">
+                                        </div>
+                                        <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100"
+                                            style="display: flex; flex-direction: column; justify-content: center;">
+                                            <div class="row mb-4">
+                                                <div class="col-md-11 col-lg-11">
+                                                    <h5 class="h5-m"><strong class="header-content-item d-flex">Membuat
+                                                            data produk baru</strong></h5>
+                                                    <p class="header-text-item-kiri">
+                                                        Pilih tombol "tambah" pada dashboard untuk mulai <br> menginput data
+                                                        untuk produk baru
+                                                    </p>
+                                                </div><br>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row pb-4 pt-2">
-                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-membuat-prod3.png" class="img-content" alt="" style="margin-left: 0px">
-                                    </div>
-                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                        <div class="row mb-4">
-                                            <div class="col-md-11 col-lg-11">
-                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Data produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Isilah data sesuai dengan data produk yang kamu miliki:
-                                                    <br> 1. Upload gambar produk
-                                                    <br> 2. Nama Produk
-                                                    <br> 3. Harga
-                                                    <br> 4. Nama Brand
-                                                    <br> Lalu klik “simpan” untuk menyimpan data produk yang sudah kamu input
-                                                </p>
-                                            </div><br>
+                                    <div class="row pb-4 pt-2">
+                                        <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                            <img src="omsetku-asset/product/omsetku-asset-membuat-prod3.png"
+                                                class="img-content" alt="" style="margin-left: 0px">
+                                        </div>
+                                        <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100"
+                                            style="display: flex; flex-direction: column; justify-content: center;">
+                                            <div class="row mb-4">
+                                                <div class="col-md-11 col-lg-11">
+                                                    <h5 class="h5-m"><strong class="header-content-item d-flex">Data
+                                                            produk</strong></h5>
+                                                    <p class="header-text-item-kiri">
+                                                        Isilah data sesuai dengan data produk yang kamu miliki:
+                                                        <br> 1. Upload gambar produk
+                                                        <br> 2. Nama Produk
+                                                        <br> 3. Harga
+                                                        <br> 4. Nama Brand
+                                                        <br> Lalu klik “simpan” untuk menyimpan data produk yang sudah kamu
+                                                        input
+                                                    </p>
+                                                </div><br>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row pb-4 pt-2">
-                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-membuat-prod4.png" class="img-content" alt="" style="margin-left: 0px">
-                                    </div>
-                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                        <div class="row mb-4">
-                                            <div class="col-md-11 col-lg-11">
-                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Data produk Tersimpan</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Data produk yang kamu baru saja simpan akan muncul dalam list produk
-                                                </p>
-                                            </div><br>
+                                    <div class="row pb-4 pt-2">
+                                        <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                            <img src="omsetku-asset/product/omsetku-asset-membuat-prod4.png"
+                                                class="img-content" alt="" style="margin-left: 0px">
+                                        </div>
+                                        <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100"
+                                            style="display: flex; flex-direction: column; justify-content: center;">
+                                            <div class="row mb-4">
+                                                <div class="col-md-11 col-lg-11">
+                                                    <h5 class="h5-m"><strong class="header-content-item d-flex">Data
+                                                            produk Tersimpan</strong></h5>
+                                                    <p class="header-text-item-kiri">
+                                                        Data produk yang kamu baru saja simpan akan muncul dalam list produk
+                                                    </p>
+                                                </div><br>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                {{-- ADD --}}
+                    {{-- ADD --}}
 
-                {{-- EDIT --}}
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
-                    onclick="toggleContent('1')">
-                    <div class="item-feature">
-                        <div class="title-feature">
-                            <h5 class="icon-text-hr d-flex align-items-center">
-                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
-                                    alt="" srcset="" class="w-icon-desk1"> Edit Produk
-                            </h5>
-                            <hr class="hr-item">
-                        </div>
-                        <div class="content-feature-1 d-none h-0" style="transition: height .35s ease-in-out;">
-                            {{-- EDIT CONTENT --}}
-                            <div class="pad-con">
-                                <div class="row pb-4 pt-4">
-                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-edit-prod.png" class="img-content" alt="" style="margin-left: 0px">
-                                    </div>
-                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                        <div class="row mb-4">
-                                            <div class="col-md-11 col-lg-11">
-                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Edit produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Untuk mengedit data produk, silahkan pilih produk yang ingin kamu edit lalu , ketika muncul tampilan list seperti di samping, klik tombol titik 3 lalu pilih edit untuk mulai mengubah data
-                                                </p>
-                                            </div><br>
+                    {{-- EDIT --}}
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12" onclick="toggleContent('1')">
+                        <div class="item-feature">
+                            <div class="title-feature">
+                                <h5 class="icon-text-hr d-flex align-items-center">
+                                    <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                        alt="" srcset="" class="w-icon-desk1"> Edit Produk
+                                </h5>
+                                <hr class="hr-item">
+                            </div>
+                            <div class="content-feature-1 d-none h-0" style="transition: height .35s ease-in-out;">
+                                {{-- EDIT CONTENT --}}
+                                <div class="pad-con">
+                                    <div class="row pb-4 pt-4">
+                                        <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                            <img src="omsetku-asset/product/omsetku-asset-edit-prod.png"
+                                                class="img-content" alt="" style="margin-left: 0px">
+                                        </div>
+                                        <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100"
+                                            style="display: flex; flex-direction: column; justify-content: center;">
+                                            <div class="row mb-4">
+                                                <div class="col-md-11 col-lg-11">
+                                                    <h5 class="h5-m"><strong class="header-content-item d-flex">Edit
+                                                            produk</strong></h5>
+                                                    <p class="header-text-item-kiri">
+                                                        Untuk mengedit data produk, silahkan pilih produk yang ingin kamu
+                                                        edit lalu , ketika muncul tampilan list seperti di samping, klik
+                                                        tombol titik 3 lalu pilih edit untuk mulai mengubah data
+                                                    </p>
+                                                </div><br>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row pb-4 pt-2">
-                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-edit-prod2.png" class="img-content" alt="" style="margin-left: 0px">
-                                    </div>
-                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                        <div class="row mb-4">
-                                            <div class="col-md-11 col-lg-11">
-                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Mengedit data produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Isilah data sesuai dengan data produk yang kamu miliki:
-                                                    <br> 1. Upload gambar produk
-                                                    <br> 2. Nama Produk
-                                                    <br> 3. Harga
-                                                    <br> 4. Nama Brand
-                                                    <br> lalu pilih edit untuk mulai mengubah data
-                                                </p>
-                                            </div><br>
+                                    <div class="row pb-4 pt-2">
+                                        <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                            <img src="omsetku-asset/product/omsetku-asset-edit-prod2.png"
+                                                class="img-content" alt="" style="margin-left: 0px">
+                                        </div>
+                                        <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100"
+                                            style="display: flex; flex-direction: column; justify-content: center;">
+                                            <div class="row mb-4">
+                                                <div class="col-md-11 col-lg-11">
+                                                    <h5 class="h5-m"><strong class="header-content-item d-flex">Mengedit
+                                                            data produk</strong></h5>
+                                                    <p class="header-text-item-kiri">
+                                                        Isilah data sesuai dengan data produk yang kamu miliki:
+                                                        <br> 1. Upload gambar produk
+                                                        <br> 2. Nama Produk
+                                                        <br> 3. Harga
+                                                        <br> 4. Nama Brand
+                                                        <br> lalu pilih edit untuk mulai mengubah data
+                                                    </p>
+                                                </div><br>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row pb-4 pt-2">
-                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-edit-prod3.png" class="img-content" alt="" style="margin-left: 0px">
-                                    </div>
-                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                        <div class="row mb-4">
-                                            <div class="col-md-11 col-lg-11">
-                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Data produk tersimpan</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Data produk yang kamu baru saja simpan akan muncul dalam list produk, Pilih produk baru mu untuk melihat datanya secara detail
-                                                </p>
-                                            </div><br>
+                                    <div class="row pb-4 pt-2">
+                                        <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                            <img src="omsetku-asset/product/omsetku-asset-edit-prod3.png"
+                                                class="img-content" alt="" style="margin-left: 0px">
+                                        </div>
+                                        <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100"
+                                            style="display: flex; flex-direction: column; justify-content: center;">
+                                            <div class="row mb-4">
+                                                <div class="col-md-11 col-lg-11">
+                                                    <h5 class="h5-m"><strong class="header-content-item d-flex">Data
+                                                            produk tersimpan</strong></h5>
+                                                    <p class="header-text-item-kiri">
+                                                        Data produk yang kamu baru saja simpan akan muncul dalam list
+                                                        produk, Pilih produk baru mu untuk melihat datanya secara detail
+                                                    </p>
+                                                </div><br>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                {{-- EDIT --}}
+                    {{-- EDIT --}}
 
-                {{-- DELETE --}}
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12"
-                    onclick="toggleContent('2')">
-                    <div class="item-feature">
-                        <div class="title-feature">
-                            <h5 class="icon-text-hr d-flex align-items-center">
-                                <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
-                                    alt="" srcset="" class="w-icon-desk1"> Detele Produk
-                            </h5>
-                            <hr class="hr-item">
-                        </div>
-                        <div class="content-feature-2 d-none h-0" style="transition: height .35s ease-in-out;">
-                            {{-- DELETE CONTENT --}}
-                            <div class="pad-con">
-                                <div class="row pb-4 pt-4">
-                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-delete-prod.png" class="img-content" alt="" style="margin-left: 0px">
-                                    </div>
-                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                        <div class="row mb-4">
-                                            <div class="col-md-11 col-lg-11">
-                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Menghapus data produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Untuk menghapus data produk, silahkan pilih produk yang ingin kamu hapus lalu , ketika muncul tampilan list seperti di samping, klik tombol hapus untuk menghapus data produk
-                                                </p>
-                                            </div><br>
+                    {{-- DELETE --}}
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12" onclick="toggleContent('2')">
+                        <div class="item-feature">
+                            <div class="title-feature">
+                                <h5 class="icon-text-hr d-flex align-items-center">
+                                    <img src="https://omsetku-dev.globaldeva.com/public/asset-home/omsetku-accordion-on-transaction.png"
+                                        alt="" srcset="" class="w-icon-desk1"> Detele Produk
+                                </h5>
+                                <hr class="hr-item">
+                            </div>
+                            <div class="content-feature-2 d-none h-0" style="transition: height .35s ease-in-out;">
+                                {{-- DELETE CONTENT --}}
+                                <div class="pad-con">
+                                    <div class="row pb-4 pt-4">
+                                        <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                            <img src="omsetku-asset/product/omsetku-asset-delete-prod.png"
+                                                class="img-content" alt="" style="margin-left: 0px">
+                                        </div>
+                                        <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100"
+                                            style="display: flex; flex-direction: column; justify-content: center;">
+                                            <div class="row mb-4">
+                                                <div class="col-md-11 col-lg-11">
+                                                    <h5 class="h5-m"><strong
+                                                            class="header-content-item d-flex">Menghapus data
+                                                            produk</strong></h5>
+                                                    <p class="header-text-item-kiri">
+                                                        Untuk menghapus data produk, silahkan pilih produk yang ingin kamu
+                                                        hapus lalu , ketika muncul tampilan list seperti di samping, klik
+                                                        tombol hapus untuk menghapus data produk
+                                                    </p>
+                                                </div><br>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row pb-4 pt-2">
-                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-delete-prod2.png" class="img-content" alt="" style="margin-left: 0px">
-                                    </div>
-                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                        <div class="row mb-4">
-                                            <div class="col-md-11 col-lg-11">
-                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Konfirmasi hapus data produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Ketika sudah klik tombol hapus maka akan muncul tampilan konfirmasi untuk menghapus data dari produk, klik hapus untuk menghapus dan klik batal untuk membatalkan penghapusan data produk
-                                                </p>
-                                            </div><br>
+                                    <div class="row pb-4 pt-2">
+                                        <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                            <img src="omsetku-asset/product/omsetku-asset-delete-prod2.png"
+                                                class="img-content" alt="" style="margin-left: 0px">
+                                        </div>
+                                        <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100"
+                                            style="display: flex; flex-direction: column; justify-content: center;">
+                                            <div class="row mb-4">
+                                                <div class="col-md-11 col-lg-11">
+                                                    <h5 class="h5-m"><strong
+                                                            class="header-content-item d-flex">Konfirmasi hapus data
+                                                            produk</strong></h5>
+                                                    <p class="header-text-item-kiri">
+                                                        Ketika sudah klik tombol hapus maka akan muncul tampilan konfirmasi
+                                                        untuk menghapus data dari produk, klik hapus untuk menghapus dan
+                                                        klik batal untuk membatalkan penghapusan data produk
+                                                    </p>
+                                                </div><br>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row pb-4 pt-2">
-                                    <div class="col-lg-6 image-section-content" data-aos-delay="100">
-                                        <img src="omsetku-asset/product/omsetku-asset-delete-prod3.png" class="img-content" alt="" style="margin-left: 0px">
-                                    </div>
-                                    <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100" style="display: flex; flex-direction: column; justify-content: center;">
-                                        <div class="row mb-4">
-                                            <div class="col-md-11 col-lg-11">
-                                                <h5 class="h5-m"><strong class="header-content-item d-flex">Berhasil menghapus data produk</strong></h5>
-                                                <p class="header-text-item-kiri" >
-                                                    Setelah kamu hapus data produk, Maka dengan otomatis data produk tersebut sudah ter-hapus dari di list produk
-                                                </p>
-                                            </div><br>
+                                    <div class="row pb-4 pt-2">
+                                        <div class="col-lg-6 image-section-content" data-aos-delay="100">
+                                            <img src="omsetku-asset/product/omsetku-asset-delete-prod3.png"
+                                                class="img-content" alt="" style="margin-left: 0px">
+                                        </div>
+                                        <div class="col-lg-6 pt-4 pl-0 pt-lg-0" data-aos-delay="100"
+                                            style="display: flex; flex-direction: column; justify-content: center;">
+                                            <div class="row mb-4">
+                                                <div class="col-md-11 col-lg-11">
+                                                    <h5 class="h5-m"><strong class="header-content-item d-flex">Berhasil
+                                                            menghapus data produk</strong></h5>
+                                                    <p class="header-text-item-kiri">
+                                                        Setelah kamu hapus data produk, Maka dengan otomatis data produk
+                                                        tersebut sudah ter-hapus dari di list produk
+                                                    </p>
+                                                </div><br>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    {{-- DELETE --}}
                 </div>
-                {{-- DELETE --}}
-              </div>
             </section>
-          {{-- Content Customer OWNER Mobile End--}}
+            {{-- Content Customer OWNER Mobile End --}}
         </div>
         <!-- Owner Tab -->
 
@@ -1568,7 +1719,7 @@
     <!-- Tabs Content -->
 
 
-    {{-- Content invoice anda End--}}
+    {{-- Content invoice anda End --}}
 
 
 @stop
@@ -1577,16 +1728,12 @@
     <!-- Page JS Plugins -->
     <script src="{{ URL::asset('public/backend-asset/js/plugins/datatables/jquery.dataTables.min.js') }}"></script>
     <script src="{{ URL::asset('public/backend-asset/js/plugins/datatables/dataTables.bootstrap4.min.js') }}"></script>
-    <script src="{{ URL::asset('public/backend-asset/js/plugins/datatables/typeahead/bootstrap4-typeahead.js') }}">
-    </script>
+    <script src="{{ URL::asset('public/backend-asset/js/plugins/datatables/typeahead/bootstrap4-typeahead.js') }}"></script>
     <script src="//cdn.datatables.net/plug-ins/1.10.7/pagination/select.js"></script>
     {{-- <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script> --}}
     <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
-    <script>
-
-        
-    </script>
+    <script></script>
 
 @stop
 
