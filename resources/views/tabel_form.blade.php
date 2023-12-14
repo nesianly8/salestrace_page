@@ -143,6 +143,66 @@
             border-radius: 10px;
             border: 1px solid #EBF0ED;
         }
+        .btn-FF8548-modal {
+            background-color: #FF8548; 
+            border-radius: 3px;
+            border: 1px solid #EBF0ED;
+            color: #FFFFFF;
+            display: flex;
+            width: 264px;
+            height: 44px;
+            padding: 4px 7px;
+            justify-content: center;
+            align-items: center;
+            gap: 6px;
+            flex-shrink: 0;
+        }
+
+        .modal-title {
+            margin-bottom: 0;
+            line-height: 1.5;
+            color: #545454;
+            text-align: center;
+            font-family: Manrope;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            padding-top: 20px !important;
+        }
+
+        .modal-body {
+            position: relative;
+            flex: 1 1 auto;
+            padding-top: 20px 0px 0px 0px !important;
+            color: #545454;
+            text-align: center;
+            font-family: Manrope;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        .modal-content {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            pointer-events: auto;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 0 solid rgba(0,0,0,0.2);
+            border-radius: 1rem !important;
+            outline: 0;
+            align-items: center;
+            padding: 30px;
+        }
+
+        .modal-dialog {
+            max-width: 500px !important;
+            margin: 1.75rem auto;
+        }
                 
         /* -------------------------------------------------------------------------------------------------------------------------------- */   
 
@@ -404,11 +464,11 @@
 @section('content')
 
     {{-- Desktop Start --}}
-    <section class="desktop-show py-4 d-flex justify-content-center ">
-            <div class="form-container">
-                <!-- Formulir Pertama -->
-                <form action="#" method="post" enctype="multipart/form-data">
-                    <div class="cover-height">
+    <section class="desktop-show py-4 d-flex justify-content-center">
+        <!-- Formulir Pertama -->
+        <div class="form-container">
+            <form>
+                <div class="cover-height">
                     <label for="title-content" class="form-label">Detail Artikel</label>
                     <div class="mask-group">
                         <label for="exampleFormControlInput1 subtitle-content" class="form-label">JUDUL BERITA</label>
@@ -422,41 +482,63 @@
                             <trix-editor input="my-editor"></trix-editor>
                         </div>
                     </div>
-                    </div>
-                </form>
-            </div>
+                </div>
+            </form>
+        </div>
 
-            <div class="form-container">
-                <!-- Formulir Kedua -->
-                <form action="#" method="post" enctype="multipart/form-data">
-                    <div class="cover-height">
-                        <div class="form-group">
-                            <label for="title-content">Creator</label>
-                            <div class="mask-group">
-                                <label for="exampleSelect subtitle-content">JADWAL PUBLISH</label>
-                                <select class="form-control" id="exampleSelect" @readonly(true)>
-                                    <option>Pilih Tanggal</option>
-                                    <option>Option 2</option>
-                                    <option>Option 3</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="">
-                            <label for="title-content" class="form-label">PHOTO</label>
-                            <div class="mask-group">
-                                <input type="file" name="file" class="dropify" data-height="200" />
-                            </div>
-                        </div>
-                        <div class="btn-pojok">
-                            <!-- Tombol dengan warna #EBF0ED -->
-                            <button id="btn1" class="btn-EBF0ED" style="">Cancel</button>
-                            <!-- Tombol dengan warna #FF8548 -->
-                            <button id="btn2" class="btn-FF8548" style="">Submit</button>
+        <!-- Formulir Kedua -->
+        <div class="form-container">
+            <form>
+                <div class="cover-height">
+                    <div class="form-group">
+                        <label for="title-content">Creator</label>
+                        <div class="mask-group">
+                            <label for="exampleSelect subtitle-content">JADWAL PUBLISH</label>
+                            <select class="form-control" id="exampleSelect" @readonly(true)>
+                                <option>Pilih Tanggal</option>
+                                <option>Option 2</option>
+                                <option>Option 3</option>
+                            </select>
                         </div>
                     </div>
-                </form>
-            </div>
+                    <div class="">
+                        <label for="title-content" class="form-label">PHOTO</label>
+                        <div class="mask-group">
+                            <input type="file" name="file" class="dropify" data-height="200" />
+                        </div>
+                    </div>
+                    <div class="btn-pojok">
+                        <!-- Tombol dengan warna #EBF0ED -->
+                        <button id="btn1" class="btn-EBF0ED" style="">Cancel</button>
+                        <!-- Tombol dengan warna #FF8548 yang memunculkan modal -->
+                        <button id="btn2" class="btn-FF8548" data-toggle="modal" data-target="#myModal">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header d-flex justify-content-center w-50 ">
+                    <img src="omsetku-asset/tabel/icon.png" alt="">
+                </div>
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalLabel">Berhasil Menambah Data</h5>
+                </div>
+                <div class="modal-body">
+                    <!-- Isi modal di sini -->
+                    <p>Anda berhasil menambah data berita anda <br> silahkan kembali</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn-FF8548-modal">Kembali</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     {{-- Header Desktop End --}}
 
 @stop
@@ -471,7 +553,7 @@
     {{-- <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script> --}}
     <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
-    
+
     {{-- trix --}}
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/trix@1.3.1/dist/trix.js"></script>
     {{-- dropify --}}
